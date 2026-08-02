@@ -7,55 +7,10 @@
   NPM_VERSION = "10.9.2"
 
 [build.processing]
-  skip_processing = true
+  skip_processing = false
 
 [build.processing.html]
-  pretty_urls = false
-
-[[redirects]]
-  from = "/:section/:slug"
-  to = "/:section/:slug.html"
-  status = 200
-
-[[redirects]]
-  from = "/:section/:subsection/:slug"
-  to = "/:section/:subsection/:slug.html"
-  status = 200
-
-[[redirects]]
-  from = "/content/*"
-  to = "/content/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/fleeting-notes/*"
-  to = "/fleeting-notes/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/deep-research/*"
-  to = "/deep-research/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/introspection/*"
-  to = "/introspection/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/areas/*"
-  to = "/areas/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/poems/*"
-  to = "/poems/:splat.html"
-  status = 200
-
-[[redirects]]
-  from = "/clippings/*"
-  to = "/clippings/:splat.html"
-  status = 200
+  pretty_urls = true
 
 [[headers]]
   for = "/*"
