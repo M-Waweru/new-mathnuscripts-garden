@@ -9,6 +9,19 @@
 [build.processing]
   skip_processing = true
 
+[build.processing.html]
+  pretty_urls = false
+
+[[redirects]]
+  from = "/:section/:slug"
+  to = "/:section/:slug.html"
+  status = 200
+
+[[redirects]]
+  from = "/:section/:subsection/:slug"
+  to = "/:section/:subsection/:slug.html"
+  status = 200
+
 [[headers]]
   for = "/*"
 
