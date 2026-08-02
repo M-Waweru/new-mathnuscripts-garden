@@ -6,6 +6,9 @@
   NODE_VERSION = "22"
   NPM_VERSION = "10.9.2"
 
+[build.processing]
+  skip_processing = true
+
 [[headers]]
   for = "/*"
 

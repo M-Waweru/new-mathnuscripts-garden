@@ -105,6 +105,19 @@ a.internal {
   }
 }
 
+body a.internal-link,
+body .breadcrumb-container .breadcrumb-element > a {
+  background: none !important;
+  background-color: transparent !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: color-mix(in srgb, var(--secondary) 64%, transparent) !important;
+}
+
+body a.internal-link:hover,
+body .breadcrumb-container .breadcrumb-element > a:hover {
+  text-decoration-color: var(--tertiary) !important;
+}
+
 article {
   max-width: var(--contentWidth);
   font-size: 1.04rem;
@@ -231,6 +244,29 @@ article {
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+  }
+}
+
+.graph {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.65rem 0.75rem 0.4rem;
+  background: color-mix(in srgb, var(--light) 92%, var(--secondary) 8%);
+
+  .graph-outer {
+    border-radius: 6px;
+  }
+
+  .graph-container,
+  .global-graph-container {
+    min-height: 15rem;
+  }
+
+  .global-graph-icon {
+    border: 1px solid var(--lightgray);
+    border-radius: 6px;
+    background: var(--light);
+    color: var(--secondary);
   }
 }
 
