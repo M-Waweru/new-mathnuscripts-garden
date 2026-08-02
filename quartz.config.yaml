@@ -2,7 +2,7 @@
 configuration:
   pageTitle: Mathnuscripts
   pageTitleSuffix: ""
-  enableSPA: true
+  enableSPA: false
   enablePopovers: true
   analytics:
     provider: plausible
@@ -16,30 +16,30 @@ configuration:
     fontOrigin: local
     cdnCaching: false
     typography:
-      header: Newsreader
-      body: Source Serif 4
+      header: Merriweather
+      body: Inter
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f8f6f0"
-        lightgray: "#e4ded2"
-        gray: "#9b9488"
-        darkgray: "#403c36"
-        dark: "#201e1a"
-        secondary: "#8a3f2d"
-        tertiary: "#315f52"
-        highlight: rgba(138, 63, 45, 0.11)
-        textHighlight: "#d7bd4a55"
+        light: "#f5f7fb"
+        lightgray: "#d7deea"
+        gray: "#66758f"
+        darkgray: "#1f2738"
+        dark: "#0b1220"
+        secondary: "#0d47a1"
+        tertiary: "#1976d2"
+        highlight: rgba(25, 118, 210, 0.12)
+        textHighlight: "#7ec8ff55"
       darkMode:
-        light: "#191816"
-        lightgray: "#312e29"
-        gray: "#766f64"
-        darkgray: "#d6d0c4"
-        dark: "#f4efe5"
-        secondary: "#d68b72"
-        tertiary: "#87b5a4"
-        highlight: rgba(214, 139, 114, 0.12)
-        textHighlight: "#8f762d88"
+        light: "#0b111b"
+        lightgray: "#1c2533"
+        gray: "#8da0c0"
+        darkgray: "#dce5f5"
+        dark: "#f5f8ff"
+        secondary: "#64b5f6"
+        tertiary: "#42a5f5"
+        highlight: rgba(100, 181, 246, 0.18)
+        textHighlight: "#2b4a7f88"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -118,8 +118,8 @@ plugins:
     enabled: true
     options:
       fontOrigin: selfHosted
-      header: Newsreader
-      body: Source Serif 4
+      header: Merriweather
+      body: Inter
       code: IBM Plex Mono
   - source: "@quartz-themes/core"
     enabled: true
@@ -179,7 +179,10 @@ plugins:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
-    enabled: false
+    enabled: true
+    layout:
+      position: right
+      priority: 10
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -276,7 +279,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
