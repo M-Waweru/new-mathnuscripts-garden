@@ -185,25 +185,25 @@ plugins:
         drag: true
         zoom: true
         depth: 2
-        scale: 1.15
-        repelForce: 0.75
+        scale: 1.2
+        repelForce: 0.9
         centerForce: 0.35
-        linkDistance: 48
-        fontSize: 0.72
+        linkDistance: 46
+        fontSize: 0.78
         opacityScale: 1
         showTags: false
         removeTags: []
         focusOnHover: true
-        enableRadial: false
+        enableRadial: true
       globalGraph:
         drag: true
         zoom: true
         depth: -1
         scale: 1
-        repelForce: 0.75
+        repelForce: 0.85
         centerForce: 0.25
-        linkDistance: 42
-        fontSize: 0.72
+        linkDistance: 40
+        fontSize: 0.8
         opacityScale: 1
         showTags: false
         removeTags: []

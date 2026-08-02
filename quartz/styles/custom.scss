@@ -17,7 +17,7 @@ body {
 
 .page > #quartz-body {
   @media all and ($desktop) {
-    grid-template-columns: 240px minmax(0, var(--contentWidth)) 220px;
+    grid-template-columns: 270px minmax(0, var(--contentWidth)) 320px;
     column-gap: clamp(2rem, 4vw, 4.5rem);
     justify-content: center;
   }
@@ -35,11 +35,11 @@ body {
 
   .sidebar.left {
     border-right: 1px solid var(--lightgray);
-    padding-right: 1.5rem;
+    padding-right: 1.4rem;
   }
 
   .sidebar.right {
-    padding-left: 0;
+    padding-left: 0.5rem;
   }
 
   .page-header {
@@ -188,12 +188,32 @@ article {
 .page-title {
   margin: 0;
   font-family: var(--headerFont);
-  font-size: 1.45rem;
+  font-size: 1.3rem;
   font-weight: 600;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
 
   a {
     color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+    line-height: 1.05;
+    white-space: normal;
+    text-decoration: none;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 72px;
+      height: 72px;
+      border-radius: 10px;
+      border: 1px solid var(--lightgray);
+      background-image: url("/static/mathnuscripts-logo.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
   }
 }
 
@@ -250,16 +270,37 @@ article {
 .graph {
   border: 1px solid var(--lightgray);
   border-radius: 8px;
-  padding: 0.65rem 0.75rem 0.4rem;
+  padding: 0.75rem 0.75rem 0.6rem;
   background: color-mix(in srgb, var(--light) 92%, var(--secondary) 8%);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+  }
 
   .graph-outer {
     border-radius: 6px;
+    border: 1px solid color-mix(in srgb, var(--lightgray) 80%, transparent);
+    overflow: hidden;
   }
 
   .graph-container,
   .global-graph-container {
-    min-height: 15rem;
+    min-height: 18rem;
+  }
+
+  svg line {
+    stroke: color-mix(in srgb, var(--gray) 72%, transparent);
+    opacity: 0.44;
+  }
+
+  svg circle {
+    stroke: color-mix(in srgb, var(--light) 85%, var(--secondary) 15%);
+    stroke-width: 1.4px;
+  }
+
+  svg text {
+    fill: var(--gray);
   }
 
   .global-graph-icon {
@@ -267,7 +308,14 @@ article {
     border-radius: 6px;
     background: var(--light);
     color: var(--secondary);
+    z-index: 2;
+    pointer-events: auto;
+    cursor: pointer;
   }
+}
+
+.right.sidebar > .toc {
+  margin-top: 0.9rem;
 }
 
 .toc {
@@ -405,6 +453,17 @@ body[data-slug="index"] {
       border-right: 0;
       border-bottom: 1px solid var(--lightgray);
       flex-wrap: wrap;
+    }
+
+    .page-title a {
+      flex-direction: row;
+      align-items: center;
+      gap: 0.6rem;
+
+      &::before {
+        width: 44px;
+        height: 44px;
+      }
     }
 
     .page-header {

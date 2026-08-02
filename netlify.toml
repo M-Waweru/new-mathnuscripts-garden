@@ -22,6 +22,41 @@
   to = "/:section/:subsection/:slug.html"
   status = 200
 
+[[redirects]]
+  from = "/content/*"
+  to = "/content/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/fleeting-notes/*"
+  to = "/fleeting-notes/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/deep-research/*"
+  to = "/deep-research/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/introspection/*"
+  to = "/introspection/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/areas/*"
+  to = "/areas/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/poems/*"
+  to = "/poems/:splat.html"
+  status = 200
+
+[[redirects]]
+  from = "/clippings/*"
+  to = "/clippings/:splat.html"
+  status = 200
+
 [[headers]]
   for = "/*"
 
