@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2023-12-08T21:14:13.761+03:00
-modified: 2026-05-11T22:58:55.277+03:00
+modified: 2026-08-02T15:27:00.784+03:00
 ---
 
 # Index of Essays

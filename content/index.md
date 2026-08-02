@@ -1,8 +1,9 @@
 ---
+publish: true
 title: Mathnuscripts
 description: A living system of writing about technology, knowledge, Africa, philosophy, and the work of building the future.
-publish: true
-enableToc: false
+created: 2026-08-02T15:24:41.002+03:00
+modified: 2026-08-02T15:24:46.517+03:00
 ---
 
 _A living system of mind, tended in public._
