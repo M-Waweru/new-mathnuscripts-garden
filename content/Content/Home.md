@@ -1,36 +1,48 @@
 ---
 publish: true
-title: Mathnuscripts
-description: A living system of writing about technology, knowledge, Africa, philosophy, and the work of building the future.
 created: 2023-12-13T00:56:28.231+03:00
-modified: 2026-08-03T17:05:00.000+03:00
+modified: 2025-08-14T03:39:18.254+03:00
 ---
 
-_A living system of mind, tended in public._
+# The Mathnuscripts
 
-Welcome. I am Mathenge Waweru, a Kenyan computer scientist, product builder, writer, and tinkerer. Mathnuscripts is where I collect ideas, test convictions, and turn curiosity into work.
+Welcome to the Mathnuscripts, the tip of the iceberg of the Digital Mind project.
 
-This is a garden rather than a feed. Some pieces are finished essays; others are notes still finding their shape. Follow a subject, open a link, and make your own path through it.
+![[Media/DALL·E 2022-10-06 21.13.16 - a face of a man made of symbols in mathematics, physics, code and genetics.png|500]]
 
-## Selected writing
+## Introduction
 
-- [[Mathnuscripts - A Living System of Mind]] — Why this garden is more than a collection of notes.
-- [[Knowledge, Innovation and Africa]] — On building and preserving knowledge from an African perspective.
-- [[Living in the Software Age]] — What software changes about our ability to shape the world.
-- [[Being a Tinkerer]] — A case for curiosity joined with action.
-- [[The Future of Text]] — How linked text can become a more powerful medium for thought.
-- [[In Search of Competence]] — A personal reflection on learning to become capable.
+This is a long-term project to collect the ideas, thoughts, and knowledge that I have and nurture them into a comprehensive, navigable, and understandable body of knowledge that can be browsed, analysed, and presented to others and myself.
 
-## Paths through the garden
+The goal is to have this knowledge base as the beginning of something bigger than myself—something that I will leave behind that will benefit other people.
 
-- **Technology and computing:** [[Future of Personal Computing]], [[Extending Human Intelligence]], and [[We Really Don't Know How to Compute]].
-- **Innovation and building:** [[Innovation is a Mindset]], [[Product Development Frameworks]], and [[5-step process of rigorous implementation]].
-- **Africa and its future:** [[The Future is African]], [[What Kenya is Good At]], and [[Turning a Desert into an Oasis]].
-- **Knowledge and writing:** [[What are the Mathnuscripts]], [[The Appeal of Personal Blogs]], and [[Publishing My Second Brain]].
-- **Life and philosophy:** [[Incurable Itch]], [[Choosing your Game will Choose Your Life]], and [[There is Nothing Better to Do]].
+The [[Mathnuscripts]] are divided into [[Index of Essays]], [[Index of Notes]], and so on.
 
-## How to read
+## Getting Started
 
-Use **Search** when you know what you are looking for, or open **Browse** to wander through the full collection. Links preview on hover, and every page ends with the notes that connect back to it.
+Here are some subjects and notes you can get started on:
 
-The garden is always unfinished. That is part of the point.
+1. Product: [[Product Development Frameworks]], [[Produce a Lot of Shitty Work]]
+2. Startups: [[Local Capital Should Take Its Place]], [[The Vision of Shukran]]
+3. Philosophy: [[Gnosticism]], [[Incurable Itch]]
+4. Personal Stories: [[In Search of Competence]], [[My Story at IAN so Far - 2023]]
+5. Software: [[Living in the Software Age]], [[Why Software is Important]], [[Software Development for All]]
+6. Innovation: [[5-step process of rigorous implementation]], [[Innovation is a Mindset]]
+7. Digital Gardening: [[What are the Mathnuscripts]], [[Publishing My Second Brain]]
+8. Writing: [[The Appeal of Personal Blogs]], [[The Future of Text]]
+9. Mindset: [[Being a Tinkerer]], [[Towards Being a Man]]
+10. Finance: [[How Finance Works]]
+
+## How to Use
+
+You can navigate using the links and folders to find more interesting notes and essays on a wide array of subjects. I use [Obsidian](https://obsidian.md/) to write these notes, and I host them using the Obsidian Digital Garden plugin [here](https://github.com/oleeskild/obsidian-digital-garden).
+
+Welcome to the [[Mathnuscripts]]!
+
+Enjoy!
+
+Kind regards,
+Mathenge Waweru.
+[Offical site](https://mwaweru.com).
+
+[Official site](https://mwaweru.com).
