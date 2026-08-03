@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2023-12-13T00:56:28.231+03:00
-modified: 2025-08-14T03:39:18.254+03:00
+modified: 2026-08-03T06:53:52.200+03:00
 ---
 
 # The Mathnuscripts
@@ -44,5 +44,3 @@ Enjoy!
 Kind regards,
 Mathenge Waweru.
 [Offical site](https://mwaweru.com).
-
-[Official site](https://mwaweru.com).
