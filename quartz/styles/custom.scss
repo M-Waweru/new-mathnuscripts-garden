@@ -289,9 +289,12 @@ article {
     min-height: 18rem;
   }
 
-  svg line {
-    stroke: color-mix(in srgb, var(--gray) 72%, transparent);
-    opacity: 0.44;
+  .graph-container svg line,
+  .global-graph-container svg line {
+    stroke: color-mix(in srgb, var(--darkgray) 70%, var(--secondary) 30%) !important;
+    stroke-width: 1.2px !important;
+    stroke-opacity: 0.68 !important;
+    opacity: 0.9 !important;
   }
 
   svg circle {
