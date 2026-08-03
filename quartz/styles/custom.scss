@@ -122,7 +122,7 @@ article {
   max-width: var(--contentWidth);
   font-size: 1.04rem;
 
-  > h1:first-child {
+  > h1:first-of-type {
     display: none;
   }
 
