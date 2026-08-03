@@ -6,6 +6,11 @@
   NODE_VERSION = "22"
   NPM_VERSION = "10.9.2"
 
+[[redirects]]
+  from = "/"
+  to = "/content/home"
+  status = 301
+
 [[headers]]
   for = "/*"
 

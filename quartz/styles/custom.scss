@@ -171,6 +171,7 @@ article {
     color: var(--gray);
   }
 
+  time + span::before,
   span + span::before {
     content: " · ";
   }
