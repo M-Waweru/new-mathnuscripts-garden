@@ -34,8 +34,8 @@ configuration:
         textHighlight: "#7ec8ff55"
       darkMode:
         light: "#0b111b"
-        lightgray: "#1c2533"
-        gray: "#8da0c0"
+        lightgray: "#3a465a"
+        gray: "#a9b8d0"
         darkgray: "#dce5f5"
         dark: "#f5f8ff"
         secondary: "#64b5f6"
@@ -195,7 +195,7 @@ plugins:
         opacityScale: 1
         showTags: false
         removeTags: []
-        focusOnHover: true
+        focusOnHover: false
         enableRadial: true
       globalGraph:
         drag: true

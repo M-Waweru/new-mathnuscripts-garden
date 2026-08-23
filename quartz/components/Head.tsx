@@ -4,6 +4,9 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
+import { buildEssayReaderIndex } from "../util/reader"
+// @ts-ignore
+import readerNavigation from "./scripts/readerNavigation.inline"
 
 export default (() => {
   const Head: QuartzComponent = ({
@@ -11,6 +14,7 @@ export default (() => {
     fileData,
     externalResources,
     ctx,
+    allFiles,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
     const title =
@@ -25,6 +29,8 @@ export default (() => {
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
+    const essayReaderIndex = buildEssayReaderIndex(allFiles)
+    const essayReaderIndexJson = JSON.stringify(essayReaderIndex).replace(/</g, "\\u003c")
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page
@@ -104,9 +110,15 @@ export default (() => {
             return resource
           }
         })}
+        <script
+          id="essay-reader-index"
+          type="application/json"
+          dangerouslySetInnerHTML={{ __html: essayReaderIndexJson }}
+        />
       </head>
     )
   }
 
+  Head.afterDOMLoaded = readerNavigation
   return Head
 }) satisfies QuartzComponentConstructor
