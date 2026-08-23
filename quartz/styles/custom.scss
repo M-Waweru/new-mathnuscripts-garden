@@ -149,10 +149,12 @@ article {
 
 .article-title {
   margin: 0.35rem 0 0.7rem;
-  font-size: clamp(2.2rem, 4.6vw, 3.5rem);
+  font-size: clamp(1.95rem, 4vw, 3rem);
   font-weight: 550;
-  letter-spacing: -0.04em;
-  max-width: 14ch;
+  letter-spacing: -0.035em;
+  max-width: min(100%, 18ch);
+  overflow-wrap: anywhere;
+  hyphens: auto;
 }
 
 .content-meta,
@@ -272,7 +274,7 @@ article {
   border: 1px solid var(--lightgray);
   border-radius: 8px;
   padding: 0.75rem 0.75rem 0.6rem;
-  background: color-mix(in srgb, var(--light) 92%, var(--secondary) 8%);
+  background: color-mix(in srgb, var(--light) 97%, white 3%);
 
   h3 {
     margin-top: 0;
@@ -281,8 +283,13 @@ article {
 
   .graph-outer {
     border-radius: 6px;
-    border: 1px solid color-mix(in srgb, var(--lightgray) 80%, transparent);
+    border: 1px solid color-mix(in srgb, var(--lightgray) 70%, transparent);
     overflow: hidden;
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--light) 98%, white 2%),
+      var(--light)
+    );
   }
 
   .graph-container,
@@ -290,21 +297,31 @@ article {
     min-height: 18rem;
   }
 
+  .graph-container svg,
+  .global-graph-container svg {
+    cursor: grab;
+  }
+
+  .graph-container svg:active,
+  .global-graph-container svg:active {
+    cursor: grabbing;
+  }
+
   .graph-container svg line,
   .global-graph-container svg line {
-    stroke: color-mix(in srgb, var(--darkgray) 70%, var(--secondary) 30%) !important;
+    stroke: color-mix(in srgb, var(--gray) 64%, var(--secondary) 36%) !important;
     stroke-width: 1.2px !important;
-    stroke-opacity: 0.68 !important;
-    opacity: 0.9 !important;
+    stroke-opacity: 0.82 !important;
+    opacity: 0.95 !important;
   }
 
   svg circle {
-    stroke: color-mix(in srgb, var(--light) 85%, var(--secondary) 15%);
+    stroke: color-mix(in srgb, var(--light) 82%, var(--secondary) 18%);
     stroke-width: 1.4px;
   }
 
   svg text {
-    fill: var(--gray);
+    fill: var(--darkgray);
   }
 
   .global-graph-icon {
@@ -476,7 +493,8 @@ body[data-slug="index"] {
   }
 
   .article-title {
-    font-size: clamp(2.35rem, 12vw, 3.4rem);
+    font-size: clamp(2rem, 10vw, 3rem);
+    max-width: min(100%, 16ch);
   }
 
   .page-footer .backlinks ul {

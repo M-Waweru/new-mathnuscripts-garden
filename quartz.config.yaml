@@ -12,6 +12,8 @@ configuration:
     - private
     - templates
     - .obsidian
+  # Quartz theme + custom SCSS control the published site styling.
+  # Obsidian editor appearance does not sync to the website automatically.
   theme:
     fontOrigin: local
     cdnCaching: false
