@@ -4,7 +4,7 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
-import { buildEssayReaderIndex } from "../util/reader"
+import { buildEssayReaderIndex, buildSiteNavigationIndex } from "../util/reader"
 // @ts-ignore
 import readerNavigation from "./scripts/readerNavigation.inline"
 
@@ -30,7 +30,9 @@ export default (() => {
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const essayReaderIndex = buildEssayReaderIndex(allFiles)
+    const siteNavigationIndex = buildSiteNavigationIndex(allFiles)
     const essayReaderIndexJson = JSON.stringify(essayReaderIndex).replace(/</g, "\\u003c")
+    const siteNavigationIndexJson = JSON.stringify(siteNavigationIndex).replace(/</g, "\\u003c")
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page
@@ -114,6 +116,11 @@ export default (() => {
           id="essay-reader-index"
           type="application/json"
           dangerouslySetInnerHTML={{ __html: essayReaderIndexJson }}
+        />
+        <script
+          id="site-navigation-index"
+          type="application/json"
+          dangerouslySetInnerHTML={{ __html: siteNavigationIndexJson }}
         />
       </head>
     )

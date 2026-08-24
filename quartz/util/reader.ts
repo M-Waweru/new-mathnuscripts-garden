@@ -13,6 +13,25 @@ export type EssayReaderEntry = {
   title: string
 }
 
+export function buildSiteNavigationIndex(files: EssayReaderSource[]): EssayReaderEntry[] {
+  return files
+    .filter((file) => {
+      const relativePath = file.relativePath ?? ""
+      const slug = file.slug ?? ""
+      return (
+        relativePath.endsWith(".md") &&
+        slug !== "index" &&
+        !slug.endsWith("/index") &&
+        slug !== "404"
+      )
+    })
+    .map((file) => ({
+      slug: file.slug!,
+      title: file.frontmatter?.title ?? file.slug!.split("/").at(-1) ?? "Untitled note",
+    }))
+    .sort((a, b) => a.title.localeCompare(b.title))
+}
+
 export function buildEssayReaderIndex(files: EssayReaderSource[]): EssayReaderEntry[] {
   return files
     .filter((file) => {
