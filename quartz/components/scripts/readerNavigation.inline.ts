@@ -63,7 +63,9 @@ function toggleTheme(): void {
 
 function navigateTo(entry: ReaderEntry | undefined): void {
   if (!entry) return
-  window.location.href = buildHref(entry.slug)
+  const href = buildHref(entry.slug)
+  if (window.spaNavigate) window.spaNavigate(new URL(href, window.location.origin))
+  else window.location.href = href
 }
 
 function createButton(
@@ -156,7 +158,7 @@ function initMathnuscriptsMenu(): void {
   addMenuItem(menu, "Graph Explorer", "Jump to the connected notes", () => {
     const graph = document.querySelector(".graph")
     if (graph) graph.scrollIntoView({ behavior: "smooth", block: "center" })
-    else window.location.href = buildHref("index")
+    else navigateTo({ slug: "index", title: "Mathnuscripts" })
     close()
   })
   addMenuItem(
