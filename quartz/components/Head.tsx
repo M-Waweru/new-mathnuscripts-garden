@@ -5,8 +5,6 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { buildEssayReaderIndex, buildSiteNavigationIndex } from "../util/reader"
-// @ts-ignore
-import readerNavigation from "./scripts/readerNavigation.inline"
 
 export default (() => {
   const Head: QuartzComponent = ({
@@ -126,6 +124,5 @@ export default (() => {
     )
   }
 
-  Head.afterDOMLoaded = readerNavigation
   return Head
 }) satisfies QuartzComponentConstructor

@@ -6,6 +6,8 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
+// @ts-ignore
+import readerNavigation from "../../components/scripts/readerNavigation.inline"
 import baseStyles from "../../styles/base.scss"
 import customStyles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
@@ -51,7 +53,9 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
   const componentResources = {
     css: new Set<string>(),
     beforeDOMLoaded: new Set<string>(),
-    afterDOMLoaded: new Set<string>(),
+    // Head is not guaranteed to be returned by an emitter's component list.
+    // Register this global interaction script explicitly so it is emitted.
+    afterDOMLoaded: new Set<string>([readerNavigation]),
   }
 
   for (const component of allComponents) {
