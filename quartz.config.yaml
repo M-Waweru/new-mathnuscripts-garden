@@ -116,13 +116,10 @@ plugins:
   - source: "@quartz-community/roam"
     enabled: false
     order: 92
+  # Keep font loading local/system-based so production builds do not depend
+  # on Google Fonts availability during static generation.
   - source: "@quartz-community/quartz-fonts"
-    enabled: true
-    options:
-      fontOrigin: selfHosted
-      header: Merriweather
-      body: Inter
-      code: IBM Plex Mono
+    enabled: false
   - source: "@quartz-themes/core"
     enabled: true
     options:
