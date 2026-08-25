@@ -5,6 +5,7 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { buildEssayReaderIndex, buildSiteNavigationIndex } from "../util/reader"
+import { buildGardenStats } from "../util/gardenStats"
 
 export default (() => {
   const Head: QuartzComponent = ({
@@ -29,8 +30,10 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
     const essayReaderIndex = buildEssayReaderIndex(allFiles)
     const siteNavigationIndex = buildSiteNavigationIndex(allFiles)
+    const gardenStats = buildGardenStats(allFiles)
     const essayReaderIndexJson = JSON.stringify(essayReaderIndex).replace(/</g, "\\u003c")
     const siteNavigationIndexJson = JSON.stringify(siteNavigationIndex).replace(/</g, "\\u003c")
+    const gardenStatsJson = JSON.stringify(gardenStats).replace(/</g, "\\u003c")
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page
@@ -119,6 +122,11 @@ export default (() => {
           id="site-navigation-index"
           type="application/json"
           dangerouslySetInnerHTML={{ __html: siteNavigationIndexJson }}
+        />
+        <script
+          id="garden-stats"
+          type="application/json"
+          dangerouslySetInnerHTML={{ __html: gardenStatsJson }}
         />
       </head>
     )

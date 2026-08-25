@@ -5,6 +5,12 @@ type ReaderEntry = {
 
 type ReaderIndex = ReaderEntry[]
 
+type GardenStats = {
+  notes: number
+  words: number
+  latest: Array<{ slug: string; title: string; date: string; words: number }>
+}
+
 let cleanupCurrent = () => {}
 let cleanupMenu = () => {}
 let toolbarFallbackInstalled = false
@@ -31,6 +37,16 @@ function getReaderIndex(): ReaderIndex {
 
 function getSiteIndex(): ReaderIndex {
   return readIndex("site-navigation-index")
+}
+
+function getGardenStats(): GardenStats | undefined {
+  const element = document.getElementById("garden-stats")
+  if (!element?.textContent) return undefined
+  try {
+    return JSON.parse(element.textContent) as GardenStats
+  } catch {
+    return undefined
+  }
 }
 
 function buildHref(slug: string): string {
@@ -66,6 +82,45 @@ function navigateTo(entry: ReaderEntry | undefined): void {
   const href = buildHref(entry.slug)
   if (window.spaNavigate) window.spaNavigate(new URL(href, window.location.origin))
   else window.location.href = href
+}
+
+function renderGardenOverview(): void {
+  const target = document.getElementById("garden-stats-grid")
+  if (!target) return
+  const stats = getGardenStats()
+  if (!stats) return
+
+  target.replaceChildren()
+  const cards = [
+    ["Notes", stats.notes.toLocaleString()],
+    ["Words", stats.words.toLocaleString()],
+    ["Latest updates", stats.latest.length.toLocaleString()],
+  ]
+  for (const [label, value] of cards) {
+    const card = document.createElement("div")
+    card.className = "garden-stat-card"
+    const number = document.createElement("strong")
+    number.textContent = value
+    const caption = document.createElement("span")
+    caption.textContent = label
+    card.append(number, caption)
+    target.append(card)
+  }
+
+  const latest = document.getElementById("garden-latest-updates")
+  if (!latest) return
+  latest.replaceChildren()
+  for (const entry of stats.latest) {
+    const item = document.createElement("li")
+    const link = document.createElement("a")
+    link.href = buildHref(entry.slug)
+    link.textContent = entry.title
+    const date = document.createElement("time")
+    date.dateTime = entry.date
+    date.textContent = entry.date ? new Date(entry.date).toLocaleDateString() : ""
+    item.append(link, date)
+    latest.append(item)
+  }
 }
 
 function createButton(
@@ -123,11 +178,10 @@ function addMenuItem(
 function initMathnuscriptsMenu(): void {
   cleanupMenu()
 
-  const toolbar = document.querySelector(".sidebar.left > .flex-component")
-  if (!toolbar) return
-
   const wrapper = document.createElement("div")
-  wrapper.className = "mathnuscripts-menu-wrapper"
+  wrapper.className = "mathnuscripts-menu-wrapper mathnuscripts-menu-floating"
+  const minimized = localStorage.getItem("mathnuscripts-controls-minimized") === "true"
+  if (minimized) wrapper.classList.add("is-minimized")
 
   const toggle = document.createElement("button")
   toggle.type = "button"
@@ -135,11 +189,18 @@ function initMathnuscriptsMenu(): void {
   toggle.setAttribute("aria-label", "Open Mathnuscripts menu")
   toggle.setAttribute("aria-expanded", "false")
   toggle.textContent = "☰"
+  toggle.title = "Open Mathnuscripts controls"
 
   const menu = document.createElement("div")
   menu.className = "mathnuscripts-menu"
   menu.setAttribute("aria-label", "Mathnuscripts views")
   menu.hidden = true
+
+  const minimize = document.createElement("button")
+  minimize.type = "button"
+  minimize.className = "mathnuscripts-menu-minimize"
+  minimize.setAttribute("aria-label", "Minimize Mathnuscripts controls")
+  minimize.textContent = "Minimize controls"
 
   const close = () => {
     menu.hidden = true
@@ -147,6 +208,7 @@ function initMathnuscriptsMenu(): void {
   }
 
   const siteIndex = getSiteIndex()
+  menu.append(minimize)
   addMenuItem(menu, "Random note", "Open a surprise from the garden", () => {
     const candidates = siteIndex.filter((entry) => entry.slug !== currentSlug())
     navigateTo(candidates[Math.floor(Math.random() * candidates.length)] ?? siteIndex[0])
@@ -156,9 +218,13 @@ function initMathnuscriptsMenu(): void {
     close()
   })
   addMenuItem(menu, "Graph Explorer", "Jump to the connected notes", () => {
-    const graph = document.querySelector(".graph")
-    if (graph) graph.scrollIntoView({ behavior: "smooth", block: "center" })
-    else navigateTo({ slug: "index", title: "Mathnuscripts" })
+    if (currentSlug() === "content/graph-explorer") {
+      document
+        .querySelector(".global-graph-outer")
+        ?.scrollIntoView({ behavior: "smooth", block: "center" })
+    } else {
+      navigateTo({ slug: "content/graph-explorer", title: "Garden Overview" })
+    }
     close()
   })
   addMenuItem(
@@ -170,8 +236,22 @@ function initMathnuscriptsMenu(): void {
   )
 
   toggle.addEventListener("click", () => {
+    if (wrapper.classList.contains("is-minimized")) {
+      wrapper.classList.remove("is-minimized")
+      menu.hidden = false
+      toggle.setAttribute("aria-expanded", "true")
+      localStorage.setItem("mathnuscripts-controls-minimized", "false")
+      return
+    }
     menu.hidden = !menu.hidden
     toggle.setAttribute("aria-expanded", String(!menu.hidden))
+  })
+
+  minimize.addEventListener("click", () => {
+    menu.hidden = true
+    toggle.setAttribute("aria-expanded", "false")
+    wrapper.classList.add("is-minimized")
+    localStorage.setItem("mathnuscripts-controls-minimized", "true")
   })
 
   const handleDocumentClick = (event: MouseEvent) => {
@@ -185,7 +265,7 @@ function initMathnuscriptsMenu(): void {
   document.addEventListener("keydown", handleEscape)
 
   wrapper.append(toggle, menu)
-  toolbar.prepend(wrapper)
+  document.body.append(wrapper)
 
   cleanupMenu = () => {
     document.removeEventListener("click", handleDocumentClick)
@@ -200,6 +280,7 @@ function initReaderNavigation(): void {
   cleanupMenu()
   installToolbarFallback()
   initMathnuscriptsMenu()
+  renderGardenOverview()
 
   const entries = getReaderIndex()
   const index = entries.findIndex((entry) => entry.slug === currentSlug())
