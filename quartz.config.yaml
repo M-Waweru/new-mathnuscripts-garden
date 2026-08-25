@@ -167,16 +167,9 @@ plugins:
     enabled: true
   - source: "@quartz-community/tag-page"
     enabled: true
+  # The Browse/Explorer sidebar was removed to keep the reading surface clear.
   - source: "@quartz-community/explorer"
-    enabled: true
-    options:
-      title: Browse
-      folderDefaultState: collapsed
-      folderClickBehavior: link
-      useSavedState: true
-    layout:
-      position: left
-      priority: 50
+    enabled: false
   - source: "@quartz-community/graph"
     enabled: true
     options:
