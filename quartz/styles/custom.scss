@@ -265,6 +265,10 @@ article {
   flex-shrink: 0;
 }
 
+:root[reader-mode="on"] .mathnuscripts-menu-wrapper {
+  bottom: 5.5rem;
+}
+
 .mathnuscripts-menu-toggle {
   width: 32px;
   height: 32px;
@@ -735,6 +739,17 @@ body[data-slug="index"] {
       }
     }
   }
+}
+
+.reader-page {
+  min-height: min(70vh, 44rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reader-page[hidden] {
+  display: none;
 }
 
 .reader-nav {

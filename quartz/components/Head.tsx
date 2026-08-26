@@ -4,7 +4,7 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
-import { buildEssayReaderIndex, buildSiteNavigationIndex } from "../util/reader"
+import { buildSiteNavigationIndex } from "../util/reader"
 import { buildGardenStats } from "../util/gardenStats"
 
 export default (() => {
@@ -28,7 +28,7 @@ export default (() => {
     const url = new URL(`https://${cfg.baseUrl ?? "example.com"}`)
     const path = url.pathname as FullSlug
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
-    const essayReaderIndex = buildEssayReaderIndex(allFiles)
+    const essayReaderIndex = buildSiteNavigationIndex(allFiles)
     const siteNavigationIndex = buildSiteNavigationIndex(allFiles)
     const gardenStats = buildGardenStats(allFiles)
     const essayReaderIndexJson = JSON.stringify(essayReaderIndex).replace(/</g, "\\u003c")

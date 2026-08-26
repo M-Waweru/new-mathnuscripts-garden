@@ -14,6 +14,9 @@ type GardenStats = {
 let cleanupCurrent = () => {}
 let cleanupMenu = () => {}
 let toolbarFallbackInstalled = false
+let readerPages: HTMLElement[] = []
+let readerPageIndex = 0
+let readerArticle: HTMLElement | null = null
 
 function currentSlug(): string {
   return (document.body.dataset.slug ?? "").replace(/^\/+|\/+$/g, "")
@@ -71,10 +74,68 @@ function toggleReaderMode(): void {
 function toggleTheme(): void {
   const theme = document.documentElement.getAttribute("saved-theme") === "dark" ? "light" : "dark"
   document.documentElement.setAttribute("saved-theme", theme)
-  localStorage.setItem("theme", theme)
   document.body.classList.remove("theme-dark", "theme-light")
   document.body.classList.add(`theme-${theme}`)
+  localStorage.setItem("theme", theme)
   dispatch("themechange", { theme })
+}
+
+function createReaderPages(): void {
+  if (readerPages.length > 0) return
+  const article = document.querySelector(".center > article") as HTMLElement | null
+  if (!article || article.children.length === 0) return
+
+  readerArticle = article
+  let page: HTMLDivElement | undefined
+  let characters = 0
+  for (const child of Array.from(article.children)) {
+    const size = child.textContent?.length ?? 0
+    if (!page || (characters >= 1800 && page.children.length > 0)) {
+      page = document.createElement("div")
+      page.className = "reader-page"
+      article.append(page)
+      readerPages.push(page)
+      characters = 0
+    }
+    page.append(child)
+    characters += size
+  }
+}
+
+function restoreReaderPages(): void {
+  if (!readerArticle || readerPages.length === 0) return
+  const fragment = document.createDocumentFragment()
+  for (const page of readerPages) {
+    while (page.firstChild) fragment.append(page.firstChild)
+    page.remove()
+  }
+  readerArticle.append(fragment)
+  readerPages = []
+  readerPageIndex = 0
+  readerArticle = null
+}
+
+function showReaderPage(index: number, progress?: HTMLElement): void {
+  if (readerPages.length === 0) return
+  readerPageIndex = Math.max(0, Math.min(index, readerPages.length - 1))
+  readerPages.forEach((page, pageIndex) => {
+    page.hidden = pageIndex !== readerPageIndex
+  })
+  if (progress) progress.textContent = `Page ${readerPageIndex + 1} / ${readerPages.length}`
+  window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior })
+}
+
+function handleToolbarClick(event: MouseEvent): void {
+  const target = event.target as Element | null
+  const readerButton = target?.closest(".readermode")
+  const themeButton = target?.closest(".darkmode")
+  if (!readerButton && !themeButton) return
+
+  // Own these controls so the package listeners cannot toggle twice.
+  event.preventDefault()
+  event.stopImmediatePropagation()
+  if (readerButton) toggleReaderMode()
+  if (themeButton) toggleTheme()
 }
 
 function navigateTo(entry: ReaderEntry | undefined): void {
@@ -142,21 +203,7 @@ function createButton(
 function installToolbarFallback(): void {
   if (toolbarFallbackInstalled) return
   toolbarFallbackInstalled = true
-
-  document.addEventListener("click", (event) => {
-    const target = event.target as Element | null
-    const readerButton = target?.closest(".readermode")
-    const themeButton = target?.closest(".darkmode")
-    if (!readerButton && !themeButton) return
-
-    const beforeReader = isReaderMode()
-    const beforeTheme = document.documentElement.getAttribute("saved-theme")
-    window.setTimeout(() => {
-      if (readerButton && isReaderMode() === beforeReader) toggleReaderMode()
-      if (themeButton && document.documentElement.getAttribute("saved-theme") === beforeTheme)
-        toggleTheme()
-    }, 0)
-  })
+  document.addEventListener("click", handleToolbarClick, true)
 }
 
 function addMenuItem(
@@ -235,16 +282,23 @@ function initMathnuscriptsMenu(): void {
     true,
   )
 
-  toggle.addEventListener("click", () => {
+  toggle.addEventListener("click", (event) => {
+    event.preventDefault()
+    event.stopPropagation()
     if (wrapper.classList.contains("is-minimized")) {
       wrapper.classList.remove("is-minimized")
       menu.hidden = false
       toggle.setAttribute("aria-expanded", "true")
+      toggle.setAttribute("aria-label", "Close Mathnuscripts menu")
       localStorage.setItem("mathnuscripts-controls-minimized", "false")
       return
     }
     menu.hidden = !menu.hidden
     toggle.setAttribute("aria-expanded", String(!menu.hidden))
+    toggle.setAttribute(
+      "aria-label",
+      menu.hidden ? "Open Mathnuscripts menu" : "Close Mathnuscripts menu",
+    )
   })
 
   minimize.addEventListener("click", () => {
@@ -291,42 +345,64 @@ function initReaderNavigation(): void {
 
   const nav = document.createElement("nav")
   nav.className = "reader-nav"
-  nav.setAttribute("aria-label", "Essay navigation")
+  nav.setAttribute("aria-label", "Reader page navigation")
 
-  const previousButton = createButton(
-    "reader-nav-button reader-nav-previous",
-    "Previous essay",
-    previous,
-    () => navigateTo(previous),
-  )
-  const nextButton = createButton("reader-nav-button reader-nav-next", "Next essay", next, () =>
-    navigateTo(next),
-  )
   const progress = document.createElement("span")
   progress.className = "reader-nav-progress"
   progress.textContent = `${index + 1} / ${entries.length}`
 
+  const previousButton = createButton(
+    "reader-nav-button reader-nav-previous",
+    "Previous page",
+    previous,
+    () => {
+      if (readerPages.length > 0 && readerPageIndex > 0)
+        showReaderPage(readerPageIndex - 1, progress)
+      else navigateTo(previous)
+    },
+  )
+  const nextButton = createButton("reader-nav-button reader-nav-next", "Next page", next, () => {
+    if (readerPages.length > 0 && readerPageIndex < readerPages.length - 1)
+      showReaderPage(readerPageIndex + 1, progress)
+    else navigateTo(next)
+  })
   nav.append(previousButton, progress, nextButton)
 
   const previousEdge = createButton(
     "reader-edge reader-edge-previous",
-    "Previous essay",
+    "Previous page",
     previous,
-    () => navigateTo(previous),
+    () => {
+      if (readerPages.length > 0 && readerPageIndex > 0)
+        showReaderPage(readerPageIndex - 1, progress)
+      else navigateTo(previous)
+    },
   )
-  const nextEdge = createButton("reader-edge reader-edge-next", "Next essay", next, () =>
-    navigateTo(next),
-  )
+  const nextEdge = createButton("reader-edge reader-edge-next", "Next page", next, () => {
+    if (readerPages.length > 0 && readerPageIndex < readerPages.length - 1)
+      showReaderPage(readerPageIndex + 1, progress)
+    else navigateTo(next)
+  })
 
   document.body.append(nav, previousEdge, nextEdge)
 
   const updateVisibility = () => {
     const active = isReaderMode()
+    if (active) {
+      createReaderPages()
+      showReaderPage(readerPageIndex, progress)
+    } else {
+      restoreReaderPages()
+    }
     document.body.classList.toggle("reader-navigation-active", active)
-    previousButton.disabled = !active || !previous
-    nextButton.disabled = !active || !next
-    previousEdge.disabled = !active || !previous
-    nextEdge.disabled = !active || !next
+    previousButton.disabled = !active || (readerPageIndex === 0 && !previous)
+    nextButton.disabled =
+      !active ||
+      (readerPages.length > 0 ? readerPageIndex >= readerPages.length - 1 && !next : !next)
+    previousEdge.disabled = !active || (readerPageIndex === 0 && !previous)
+    nextEdge.disabled =
+      !active ||
+      (readerPages.length > 0 ? readerPageIndex >= readerPages.length - 1 && !next : !next)
   }
 
   const handleKeydown = (event: KeyboardEvent) => {
@@ -335,12 +411,15 @@ function initReaderNavigation(): void {
     if (target?.matches("input, textarea, select, button, a, [contenteditable='true']")) return
     if (event.metaKey || event.ctrlKey || event.altKey) return
 
-    if (event.key === "ArrowLeft" && previous) {
+    if (event.key === "ArrowLeft" && (readerPageIndex > 0 || previous)) {
       event.preventDefault()
-      navigateTo(previous)
-    } else if (event.key === "ArrowRight" && next) {
+      if (readerPageIndex > 0) showReaderPage(readerPageIndex - 1, progress)
+      else navigateTo(previous)
+    } else if (event.key === "ArrowRight" && (readerPageIndex < readerPages.length - 1 || next)) {
       event.preventDefault()
-      navigateTo(next)
+      if (readerPages.length > 0 && readerPageIndex < readerPages.length - 1)
+        showReaderPage(readerPageIndex + 1, progress)
+      else navigateTo(next)
     }
   }
 
@@ -356,6 +435,7 @@ function initReaderNavigation(): void {
     previousEdge.remove()
     nextEdge.remove()
     document.body.classList.remove("reader-navigation-active")
+    restoreReaderPages()
   }
 
   window.addCleanup(() => cleanupCurrent())
