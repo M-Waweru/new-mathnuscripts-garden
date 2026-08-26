@@ -1,7 +1,9 @@
 import { PageFrame, PageFrameProps } from "./types"
 import HeaderConstructor from "../Header"
+import AskMathnuscripts from "../AskMathnuscripts"
 
 const Header = HeaderConstructor()
+const Ask = AskMathnuscripts()
 
 /**
  * The default page frame — three-column layout with left sidebar, center
@@ -57,6 +59,7 @@ export const DefaultFrame: PageFrame = {
         {footer.map((FooterComponent) => (
           <FooterComponent {...componentData} />
         ))}
+        <Ask {...componentData} />
       </>
     )
   },
