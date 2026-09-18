@@ -12,7 +12,9 @@ export function parseQuestion(body) {
   const question = typeof payload?.question === "string" ? payload.question.trim() : ""
   if (!question) throw new Error("question is required")
   if (question.length > MAX_QUESTION_LENGTH) throw new Error("question is too long")
-  return question
+  const context =
+    payload?.context && typeof payload.context === "object" ? payload.context : undefined
+  return { question, context }
 }
 
 export function createAskResponse(question, sources) {
@@ -37,12 +39,14 @@ export default async function handler(request) {
     return json({ error: "method_not_allowed" }, 405)
   }
 
-  let question
+  let parsed
   try {
-    question = parseQuestion(await request.text())
+    parsed = parseQuestion(await request.text())
   } catch (error) {
     return json({ error: error instanceof Error ? error.message : "invalid_request" }, 400)
   }
+
+  const { question } = parsed
 
   const indexUrl = new URL("/static/ask-index.json", request.url)
   const indexResponse = await fetch(indexUrl)

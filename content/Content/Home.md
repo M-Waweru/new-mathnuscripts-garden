@@ -35,7 +35,7 @@ Here are some subjects and notes you can get started on:
 
 ## How to Use
 
-You can navigate using the links and folders to find more interesting notes and essays on a wide array of subjects. I use [Obsidian](https://obsidian.md/) to write these notes, and I host them using the Obsidian Digital Garden plugin [here](https://github.com/oleeskild/obsidian-digital-garden).
+You can navigate using the links and folders to find more interesting notes and essays on a wide array of subjects. I write in [Obsidian](https://obsidian.md/) and publish this garden with [Quartz](https://quartz.jzhao.xyz/) on [Mathnuscripts](https://mathnuscripts.netlify.app/).
 
 Welcome to the [[Mathnuscripts]]!
 

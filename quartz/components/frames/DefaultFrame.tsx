@@ -25,6 +25,9 @@ export const DefaultFrame: PageFrame = {
   }: PageFrameProps) {
     return (
       <>
+        <a class="skip-to-content" href="#quartz-body">
+          Skip to main content
+        </a>
         <div class="left sidebar">
           {left.map((BodyComponent) => (
             <BodyComponent {...componentData} />
