@@ -206,122 +206,92 @@ function installToolbarFallback(): void {
   document.addEventListener("click", handleToolbarClick, true)
 }
 
-function addMenuItem(
-  menu: HTMLElement,
-  label: string,
-  description: string,
-  onClick: () => void,
-  disabled = false,
-): void {
+function addDockAction(
+  dock: HTMLElement,
+  options: {
+    id: string
+    label: string
+    description: string
+    icon: string
+    primary?: boolean
+    onClick: () => void
+  },
+): HTMLButtonElement {
   const item = document.createElement("button")
   item.type = "button"
-  item.className = "mathnuscripts-menu-item"
-  item.disabled = disabled
-  item.innerHTML = `<strong>${label}</strong><span>${description}</span>`
-  item.addEventListener("click", onClick)
-  menu.append(item)
+  item.className = "garden-dock-action"
+  if (options.primary) item.classList.add("garden-dock-action-primary")
+  item.dataset.action = options.id
+  item.setAttribute("aria-label", `${options.label}. ${options.description}`)
+  item.innerHTML = `<span class="garden-dock-icon" aria-hidden="true">${options.icon}</span><span class="garden-dock-label">${options.label}</span>`
+  item.addEventListener("click", options.onClick)
+  dock.append(item)
+  return item
 }
 
-function initMathnuscriptsMenu(): void {
+function openAskDrawer(): void {
+  document.dispatchEvent(new CustomEvent<{}>("mathnuscripts:open-ask"))
+}
+
+function initGardenDock(): void {
   cleanupMenu()
 
-  const wrapper = document.createElement("div")
-  wrapper.className = "mathnuscripts-menu-wrapper mathnuscripts-menu-floating"
-  const minimized = localStorage.getItem("mathnuscripts-controls-minimized") === "true"
-  if (minimized) wrapper.classList.add("is-minimized")
-
-  const toggle = document.createElement("button")
-  toggle.type = "button"
-  toggle.className = "mathnuscripts-menu-toggle"
-  toggle.setAttribute("aria-label", "Open Mathnuscripts menu")
-  toggle.setAttribute("aria-expanded", "false")
-  toggle.textContent = "☰"
-  toggle.title = "Open Mathnuscripts controls"
-
-  const menu = document.createElement("div")
-  menu.className = "mathnuscripts-menu"
-  menu.setAttribute("aria-label", "Mathnuscripts views")
-  menu.hidden = true
-
-  const minimize = document.createElement("button")
-  minimize.type = "button"
-  minimize.className = "mathnuscripts-menu-minimize"
-  minimize.setAttribute("aria-label", "Minimize Mathnuscripts controls")
-  minimize.textContent = "Minimize controls"
-
-  const close = () => {
-    menu.hidden = true
-    toggle.setAttribute("aria-expanded", "false")
-  }
+  const dock = document.createElement("nav")
+  dock.className = "garden-dock"
+  dock.setAttribute("aria-label", "Garden controls")
 
   const siteIndex = getSiteIndex()
-  menu.append(minimize)
-  addMenuItem(menu, "Random note", "Open a surprise from the garden", () => {
-    const candidates = siteIndex.filter((entry) => entry.slug !== currentSlug())
-    navigateTo(candidates[Math.floor(Math.random() * candidates.length)] ?? siteIndex[0])
-  })
-  addMenuItem(menu, "Reader Mode", "Read essays like a book", () => {
-    toggleReaderMode()
-    close()
-  })
-  addMenuItem(menu, "Graph Explorer", "Jump to the connected notes", () => {
-    if (currentSlug() === "content/graph-explorer") {
-      document
-        .querySelector(".global-graph-outer")
-        ?.scrollIntoView({ behavior: "smooth", block: "center" })
-    } else {
-      navigateTo({ slug: "content/graph-explorer", title: "Garden Overview" })
-    }
-    close()
-  })
-  addMenuItem(menu, "Ask Mathnuscripts", "Ask cited questions over the garden", () => {
-    document.querySelector<HTMLButtonElement>(".ask-mathnuscripts-trigger")?.click()
-    close()
+
+  addDockAction(dock, {
+    id: "random",
+    label: "Random",
+    description: "Open a surprise note from the garden",
+    icon: "🎲",
+    onClick: () => {
+      const candidates = siteIndex.filter((entry) => entry.slug !== currentSlug())
+      navigateTo(candidates[Math.floor(Math.random() * candidates.length)] ?? siteIndex[0])
+    },
   })
 
-  toggle.addEventListener("click", (event) => {
-    event.preventDefault()
-    event.stopPropagation()
-    if (wrapper.classList.contains("is-minimized")) {
-      wrapper.classList.remove("is-minimized")
-      menu.hidden = false
-      toggle.setAttribute("aria-expanded", "true")
-      toggle.setAttribute("aria-label", "Close Mathnuscripts menu")
-      localStorage.setItem("mathnuscripts-controls-minimized", "false")
-      return
-    }
-    menu.hidden = !menu.hidden
-    toggle.setAttribute("aria-expanded", String(!menu.hidden))
-    toggle.setAttribute(
-      "aria-label",
-      menu.hidden ? "Open Mathnuscripts menu" : "Close Mathnuscripts menu",
-    )
+  addDockAction(dock, {
+    id: "reader",
+    label: "Reader",
+    description: "Read essays like a book",
+    icon: "📖",
+    onClick: () => toggleReaderMode(),
   })
 
-  minimize.addEventListener("click", () => {
-    menu.hidden = true
-    toggle.setAttribute("aria-expanded", "false")
-    wrapper.classList.add("is-minimized")
-    localStorage.setItem("mathnuscripts-controls-minimized", "true")
+  addDockAction(dock, {
+    id: "graph",
+    label: "Graph",
+    description: "Explore connected notes",
+    icon: "🕸",
+    onClick: () => {
+      if (currentSlug() === "content/graph-explorer") {
+        document
+          .querySelector(".global-graph-outer")
+          ?.scrollIntoView({ behavior: "smooth", block: "center" })
+      } else {
+        navigateTo({ slug: "content/graph-explorer", title: "Garden Overview" })
+      }
+    },
   })
 
-  const handleDocumentClick = (event: MouseEvent) => {
-    const target = event.target
-    if (target instanceof Node && !wrapper.contains(target)) close()
-  }
-  const handleEscape = (event: KeyboardEvent) => {
-    if (event.key === "Escape") close()
-  }
-  document.addEventListener("click", handleDocumentClick)
-  document.addEventListener("keydown", handleEscape)
+  addDockAction(dock, {
+    id: "ask",
+    label: "Ask",
+    description: "Ask cited questions over the garden",
+    icon: "✦",
+    primary: true,
+    onClick: openAskDrawer,
+  })
 
-  wrapper.append(toggle, menu)
-  document.body.append(wrapper)
+  document.body.append(dock)
+  document.body.classList.add("garden-dock-active")
 
   cleanupMenu = () => {
-    document.removeEventListener("click", handleDocumentClick)
-    document.removeEventListener("keydown", handleEscape)
-    wrapper.remove()
+    dock.remove()
+    document.body.classList.remove("garden-dock-active")
     cleanupMenu = () => {}
   }
 }
@@ -330,7 +300,7 @@ function initReaderNavigation(): void {
   cleanupCurrent()
   cleanupMenu()
   installToolbarFallback()
-  initMathnuscriptsMenu()
+  initGardenDock()
   renderGardenOverview()
 
   const entries = getReaderIndex()

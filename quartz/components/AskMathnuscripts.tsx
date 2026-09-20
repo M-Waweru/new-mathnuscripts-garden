@@ -14,15 +14,6 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
 
   return (
     <>
-      <button
-        class="ask-mathnuscripts-trigger"
-        type="button"
-        aria-controls="ask-mathnuscripts-drawer"
-        aria-expanded="false"
-        data-note-title={title}
-      >
-        <span aria-hidden="true">✦</span> Ask
-      </button>
       <aside
         id="ask-mathnuscripts-drawer"
         class="ask-mathnuscripts-drawer"
@@ -33,7 +24,7 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
         <section class="ask-mathnuscripts-panel" role="dialog" aria-modal="true">
           <header class="ask-mathnuscripts-header">
             <div>
-              <p class="ask-mathnuscripts-kicker">Mathnuscripts experiment</p>
+              <p class="ask-mathnuscripts-kicker">Grounded in the garden</p>
               <h2 id="ask-mathnuscripts-title">Ask Mathnuscripts</h2>
             </div>
             <button
@@ -62,6 +53,8 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
             </button>
           </div>
           <div class="ask-mathnuscripts-status" role="status" hidden />
+          <div class="ask-mathnuscripts-answer" hidden />
+          <div class="ask-mathnuscripts-sources" hidden />
           <form class="ask-mathnuscripts-form">
             <label class="sr-only" for="ask-mathnuscripts-input">
               Ask a question about Mathnuscripts
@@ -72,27 +65,30 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
               placeholder="Ask about this note or the wider garden…"
             />
             <div class="ask-mathnuscripts-form-footer">
-              <span>Sources will be shown with the answer.</span>
-              <button type="submit">Search garden</button>
+              <span>Answers cite retrieved garden sources.</span>
+              <button type="submit">Ask garden</button>
             </div>
           </form>
         </section>
       </aside>
-      <style>{`
-        .ask-mathnuscripts-trigger{position:fixed;right:1.25rem;bottom:.75rem;z-index:121;border:1px solid var(--gray);border-radius:999px;background:var(--dark);color:var(--light);padding:.72rem 1rem;box-shadow:0 8px 24px rgba(0,0,0,.18);font:inherit;font-weight:650;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}.ask-mathnuscripts-trigger:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.25)}.ask-mathnuscripts-trigger span{color:var(--secondary);margin-right:.3rem}.ask-mathnuscripts-drawer{display:none;position:fixed;inset:0;z-index:130}.ask-mathnuscripts-drawer[data-open="true"]{display:block}.ask-mathnuscripts-backdrop{position:absolute;inset:0;background:rgba(4,8,18,.46)}.ask-mathnuscripts-panel{position:absolute;right:1rem;bottom:1rem;width:min(440px,calc(100vw - 2rem));max-height:calc(100vh - 2rem);overflow:auto;background:var(--light);color:var(--dark);border:1px solid var(--lightgray);border-radius:1.25rem;padding:1.2rem;box-shadow:0 24px 80px rgba(0,0,0,.28)}.ask-mathnuscripts-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}.ask-mathnuscripts-kicker{margin:0 0 .25rem;color:var(--secondary);font-size:.72rem;font-weight:750;letter-spacing:.1em;text-transform:uppercase}.ask-mathnuscripts-header h2{margin:0;font-size:1.5rem}.ask-mathnuscripts-close{border:0;background:transparent;color:var(--gray);font-size:1.8rem;line-height:1;cursor:pointer}.ask-mathnuscripts-context{display:flex;flex-direction:column;gap:.15rem;margin:1rem 0;padding:.85rem 1rem;border-radius:.8rem;background:var(--highlight);font-size:.88rem}.ask-mathnuscripts-context-title{font-weight:650}.ask-mathnuscripts-selection{color:var(--gray);font-size:.82rem}.ask-mathnuscripts-suggestions{display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:1rem}.ask-mathnuscripts-suggestions button{border:1px solid var(--lightgray);border-radius:999px;background:transparent;color:var(--darkgray);padding:.45rem .7rem;font:inherit;font-size:.78rem;cursor:pointer}.ask-mathnuscripts-suggestions button:hover{border-color:var(--secondary)}.ask-mathnuscripts-form textarea{width:100%;resize:vertical;border:1px solid var(--lightgray);border-radius:.8rem;background:transparent;color:inherit;padding:.75rem;font:inherit}.ask-mathnuscripts-form-footer{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin-top:.65rem;color:var(--gray);font-size:.75rem}.ask-mathnuscripts-form-footer button{border:0;border-radius:999px;background:var(--secondary);color:var(--light);padding:.6rem .9rem;font:inherit;font-weight:650;cursor:pointer}.ask-mathnuscripts-status{margin:0 0 1rem;padding:.75rem .9rem;border-left:3px solid var(--secondary);background:var(--highlight);font-size:.88rem}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:600px){.ask-mathnuscripts-trigger{right:1rem;bottom:1rem}.ask-mathnuscripts-panel{right:0;bottom:3.75rem;width:calc(100% - 1.5rem);max-height:calc(90vh - 3.75rem);border-radius:1.25rem}.ask-mathnuscripts-form-footer{align-items:flex-end;flex-direction:column}.ask-mathnuscripts-form-footer button{width:100%}}
-      `}</style>
       <script>{`(() => {
-        const trigger = document.querySelector('.ask-mathnuscripts-trigger')
         const drawer = document.querySelector('#ask-mathnuscripts-drawer')
-        if (!trigger || !drawer || drawer.dataset.ready === 'true') return
+        if (!drawer || drawer.dataset.ready === 'true') return
         drawer.dataset.ready = 'true'
+
         const input = drawer.querySelector('#ask-mathnuscripts-input')
         const selection = drawer.querySelector('.ask-mathnuscripts-selection')
         const contextTitle = drawer.querySelector('.ask-mathnuscripts-context-title')
         const status = drawer.querySelector('.ask-mathnuscripts-status')
+        const answer = drawer.querySelector('.ask-mathnuscripts-answer')
+        const sourcesWrap = drawer.querySelector('.ask-mathnuscripts-sources')
         const panel = drawer.querySelector('.ask-mathnuscripts-panel')
+        const submitButton = drawer.querySelector('.ask-mathnuscripts-form button[type="submit"]')
         let activeContext = { title: '', selection: '' }
+        let lastFocused = null
+
         const focusableSelector = 'button:not([disabled]), textarea:not([disabled]), [href], input:not([disabled])'
+
         const trapFocus = (event) => {
           if (drawer.dataset.open !== 'true' || event.key !== 'Tab' || !panel) return
           const focusables = [...panel.querySelectorAll(focusableSelector)]
@@ -107,31 +103,91 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
             first.focus()
           }
         }
+
+        const clearResults = () => {
+          status.hidden = true
+          status.textContent = ''
+          status.removeAttribute('data-tone')
+          answer.hidden = true
+          answer.textContent = ''
+          sourcesWrap.hidden = true
+          sourcesWrap.replaceChildren()
+        }
+
+        const renderSources = (sources) => {
+          sourcesWrap.replaceChildren()
+          if (!sources || sources.length === 0) {
+            sourcesWrap.hidden = true
+            return
+          }
+          const heading = document.createElement('h3')
+          heading.textContent = 'Sources'
+          sourcesWrap.append(heading)
+          for (const source of sources) {
+            const card = document.createElement('article')
+            card.className = 'ask-mathnuscripts-source'
+            const link = document.createElement('a')
+            link.href = source.url || '#'
+            link.textContent = source.title || 'Untitled note'
+            const meta = document.createElement('span')
+            meta.textContent = source.heading || source.text?.slice(0, 120) || ''
+            card.append(link, meta)
+            sourcesWrap.append(card)
+          }
+          sourcesWrap.hidden = false
+        }
+
         const open = () => {
+          lastFocused = document.activeElement
           const selected = window.getSelection?.()?.toString().trim() || ''
-          const pageTitle = trigger.dataset.noteTitle || document.title
+          const pageTitle = drawer.dataset.noteTitle || document.title
           activeContext = { title: pageTitle.trim(), selection: selected }
           contextTitle.textContent = pageTitle
           selection.hidden = !selected
-          selection.textContent = selected ? 'Selected: “' + selected.slice(0, 240) + (selected.length > 240 ? '…”' : '”') : ''
+          selection.textContent = selected
+            ? 'Selected: “' + selected.slice(0, 240) + (selected.length > 240 ? '…”' : '”')
+            : ''
+          clearResults()
           drawer.dataset.open = 'true'
           drawer.setAttribute('aria-hidden', 'false')
-          trigger.setAttribute('aria-expanded', 'true')
           input.focus()
         }
-        const close = () => { drawer.dataset.open = 'false'; drawer.setAttribute('aria-hidden', 'true'); trigger.setAttribute('aria-expanded', 'false'); trigger.focus() }
-        trigger.addEventListener('click', open)
+
+        const close = () => {
+          drawer.dataset.open = 'false'
+          drawer.setAttribute('aria-hidden', 'true')
+          if (lastFocused instanceof HTMLElement) lastFocused.focus()
+        }
+
+        drawer.dataset.noteTitle = ${JSON.stringify(title)}
+
+        document.addEventListener('mathnuscripts:open-ask', open)
         drawer.querySelectorAll('[data-ask-close]').forEach((element) => element.addEventListener('click', close))
-        document.addEventListener('keydown', (event) => { if (event.key === 'Escape' && drawer.dataset.open === 'true') close() })
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && drawer.dataset.open === 'true') close()
+        })
         panel?.addEventListener('keydown', trapFocus)
-        drawer.querySelectorAll('[data-ask-suggestion]').forEach((button) => button.addEventListener('click', () => { input.value = button.dataset.askSuggestion || ''; input.focus() }))
+        drawer.querySelectorAll('[data-ask-suggestion]').forEach((button) =>
+          button.addEventListener('click', () => {
+            input.value = button.dataset.askSuggestion || ''
+            input.focus()
+          }),
+        )
+
         const form = drawer.querySelector('.ask-mathnuscripts-form')
         form.addEventListener('submit', async (event) => {
           event.preventDefault()
           const question = input.value.trim()
-          if (!question) { input.focus(); return }
+          if (!question) {
+            input.focus()
+            return
+          }
+
+          clearResults()
           status.hidden = false
-          status.textContent = 'Searching the Mathnuscripts…'
+          status.textContent = 'Searching the garden and drafting an answer…'
+          submitButton.disabled = true
+
           try {
             const response = await fetch('/api/ask', {
               method: 'POST',
@@ -139,13 +195,29 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
               body: JSON.stringify({ question, context: activeContext }),
             })
             const data = await response.json()
-            if (!response.ok) throw new Error(data.error || 'The Ask service is unavailable.')
-            const sourceNames = (data.sources || []).map((source) => source.title).join(', ')
-            status.textContent = sourceNames
-              ? 'Retrieved sources: ' + sourceNames + '. Live ChatGPT generation is the next pilot slice.'
-              : 'No matching Mathnuscripts sources were found. Try a different question.'
+            const errorMessage = data.error || data.message
+
+            if (!response.ok || data.status === 'error') {
+              status.dataset.tone = 'error'
+              status.textContent = errorMessage || 'Ask could not complete this request.'
+              renderSources(data.sources || [])
+              return
+            }
+
+            if (data.answer) {
+              status.hidden = true
+              answer.hidden = false
+              answer.textContent = data.answer
+            } else {
+              status.textContent = errorMessage || 'No answer was returned. Try a different question.'
+            }
+
+            renderSources(data.sources || [])
           } catch (error) {
-            status.textContent = error instanceof Error ? error.message : 'The Ask service is unavailable.'
+            status.dataset.tone = 'error'
+            status.textContent = error instanceof Error ? error.message : 'Ask is unavailable right now.'
+          } finally {
+            submitButton.disabled = false
           }
         })
       })()`}</script>
