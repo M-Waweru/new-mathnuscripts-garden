@@ -1,3 +1,5 @@
+import { extractApiError, formatAskClientError } from "../../util/askClient"
+
 function initAskMathnuscripts(): void {
   const drawer = document.querySelector("#ask-mathnuscripts-drawer") as HTMLElement | null
   if (!drawer || drawer.dataset.ready === "true") return
@@ -180,10 +182,7 @@ function initAskMathnuscripts(): void {
         }),
       })
       const data = await parseResponseBody(response)
-      const errorMessage =
-        (typeof data.error === "string" && data.error) ||
-        (typeof data.message === "string" && data.message) ||
-        ""
+      const errorMessage = extractApiError(data, response)
 
       if (!response.ok || data.status === "error") {
         chatHistory.pop()
@@ -207,7 +206,7 @@ function initAskMathnuscripts(): void {
       chatHistory.pop()
       thread.lastElementChild?.remove()
       if (suggestions) suggestions.hidden = thread.children.length > 0
-      setStatus(error instanceof Error ? error.message : "Ask is unavailable right now.", "error")
+      setStatus(formatAskClientError(error), "error")
     } finally {
       submitButton.disabled = false
       input.focus()

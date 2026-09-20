@@ -4,6 +4,7 @@ import {
   buildAskMessages,
   callNvidiaChat,
   createAskResponse,
+  formatNvidiaError,
   getNvidiaConfig,
   parseQuestion,
 } from "./ask-core.mjs"
@@ -119,6 +120,28 @@ test("createAskResponse distinguishes complete, error, and retrieval states", ()
       sources: [],
       error: "NVIDIA_API_KEY is not configured",
     },
+  )
+})
+
+test("formatNvidiaError maps NVIDIA problem responses to actionable messages", () => {
+  assert.match(
+    formatNvidiaError({ detail: "Authentication failed" }, 401),
+    /unauthorized \(401\).*Authentication failed.*NVIDIA_API_KEY/u,
+  )
+  assert.match(formatNvidiaError({ detail: "model missing" }, 404), /model not found \(404\)/u)
+  assert.match(formatNvidiaError({ detail: "end of life" }, 410), /model retired \(410\)/u)
+})
+
+test("callNvidiaChat surfaces NVIDIA 401 detail", async () => {
+  await assert.rejects(
+    () =>
+      callNvidiaChat(
+        [{ role: "user", content: "Hello" }],
+        { apiKey: "bad", baseUrl: "https://example.com/v1", model: "z-ai/glm-5.3-flash" },
+        async () =>
+          new Response(JSON.stringify({ detail: "Authentication failed" }), { status: 401 }),
+      ),
+    /unauthorized \(401\).*Authentication failed/u,
   )
 })
 
