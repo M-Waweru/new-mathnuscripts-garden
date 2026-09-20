@@ -4,19 +4,34 @@ import {
   callNvidiaChat,
   createAskResponse,
   getNvidiaConfig,
+  loadAskIndex,
   parseQuestion,
 } from "../ask-core.mjs"
 
 function json(body, status = 200) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "content-type": "application/json; charset=utf-8" },
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-store",
+    },
   })
 }
 
 export { parseQuestion, createAskResponse } from "../ask-core.mjs"
 
 export default async function handler(request) {
+  if (request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: {
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "POST, OPTIONS",
+        "access-control-allow-headers": "content-type",
+      },
+    })
+  }
+
   if (request.method !== "POST") {
     return json({ status: "error", error: "method_not_allowed" }, 405)
   }
@@ -34,23 +49,23 @@ export default async function handler(request) {
     )
   }
 
-  const { question, context } = parsed
+  const { question, context, history } = parsed
   const nvidiaConfig = getNvidiaConfig()
 
-  const indexUrl = new URL("/static/ask-index.json", request.url)
-  const indexResponse = await fetch(indexUrl)
-  if (!indexResponse.ok) {
+  let index
+  try {
+    index = await loadAskIndex(request)
+  } catch (error) {
     return json(
       createAskResponse({
         question,
         sources: [],
-        error: "The garden index is unavailable. Try again shortly.",
+        error: error instanceof Error ? error.message : "The garden index is unavailable.",
       }),
       503,
     )
   }
 
-  const index = await indexResponse.json()
   const sources = rankChunks(index.chunks ?? [], question, 5).map(
     ({ score: _score, ...source }) => source,
   )
@@ -61,14 +76,14 @@ export default async function handler(request) {
         question,
         sources,
         error:
-          "Ask is not configured yet. Add NVIDIA_API_KEY in Netlify Site settings → Environment variables.",
+          "Ask is not configured yet. Add NVIDIA_API_KEY to `.env` for local `netlify dev`, or Netlify Site settings → Environment variables for production.",
       }),
       503,
     )
   }
 
   try {
-    const messages = buildAskMessages(question, context, sources)
+    const messages = buildAskMessages(question, context, sources, history)
     const answer = await callNvidiaChat(messages, nvidiaConfig)
     return json(createAskResponse({ question, sources, answer }))
   } catch (error) {
