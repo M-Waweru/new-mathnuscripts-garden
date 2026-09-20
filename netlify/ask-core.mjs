@@ -130,6 +130,35 @@ export function createAskResponse({ question, sources, answer = null, error = nu
   }
 }
 
+export function formatNvidiaError(payload, status) {
+  const detail =
+    payload?.error?.message ||
+    payload?.detail ||
+    payload?.title ||
+    payload?.message ||
+    null
+
+  if (status === 401) {
+    return detail
+      ? `NVIDIA API unauthorized (401): ${detail}. Check NVIDIA_API_KEY in .env (local) or Netlify env vars (production).`
+      : "NVIDIA API unauthorized (401). Check NVIDIA_API_KEY in .env (local) or Netlify env vars (production)."
+  }
+
+  if (status === 404) {
+    return detail
+      ? `NVIDIA model not found (404): ${detail}. Set NVIDIA_MODEL to an id from GET /v1/models.`
+      : "NVIDIA model not found (404). Set NVIDIA_MODEL to an id from GET /v1/models."
+  }
+
+  if (status === 410) {
+    return detail
+      ? `NVIDIA model retired (410): ${detail}. Choose a current model via GET /v1/models.`
+      : "NVIDIA model retired (410). Choose a current model via GET /v1/models."
+  }
+
+  return detail || `NVIDIA request failed with status ${status}`
+}
+
 export async function callNvidiaChat(messages, config, fetchImpl = fetch) {
   if (!config.apiKey) {
     throw new Error("NVIDIA_API_KEY is not configured")
@@ -153,11 +182,7 @@ export async function callNvidiaChat(messages, config, fetchImpl = fetch) {
 
   const payload = await response.json().catch(() => ({}))
   if (!response.ok) {
-    const detail =
-      payload?.error?.message ||
-      payload?.message ||
-      `NVIDIA request failed with status ${response.status}`
-    throw new Error(detail)
+    throw new Error(formatNvidiaError(payload, response.status))
   }
 
   const answer = payload?.choices?.[0]?.message?.content?.trim()
