@@ -1,4 +1,4 @@
-import { rankChunks } from "../../scripts/build-ask-index.mjs"
+import { rankChunks } from "../../scripts/ask-index-core.mjs"
 
 const MAX_QUESTION_LENGTH = 2000
 
