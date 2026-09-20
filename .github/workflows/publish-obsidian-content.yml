@@ -17,12 +17,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out Mathnuscripts
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
       - name: Check out Obsidian knowledge base
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: M-Waweru/obsidian-knowledge-base
           ref: ${{ github.event.client_payload.source_ref || 'play-with-cursor' }}
@@ -34,7 +34,7 @@ jobs:
         run: node scripts/import-obsidian-content.mjs --source .source/obsidian
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
