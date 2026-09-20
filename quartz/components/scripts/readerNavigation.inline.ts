@@ -274,13 +274,10 @@ function initMathnuscriptsMenu(): void {
     }
     close()
   })
-  addMenuItem(
-    menu,
-    "Ask Mathnuscripts",
-    "Coming next: cited questions over the garden",
-    () => {},
-    true,
-  )
+  addMenuItem(menu, "Ask Mathnuscripts", "Ask cited questions over the garden", () => {
+    document.querySelector<HTMLButtonElement>(".ask-mathnuscripts-trigger")?.click()
+    close()
+  })
 
   toggle.addEventListener("click", (event) => {
     event.preventDefault()

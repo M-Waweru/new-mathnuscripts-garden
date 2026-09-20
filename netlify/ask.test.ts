@@ -1,11 +1,11 @@
 import test from "node:test"
 import assert from "node:assert/strict"
-import { createAskResponse, parseQuestion } from "./ask.mjs"
+import { createAskResponse, parseQuestion } from "./functions/ask.mjs"
 
 test("parseQuestion accepts a bounded non-empty question", () => {
-  assert.equal(
+  assert.deepEqual(
     parseQuestion(JSON.stringify({ question: " What is the digital mind? " })),
-    "What is the digital mind?",
+    { question: "What is the digital mind?", context: undefined },
   )
 })
 

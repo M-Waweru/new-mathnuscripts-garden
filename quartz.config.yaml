@@ -12,8 +12,6 @@ configuration:
     - private
     - templates
     - .obsidian
-  # Quartz theme + custom SCSS control the published site styling.
-  # Obsidian editor appearance does not sync to the website automatically.
   theme:
     fontOrigin: local
     cdnCaching: false
@@ -60,6 +58,9 @@ plugins:
         dark: github-dark
       keepBackground: false
     order: 20
+  - source: ./plugins/preserve-dollar-text
+    enabled: true
+    order: 25
   - source: "@quartz-community/obsidian-flavored-markdown"
     enabled: true
     options:
@@ -100,7 +101,7 @@ plugins:
     enabled: true
     order: 70
   - source: "@quartz-community/latex"
-    enabled: true
+    enabled: false
     options:
       renderEngine: katex
     order: 80
@@ -116,8 +117,6 @@ plugins:
   - source: "@quartz-community/roam"
     enabled: false
     order: 92
-  # Keep font loading local/system-based so production builds do not depend
-  # on Google Fonts availability during static generation.
   - source: "@quartz-community/quartz-fonts"
     enabled: false
   - source: "@quartz-themes/core"

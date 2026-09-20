@@ -63,13 +63,13 @@ Start with [[Innovation is a Mindset]], [[Product Development Frameworks]], [[5-
 
 Digital gardening, PKM, note systems, essays, and the craft of preserving insight across time.
 
-Start with [[What are the Mathnuscripts]], [[Publishing My Second Brain]], [[The Future of Text]], [[The Appeal of Personal Blogs]], and [[Journalling]].
+Start with [[What are the Mathnuscripts]], [[Publishing My Second Brain]], [[The Future of Text]], [[The Appeal of Personal Blogs]], and [[The Use of PKM]].
 
 ### Africa and Development
 
 Kenya, African innovation ecosystems, institutions, economic development, and building technology from local context.
 
-Start with [[Knowledge, Innovation and Africa]], [[The Future is African]], [[What Kenya is Good At]], [[Kenya is Beautiful]], and [[There is Nothing Better to Do]].
+Start with [[Knowledge, Innovation and Africa]], [[The Future is African]], [[What Kenya is Good At]], [[Navigating Geopolitics and Building Value as Kenya]], and [[There is Nothing Better to Do]].
 
 ### Philosophy and Life
 
