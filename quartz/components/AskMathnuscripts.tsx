@@ -101,7 +101,7 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
         const thread = drawer.querySelector('.ask-mathnuscripts-thread')
         const suggestions = drawer.querySelector('.ask-mathnuscripts-suggestions')
         const panel = drawer.querySelector('.ask-mathnuscripts-panel')
-        const submitButton = drawer.querySelector('.ask-mathnuscripts-form button[type="submit"]')
+        const submitButton = drawer.querySelector('form.ask-mathnuscripts-form button')
         const askApiUrl = ((document.body.dataset.basepath || '') + '/api/ask').replace(/\\/+/g, '/')
         let activeContext = { title: '', selection: '' }
         let chatHistory = []

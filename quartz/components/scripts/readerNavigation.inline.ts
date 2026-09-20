@@ -239,7 +239,12 @@ function initGraphExplorer(): void {
   document.body.classList.add("graph-explorer-active")
   const stage = document.getElementById("graph-explorer-stage")
   const sidebarGraph = document.querySelector(".right.sidebar .graph") as HTMLElement | null
-  if (!stage || !sidebarGraph || stage.contains(sidebarGraph)) return
+  if (!stage) return
+  if (!sidebarGraph) {
+    window.setTimeout(initGraphExplorer, 300)
+    return
+  }
+  if (stage.contains(sidebarGraph)) return
 
   stage.append(sidebarGraph)
 
@@ -479,12 +484,9 @@ function initReaderNavigation(): void {
     if (isReaderMode()) setReaderMode(false)
   }
 
-  window.addCleanup(() => cleanupCurrent())
+  if (typeof window.addCleanup === "function") {
+    window.addCleanup(() => cleanupCurrent())
+  }
 }
 
 document.addEventListener("nav", initReaderNavigation)
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", initReaderNavigation, { once: true })
-} else {
-  initReaderNavigation()
-}
