@@ -9,9 +9,33 @@ import {
 } from "./ask-core.mjs"
 
 test("parseQuestion accepts a bounded non-empty question", () => {
+  assert.deepEqual(parseQuestion(JSON.stringify({ question: " What is the digital mind? " })), {
+    question: "What is the digital mind?",
+    context: undefined,
+    history: [],
+  })
+})
+
+test("parseQuestion accepts conversation history", () => {
   assert.deepEqual(
-    parseQuestion(JSON.stringify({ question: " What is the digital mind? " })),
-    { question: "What is the digital mind?", context: undefined },
+    parseQuestion(
+      JSON.stringify({
+        question: "Tell me more",
+        history: [
+          { role: "user", content: "What is this?" },
+          { role: "assistant", content: "A garden note." },
+          { role: "invalid", content: "ignored" },
+        ],
+      }),
+    ),
+    {
+      question: "Tell me more",
+      context: undefined,
+      history: [
+        { role: "user", content: "What is this?" },
+        { role: "assistant", content: "A garden note." },
+      ],
+    },
   )
 })
 
@@ -56,12 +80,15 @@ test("buildAskMessages includes page context and numbered sources", () => {
         text: "A living garden.",
       },
     ],
+    [{ role: "user", content: "Earlier question" }],
   )
 
   assert.equal(messages[0].role, "system")
-  assert.match(messages[1].content, /Current note: Vision/u)
-  assert.match(messages[1].content, /Selected passage: A living garden\./u)
-  assert.match(messages[1].content, /\[1\] Vision/u)
+  assert.equal(messages[1].role, "user")
+  assert.equal(messages[1].content, "Earlier question")
+  assert.match(messages[2].content, /Current note: Vision/u)
+  assert.match(messages[2].content, /Selected passage: A living garden\./u)
+  assert.match(messages[2].content, /\[1\] Vision/u)
 })
 
 test("createAskResponse distinguishes complete, error, and retrieval states", () => {

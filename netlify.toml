@@ -6,6 +6,13 @@
   NODE_VERSION = "22"
   NPM_VERSION = "10.9.2"
 
+[dev]
+  command = "npm run build"
+  targetPort = 3999
+  port = 8888
+  publish = "public"
+  autoLaunch = false
+
 [[redirects]]
   from = "/ask"
   to = "/ask-mathnuscripts.html"

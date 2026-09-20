@@ -1,4 +1,8 @@
+import { readFile } from "node:fs/promises"
+import { join } from "node:path"
+
 const MAX_QUESTION_LENGTH = 2000
+const MAX_HISTORY_TURNS = 12
 const DEFAULT_NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
 const DEFAULT_NVIDIA_MODEL = "z-ai/glm-5.3-flash"
 
@@ -14,7 +18,22 @@ export function parseQuestion(body) {
   if (question.length > MAX_QUESTION_LENGTH) throw new Error("question is too long")
   const context =
     payload?.context && typeof payload.context === "object" ? payload.context : undefined
-  return { question, context }
+  const history = normalizeHistory(payload?.history)
+  return { question, context, history }
+}
+
+export function normalizeHistory(raw) {
+  if (!Array.isArray(raw)) return []
+  return raw
+    .filter(
+      (entry) =>
+        entry &&
+        (entry.role === "user" || entry.role === "assistant") &&
+        typeof entry.content === "string",
+    )
+    .map((entry) => ({ role: entry.role, content: entry.content.trim() }))
+    .filter((entry) => entry.content.length > 0)
+    .slice(-MAX_HISTORY_TURNS)
 }
 
 export function getNvidiaConfig(env = process.env) {
@@ -24,7 +43,30 @@ export function getNvidiaConfig(env = process.env) {
   return { apiKey, baseUrl, model }
 }
 
-export function buildAskMessages(question, context, sources) {
+export async function loadAskIndex(request, fetchImpl = fetch) {
+  const candidates = [
+    join(process.cwd(), "public/static/ask-index.json"),
+    join(process.cwd(), "quartz/static/ask-index.json"),
+  ]
+
+  for (const filePath of candidates) {
+    try {
+      const raw = await readFile(filePath, "utf8")
+      return JSON.parse(raw)
+    } catch {
+      // try the next candidate
+    }
+  }
+
+  const indexUrl = new URL("/static/ask-index.json", request.url)
+  const indexResponse = await fetchImpl(indexUrl)
+  if (!indexResponse.ok) {
+    throw new Error("The garden index is unavailable. Try again shortly.")
+  }
+  return indexResponse.json()
+}
+
+export function buildAskMessages(question, context, sources, history = []) {
   const contextLines = []
   if (context?.title) contextLines.push(`Current note: ${context.title}`)
   if (context?.selection) contextLines.push(`Selected passage: ${context.selection}`)
@@ -41,9 +83,10 @@ export function buildAskMessages(question, context, sources) {
 
   const system = [
     "You are Ask Mathnuscripts, an assistant for Mathenge Waweru's digital garden.",
-    "Answer clearly and concisely using only the supplied garden sources.",
+    "Answer clearly and conversationally using only the supplied garden sources.",
     "Cite supporting claims with [1], [2], etc.",
     "If the sources do not contain enough information, say so honestly.",
+    "You may answer follow-up questions using prior conversation context and fresh sources.",
   ].join(" ")
 
   const user = [
@@ -55,10 +98,7 @@ export function buildAskMessages(question, context, sources) {
     .filter(Boolean)
     .join("\n\n")
 
-  return [
-    { role: "system", content: system },
-    { role: "user", content: user },
-  ]
+  return [{ role: "system", content: system }, ...history, { role: "user", content: user }]
 }
 
 export function createAskResponse({ question, sources, answer = null, error = null }) {

@@ -1,19 +1,14 @@
 ---
 publish: true
-title: Garden Overview
-description: Explore the Mathnuscripts graph and see the garden's overall activity.
+title: Garden Graph
+description: Explore connected notes across the Mathnuscripts garden.
 ---
 
-# Garden Overview
+<div id="graph-explorer-stage" class="graph-explorer-stage" aria-label="Garden-wide note graph"></div>
 
-This is the overall view of the Mathnuscripts: the connected graph, the size of the archive, and the latest movement across the garden.
+<div class="graph-explorer-meta">
+  <div id="garden-stats-grid" class="garden-stats-grid" aria-label="Mathnuscripts statistics"></div>
 
-<div id="garden-stats-grid" class="garden-stats-grid" aria-label="Mathnuscripts statistics"></div>
-
-## Overall graph
-
-Use the graph to wander through the relationships between notes. Drag to move the map, scroll to zoom, and click a node to open it.
-
-## Latest updates
-
-<ul id="garden-latest-updates" class="garden-latest-updates" aria-label="Latest updated notes"></ul>
+  <h2>Latest updates</h2>
+  <ul id="garden-latest-updates" class="garden-latest-updates" aria-label="Latest updated notes"></ul>
+</div>

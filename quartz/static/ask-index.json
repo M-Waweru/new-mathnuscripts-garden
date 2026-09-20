@@ -34317,31 +34317,24 @@
     },
     {
       "id": "graph-explorer-1",
-      "title": "Garden Overview",
+      "title": "graph-explorer",
       "url": "/graph-explorer",
-      "heading": "Garden Overview",
-      "text": "This is the overall view of the Mathnuscripts: the connected graph, the size of the archive, and the latest movement across the garden."
+      "heading": "graph-explorer",
+      "text": "<div id=\"graph-explorer-stage\" class=\"graph-explorer-stage\" aria-label=\"Garden-wide note graph\"></div>"
     },
     {
       "id": "graph-explorer-2",
-      "title": "Garden Overview",
+      "title": "graph-explorer",
       "url": "/graph-explorer",
-      "heading": "Garden Overview",
-      "text": "<div id=\"garden-stats-grid\" class=\"garden-stats-grid\" aria-label=\"Mathnuscripts statistics\"></div>"
+      "heading": "graph-explorer",
+      "text": "<div class=\"graph-explorer-meta\"> <div id=\"garden-stats-grid\" class=\"garden-stats-grid\" aria-label=\"Mathnuscripts statistics\"></div>"
     },
     {
       "id": "graph-explorer-3",
-      "title": "Garden Overview",
+      "title": "graph-explorer",
       "url": "/graph-explorer",
-      "heading": "Overall graph",
-      "text": "Use the graph to wander through the relationships between notes. Drag to move the map, scroll to zoom, and click a node to open it."
-    },
-    {
-      "id": "graph-explorer-4",
-      "title": "Garden Overview",
-      "url": "/graph-explorer",
-      "heading": "Latest updates",
-      "text": "<ul id=\"garden-latest-updates\" class=\"garden-latest-updates\" aria-label=\"Latest updated notes\"></ul>"
+      "heading": "graph-explorer",
+      "text": "<h2>Latest updates</h2> <ul id=\"garden-latest-updates\" class=\"garden-latest-updates\" aria-label=\"Latest updated notes\"></ul> </div>"
     },
     {
       "id": "index-1",
