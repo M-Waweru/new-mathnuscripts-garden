@@ -255,6 +255,25 @@ article {
   .nav-file-title {
     font-weight: 500;
   }
+
+  // Upstream explorer collapses to 1.2rem with overflow hidden, which hides the
+  // Browse toggle entirely. Keep the header visible; hide only the tree.
+  @media (min-width: 801px) {
+    &.collapsed {
+      flex: 0 0 auto;
+      min-height: auto;
+      overflow: visible;
+
+      > .desktop-explorer {
+        display: flex;
+        visibility: visible;
+      }
+
+      > .explorer-content {
+        display: none;
+      }
+    }
+  }
 }
 
 body.garden-dock-active {
