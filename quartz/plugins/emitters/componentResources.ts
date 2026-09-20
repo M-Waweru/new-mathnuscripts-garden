@@ -8,6 +8,8 @@ import spaRouterScript from "../../components/scripts/spa.inline"
 import popoverScript from "../../components/scripts/popover.inline"
 // @ts-ignore
 import readerNavigation from "../../components/scripts/readerNavigation.inline"
+// @ts-ignore
+import askMathnuscripts from "../../components/scripts/askMathnuscripts.inline"
 import baseStyles from "../../styles/base.scss"
 import customStyles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
@@ -55,7 +57,7 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     beforeDOMLoaded: new Set<string>(),
     // Head is not guaranteed to be returned by an emitter's component list.
     // Register this global interaction script explicitly so it is emitted.
-    afterDOMLoaded: new Set<string>([readerNavigation]),
+    afterDOMLoaded: new Set<string>([readerNavigation, askMathnuscripts]),
   }
 
   for (const component of allComponents) {
