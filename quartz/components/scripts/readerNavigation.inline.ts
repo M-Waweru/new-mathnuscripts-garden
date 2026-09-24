@@ -147,13 +147,22 @@ function restoreReaderPages(): void {
   readerArticle = null
 }
 
-function updateReaderProgress(progress: HTMLElement, essayIndex: number, totalEssays: number): void {
+function updateReaderProgress(
+  progress: HTMLElement,
+  essayIndex: number,
+  totalEssays: number,
+): void {
   const pageSuffix =
     readerPages.length > 1 ? ` · page ${readerPageIndex + 1}/${readerPages.length}` : ""
   progress.textContent = `Essay ${essayIndex + 1} / ${totalEssays}${pageSuffix}`
 }
 
-function showReaderPage(index: number, progress?: HTMLElement, essayIndex = 0, totalEssays = 1): void {
+function showReaderPage(
+  index: number,
+  progress?: HTMLElement,
+  essayIndex = 0,
+  totalEssays = 1,
+): void {
   if (readerPages.length === 0) return
   readerPageIndex = Math.max(0, Math.min(index, readerPages.length - 1))
   readerPages.forEach((page, pageIndex) => {
@@ -184,7 +193,9 @@ function navigateTo(entry: ReaderEntry | undefined): void {
 
 function openGraphExplorer(): void {
   if (currentSlug() === GRAPH_SLUG) {
-    document.getElementById("graph-explorer-stage")?.scrollIntoView({ behavior: "smooth", block: "start" })
+    document
+      .getElementById("graph-explorer-stage")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" })
     return
   }
   navigateTo({ slug: GRAPH_SLUG, title: "Garden Graph" })
@@ -239,7 +250,7 @@ function findExplorerGraphRoot(): HTMLElement | null {
 }
 
 function requestGraphPluginRender(): void {
-  document.dispatchEvent(new Event("render"))
+  document.dispatchEvent(new CustomEvent<{}>("render"))
 }
 
 function mountGlobalGraphInStage(stage: HTMLElement, graphRoot: HTMLElement): void {
@@ -335,16 +346,24 @@ function initGardenFabStack(): void {
     "More garden actions",
     FAB_ICONS.expand,
     () => {
-    const expanded = stack.classList.toggle("garden-fab-stack-expanded")
-    secondary.hidden = !expanded
-    toggleButton.setAttribute("aria-expanded", expanded ? "true" : "false")
-    toggleButton.innerHTML = `<span class="garden-fab-icon">${expanded ? FAB_ICONS.collapse : FAB_ICONS.expand}</span>`
-    toggleButton.setAttribute("aria-label", expanded ? "Hide garden actions" : "More garden actions")
-  },
+      const expanded = stack.classList.toggle("garden-fab-stack-expanded")
+      secondary.hidden = !expanded
+      toggleButton.setAttribute("aria-expanded", expanded ? "true" : "false")
+      toggleButton.innerHTML = `<span class="garden-fab-icon">${expanded ? FAB_ICONS.collapse : FAB_ICONS.expand}</span>`
+      toggleButton.setAttribute(
+        "aria-label",
+        expanded ? "Hide garden actions" : "More garden actions",
+      )
+    },
   )
   toggleButton.setAttribute("aria-expanded", "false")
 
-  const askButton = createFabButton("garden-fab garden-fab-primary", "Ask Mathnuscripts", FAB_ICONS.ask, openAskDrawer)
+  const askButton = createFabButton(
+    "garden-fab garden-fab-primary",
+    "Ask Mathnuscripts",
+    FAB_ICONS.ask,
+    openAskDrawer,
+  )
 
   stack.append(secondary, toggleButton, askButton)
   document.body.append(stack)
@@ -435,7 +454,8 @@ function mountReaderChrome(entries: ReaderIndex, essayIndex: number): void {
 
     if (event.key === "ArrowLeft" && (readerPageIndex > 0 || previous)) {
       event.preventDefault()
-      if (readerPageIndex > 0) showReaderPage(readerPageIndex - 1, progress, essayIndex, entries.length)
+      if (readerPageIndex > 0)
+        showReaderPage(readerPageIndex - 1, progress, essayIndex, entries.length)
       else navigateTo(previous)
       syncReaderControls()
     } else if (event.key === "ArrowRight" && (readerPageIndex < readerPages.length - 1 || next)) {
