@@ -418,11 +418,15 @@ body[data-slug="graph-explorer"].graph-explorer-active {
 
   #graph-explorer-stage .global-graph-outer {
     display: block !important;
-    position: relative;
-    inset: auto;
-    width: 100%;
-    height: min(68vh, calc(100vh - 12rem));
-    backdrop-filter: none;
+    position: relative !important;
+    inset: auto !important;
+    top: auto !important;
+    left: auto !important;
+    width: 100% !important;
+    height: min(68vh, calc(100vh - 12rem)) !important;
+    max-height: min(68vh, calc(100vh - 12rem));
+    z-index: 1 !important;
+    backdrop-filter: none !important;
     overflow: hidden;
   }
 
@@ -430,14 +434,23 @@ body[data-slug="graph-explorer"].graph-explorer-active {
     min-height: 100%;
     height: 100%;
     width: 100%;
+    max-height: 100%;
+    overflow: hidden;
   }
 
-  #graph-explorer-stage .global-graph-container svg,
   #graph-explorer-stage .global-graph-container canvas {
     display: block;
     width: 100% !important;
     height: 100% !important;
-    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+:root[saved-theme="dark"] {
+  .graph .graph-container canvas,
+  .graph .global-graph-container canvas {
+    /* Pixi edges use --lightgray; boost perceived contrast on dark backgrounds */
+    filter: contrast(1.2) brightness(1.06);
   }
 }
 
