@@ -27,9 +27,9 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
       <div class="ask-mathnuscripts-backdrop" data-ask-close="true" />
       <section class="ask-mathnuscripts-panel" role="dialog" aria-modal="true">
         <header class="ask-mathnuscripts-header">
-          <div>
-            <p class="ask-mathnuscripts-kicker">Grounded in the garden</p>
+          <div class="ask-mathnuscripts-heading">
             <h2 id="ask-mathnuscripts-title">Ask Mathnuscripts</h2>
+            <p class="ask-mathnuscripts-tagline">Answers grounded in your notes, with citations.</p>
           </div>
           <div class="ask-mathnuscripts-header-actions">
             <button
@@ -51,40 +51,54 @@ const AskMathnuscripts: QuartzComponent = ({ fileData, cfg }: QuartzComponentPro
           </div>
         </header>
         <div class="ask-mathnuscripts-context" aria-live="polite">
-          <strong>Context attached</strong>
+          <span class="ask-mathnuscripts-context-label">Reading</span>
           <span class="ask-mathnuscripts-context-title">{title}</span>
           <span class="ask-mathnuscripts-selection" hidden />
-        </div>
-        <div class="ask-mathnuscripts-suggestions">
-          <button type="button" data-ask-suggestion="Explain the main idea of this note">
-            Explain this note
-          </button>
-          <button type="button" data-ask-suggestion="Which related notes should I read next?">
-            Find related notes
-          </button>
-          <button type="button" data-ask-suggestion="Challenge the central claim in this note">
-            Challenge this idea
-          </button>
         </div>
         <div
           class="ask-mathnuscripts-thread"
           role="log"
           aria-live="polite"
           aria-relevant="additions"
-        />
+        >
+          <div class="ask-mathnuscripts-empty">
+            <p class="ask-mathnuscripts-empty-lead">What would you like to explore?</p>
+            <p class="ask-mathnuscripts-empty-copy">
+              Ask about this page or anything across the garden. Replies cite retrieved notes.
+            </p>
+            <div class="ask-mathnuscripts-suggestions">
+              <button type="button" data-ask-suggestion="Explain the main idea of this note">
+                Explain this note
+              </button>
+              <button type="button" data-ask-suggestion="Which related notes should I read next?">
+                Related notes
+              </button>
+              <button type="button" data-ask-suggestion="Challenge the central claim in this note">
+                Challenge this idea
+              </button>
+            </div>
+          </div>
+        </div>
         <div class="ask-mathnuscripts-status" role="status" hidden />
         <form class="ask-mathnuscripts-form">
           <label class="sr-only" for="ask-mathnuscripts-input">
             Ask a question about Mathnuscripts
           </label>
-          <textarea
-            id="ask-mathnuscripts-input"
-            rows={3}
-            placeholder="Ask about this note or the wider garden…"
-          />
-          <div class="ask-mathnuscripts-form-footer">
-            <span>Answers cite retrieved garden sources.</span>
-            <button type="submit">Send</button>
+          <div class="ask-mathnuscripts-compose">
+            <textarea
+              id="ask-mathnuscripts-input"
+              rows={2}
+              placeholder="Ask anything…"
+              autocomplete="off"
+            />
+            <button type="submit" class="ask-mathnuscripts-send" aria-label="Send message">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  fill="currentColor"
+                  d="M3.4 20.4 21 12 3.4 3.6l1.8 7.2L16 12l-10.8 1.2 1.8 7.2z"
+                />
+              </svg>
+            </button>
           </div>
         </form>
       </section>
