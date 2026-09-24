@@ -1,3 +1,5 @@
+import { applyGraphEdgeLightgrayOverride } from "../../util/graphEdgeTheme"
+
 type ReaderEntry = {
   slug: string
   title: string
@@ -109,6 +111,7 @@ function toggleTheme(): void {
   document.body.classList.remove("theme-dark", "theme-light")
   document.body.classList.add(`theme-${theme}`)
   localStorage.setItem("theme", theme)
+  applyGraphEdgeLightgrayOverride()
   dispatch("themechange", { theme })
 }
 
@@ -250,7 +253,17 @@ function findExplorerGraphRoot(): HTMLElement | null {
 }
 
 function requestGraphPluginRender(): void {
+  applyGraphEdgeLightgrayOverride()
   document.dispatchEvent(new CustomEvent<{}>("render"))
+}
+
+function scheduleGraphPluginRender(): void {
+  applyGraphEdgeLightgrayOverride()
+  requestGraphPluginRender()
+  window.requestAnimationFrame(() => {
+    requestGraphPluginRender()
+    window.requestAnimationFrame(requestGraphPluginRender)
+  })
 }
 
 function mountGlobalGraphInStage(stage: HTMLElement, graphRoot: HTMLElement): void {
@@ -265,8 +278,7 @@ function mountGlobalGraphInStage(stage: HTMLElement, graphRoot: HTMLElement): vo
   if (!globalOuter) return
 
   globalOuter.classList.add("active")
-  requestGraphPluginRender()
-  window.requestAnimationFrame(requestGraphPluginRender)
+  scheduleGraphPluginRender()
 }
 
 function initGraphExplorer(): void {
@@ -504,6 +516,7 @@ function initReaderNavigation(): void {
   cleanupCurrent()
   cleanupFab()
   cleanupReaderChrome()
+  applyGraphEdgeLightgrayOverride()
   installToolbarFallback()
   initGardenFabStack()
   renderGardenOverview()
@@ -518,11 +531,14 @@ function initReaderNavigation(): void {
   }
 
   const handleReaderModeChange = () => syncReaderMode()
+  const handleThemeChange = () => applyGraphEdgeLightgrayOverride()
   document.addEventListener("readermodechange", handleReaderModeChange)
+  document.addEventListener("themechange", handleThemeChange, true)
   syncReaderMode()
 
   cleanupCurrent = () => {
     document.removeEventListener("readermodechange", handleReaderModeChange)
+    document.removeEventListener("themechange", handleThemeChange, true)
     cleanupReaderChrome()
     if (isReaderMode()) setReaderMode(false)
   }
