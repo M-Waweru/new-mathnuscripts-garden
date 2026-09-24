@@ -394,7 +394,11 @@ body[data-slug="graph-explorer"].graph-explorer-active {
     display: none !important;
   }
 
-  .center > article > :not(#graph-explorer-stage):not(.graph-explorer-meta) {
+  .center > article .markdown-preview-view {
+    display: block !important;
+  }
+
+  .center > article .markdown-preview-view > :not(#graph-explorer-stage):not(.graph-explorer-meta) {
     display: none;
   }
 
@@ -425,6 +429,15 @@ body[data-slug="graph-explorer"].graph-explorer-active {
   #graph-explorer-stage .global-graph-container {
     min-height: 100%;
     height: 100%;
+    width: 100%;
+  }
+
+  #graph-explorer-stage .global-graph-container svg,
+  #graph-explorer-stage .global-graph-container canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
   }
 }
 
