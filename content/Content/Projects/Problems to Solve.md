@@ -164,7 +164,7 @@ modified: 2025-04-20T22:40:15.500+03:00
 
 63. Building a RAG application for Obsidian users to understand their notes better and see patterns.
 
-64. A next-generation project management tool that makes the process of making tasks as easy as speech and the visualises  and makes sense of your daily performance compared to your long-term goals
+64. A next-generation project management tool that makes the process of making tasks as easy as speech and the visualises and makes sense of your daily performance compared to your long-term goals
 
 65. An AI-course that allows people to learn about AI and how to use it in their daily lives. It is self-paced, with great explanation, examples and immediate ways that you can start implementing.
 

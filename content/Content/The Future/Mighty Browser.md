@@ -20,7 +20,7 @@ In the ideal case, we should have a language that is cost-effective for our comp
 
 With Mighty Browser and a monthly subscription, you can have greater productivity when using the internet, its apps and the various services.
 
-In the future, this will become  important as more of our tasks will become independent from the devices that we use. Essentially, we will turn devices into commodities that can easily exchanged for another.
+In the future, this will become important as more of our tasks will become independent from the devices that we use. Essentially, we will turn devices into commodities that can easily exchanged for another.
 
 I keep mentioning [[Commodity]] as I will explain it
 

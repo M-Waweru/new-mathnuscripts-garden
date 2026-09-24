@@ -146,14 +146,14 @@ Use the calculator to change any number and see how your break‑even moves.
 
 ## 9) Quick starter budget (1 acre, mid‑case)
 
-|Item|Estimate|
-|---|---|
-|Seedlings (150 × KES 300)|**KES 45,000**|
-|Other setup (fence, water, holes, manure, pipes, labour)|**KES 205,000**|
-|**Total setup (Year 0)**|**KES 250,000**|
-|Annual opex (from Year 1)|**KES 60,000**|
-|Mature revenue (5.5 t @ 100/kg)|**KES 550,000/yr**|
-|**Indicative break‑even**|**~Year 5–6**|
+| Item                                                     | Estimate           |
+| -------------------------------------------------------- | ------------------ |
+| Seedlings (150 × KES 300)                                | **KES 45,000**     |
+| Other setup (fence, water, holes, manure, pipes, labour) | **KES 205,000**    |
+| **Total setup (Year 0)**                                 | **KES 250,000**    |
+| Annual opex (from Year 1)                                | **KES 60,000**     |
+| Mature revenue (5.5 t @ 100/kg)                          | **KES 550,000/yr** |
+| **Indicative break‑even**                                | **~Year 5–6**      |
 
 > These are **illustrative**. Use the calculator to fit your land, spacing, and prices.
 

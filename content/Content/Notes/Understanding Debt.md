@@ -6,7 +6,7 @@ modified: 2024-09-24T00:29:27.846+03:00
 
 # Understanding Debt
 
-Referencing the Google Talks video [here](https://www.youtube.com/watch?v=CZIINXhGDcs\&list=WL\&index=9) on _Debt: The First 5000 Years_ by David Graeber.
+Referencing the Google Talks video [here](https://www.youtube.com/watch?v=CZIINXhGDcs&list=WL&index=9) on _Debt: The First 5000 Years_ by David Graeber.
 
 In this video, David Graeber reflects on thoughts I’ve had for some time about how credit works and how it transforms into debt. It’s interesting that he distinguishes between credit and debt, emphasizing that they are not the same. Debt is more like an "I owe you" dynamic, which aligns with Robert Kiyosaki’s notion that money is debt. But the question arises: who do we owe?
 

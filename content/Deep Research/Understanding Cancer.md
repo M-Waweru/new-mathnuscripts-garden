@@ -158,7 +158,7 @@ Beyond the lab and clinic, there are **ethical, financial, and systemic challen
 
 - **Cost and Access to Care:** Modern cancer treatments can be astoundingly effective – and astoundingly expensive. A single course of a new immunotherapy or targeted drug can cost tens to hundreds of thousands of dollars per year. CAR T-cell therapies and other personalized treatments can exceed \$400,000 for a one-time treatment. These high costs strain healthcare systems and are often not affordable for patients without excellent insurance. In many countries (and for uninsured or underinsured patients in wealthier countries), the **cost barrier means not everyone who could benefit from a breakthrough drug will receive it**[news-medical.net](https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-inequities-between-high-and-low-income-countries.aspx#:~:text=Study%20shows%20growing%20cancer%20treatment,income). We see disparities even within one country: affluent or well-insured patients may get the latest therapies, while others cannot. On a global scale, the situation is more dire. For instance, checkpoint immunotherapy drugs have transformed melanoma survival in high-income countries, but in lower-income regions, they may be completely unavailable due to cost. It’s estimated that in countries like India, **over 95% of patients cannot afford immunotherapy** if it’s needed[journals.plos.org](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000488#:~:text=,Based%20on%20epidemiological). This raises ethical questions: what is the responsibility of governments, companies, and global organizations to ensure equitable access? Cancer treatment inequities are growing – a study showed that newer drugs (like immunotherapies) are **thousands of dollars more per month than older chemo**, and low-income patients are much less likely to receive them[news-medical.net](https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-inequities-between-high-and-low-income-countries.aspx#:~:text=Study%20shows%20growing%20cancer%20treatment,income)[news-medical.net](https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-inequities-between-high-and-low-income-countries.aspx#:~:text=Newer%20cancer%20drugs%20such%20as,income). Efforts like patient assistance programs, generic competition, and value-based pricing are being discussed or implemented, but the **financial toxicity** of cancer is a real problem. Even patients who do get the drugs may face huge out-of-pocket costs, sometimes leading them to forgo treatment or suffer financial ruin. This is an area where policy and ethics intersect – how do we balance rewarding pharmaceutical innovation (so companies can recoup R\&D investments) with making life-saving treatments affordable? It’s a complex challenge with no easy answers yet, but one that must be addressed to avoid a world where cures exist but only for the rich.
 
-- **Pharma and Profit Incentives:** Pharmaceutical companies are major drivers of oncology research (sponsoring many clinical trials and developing drugs), but they are also profit-driven entities. This can create ethical dilemmas. For example, there is an incentive to develop drugs that can be sold at high prices to large markets – which might mean rare cancers or non-profitable approaches (like testing a drug that can’t be patented) get less attention. Some critics point out that many new cancer drugs come with very high price tags not always aligned with the magnitude of benefit. There have been cases of **“me-too” drugs** – similar drugs coming out sequentially that offer marginal improvement but sustain high prices. Additionally, the patent system means a breakthrough drug is monopolized by the developer for years, during which they often charge what the market will bear. We’ve seen active debates among oncologists about the morality of \$200k/year drugs that extend life by a few months[thelancet.com](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045\(24\)00516-3/fulltext?rss=yes#:~:text=Rising%20costs%20of%20cancer%20medicines,is%20%24200%20000%20for)[thelancet.com](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045\(24\)00516-3/fulltext?rss=yes#:~:text=Oncology%20drugs%20can%20cost%20thousands,is%20%24200%20000%20for). On the flip side, one can argue that without the prospect of profit, the private sector wouldn’t invest the billions needed to bring new therapies to patients. Striking a balance between incentive for innovation and ensuring public good is an ongoing policy challenge. There are also concerns about transparency – for instance, sometimes negative trial results are not reported as prominently as positive ones (publication bias), or companies might design trials that favor showing a benefit (like comparing a new drug to a weak competitor instead of the best standard of care). Ethical drug development should put patient benefit first, but the influence of profit can blur that. Regulatory agencies and the medical community are watchdogs here, but controversies (like accelerated approvals of drugs with unclear benefit due to surrogate endpoints) highlight the tension. Overall, while pharma companies have delivered amazing new treatments, **the incentive structures** may need reforms (such as value-based pricing or better global patent sharing for critical medications) to align better with public health needs.
+- **Pharma and Profit Incentives:** Pharmaceutical companies are major drivers of oncology research (sponsoring many clinical trials and developing drugs), but they are also profit-driven entities. This can create ethical dilemmas. For example, there is an incentive to develop drugs that can be sold at high prices to large markets – which might mean rare cancers or non-profitable approaches (like testing a drug that can’t be patented) get less attention. Some critics point out that many new cancer drugs come with very high price tags not always aligned with the magnitude of benefit. There have been cases of **“me-too” drugs** – similar drugs coming out sequentially that offer marginal improvement but sustain high prices. Additionally, the patent system means a breakthrough drug is monopolized by the developer for years, during which they often charge what the market will bear. We’ve seen active debates among oncologists about the morality of \$200k/year drugs that extend life by a few months[thelancet.com](<https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Rising%20costs%20of%20cancer%20medicines,is%20%24200%20000%20for>)[thelancet.com](<https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Oncology%20drugs%20can%20cost%20thousands,is%20%24200%20000%20for>). On the flip side, one can argue that without the prospect of profit, the private sector wouldn’t invest the billions needed to bring new therapies to patients. Striking a balance between incentive for innovation and ensuring public good is an ongoing policy challenge. There are also concerns about transparency – for instance, sometimes negative trial results are not reported as prominently as positive ones (publication bias), or companies might design trials that favor showing a benefit (like comparing a new drug to a weak competitor instead of the best standard of care). Ethical drug development should put patient benefit first, but the influence of profit can blur that. Regulatory agencies and the medical community are watchdogs here, but controversies (like accelerated approvals of drugs with unclear benefit due to surrogate endpoints) highlight the tension. Overall, while pharma companies have delivered amazing new treatments, **the incentive structures** may need reforms (such as value-based pricing or better global patent sharing for critical medications) to align better with public health needs.
 
 - **Clinical Trial Barriers:** Clinical trials are essential for proving that new treatments work, but **enrolling patients in trials is difficult**. Only about 5% of adult cancer patients in the U.S. participate in clinical trials (the number is a bit higher for pediatric cancers). There are multiple barriers: patients may not know about available trials or may not have trials near them. Trials often have strict inclusion criteria (to ensure patient safety and clear results) – for example, a trial may exclude patients with prior organ dysfunction or those who’ve had too many prior treatments. This _excludes a lot of real-world patients_, including many older patients and minorities, leading to trial populations that aren’t fully representative of those who will eventually use the drug. Logistical issues are significant: participating in a trial might require traveling to a specialized cancer center regularly, which is not feasible for some due to distance or cost. There may also be mistrust or fear – patients might worry about getting a placebo or being a “guinea pig.” Ethically, we need to do better at **including diverse populations** in trials and making trials accessible. Some solutions being tried include decentralizing trials (using local labs and telemedicine for follow-ups), providing financial support for travel, and using adaptive trial designs that may allow more patients to join. Another barrier is at the physician level: community oncologists may not offer trials due to lack of infrastructure or may not be aware of all options – improving referral networks could help. There is also the issue of **regulatory and administrative burden** – trials are expensive to run and involve mountains of paperwork and oversight (to protect patients, which is good, but it can also slow things down). Efforts to streamline trial processes without compromising ethics are ongoing. Until we make trials easier to perform and participate in, the testing of new treatments will remain a slower process than it ideally could be[lungevity.org](https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/barriers-to-optimal-care/barriers-to-clinical#:~:text=Barriers%20to%20Clinical%20Trial%20Participation,clinical%20trials%20close%20to)[lungevity.org](https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/barriers-to-optimal-care/barriers-to-clinical#:~:text=In%20addition%2C%20structural%20barriers%20such,clinical%20trials%20close%20to). Finally, in some regions (and particularly in developing countries), trial access is extremely limited – most trials happen in North America, Europe, and parts of Asia. This leads to a gap in data on how treatments work in other populations and delays access in those regions.
 
@@ -254,7 +254,7 @@ For someone navigating a cancer diagnosis today, the landscape is more hopeful t
 
 - 【67】 PLOS Global Public Health (2022) – _Affordability gap of novel treatments in India_ (98% of patients in India cannot afford immunotherapy when indicated)[journals.plos.org](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000488#:~:text=,Based%20on%20epidemiological).
 
-- 【68】 The Lancet Oncology (editorial, 2017) – _Rising costs of cancer medicines_ (Opdivo immunotherapy list price ~\$200,000/year; high prices limit access and benefit from novel therapies)[thelancet.com](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045\(24\)00516-3/fulltext?rss=yes#:~:text=Rising%20costs%20of%20cancer%20medicines,is%20%24200%20000%20for)[thelancet.com](https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045\(24\)00516-3/fulltext?rss=yes#:~:text=Oncology%20drugs%20can%20cost%20thousands,is%20%24200%20000%20for).
+- 【68】 The Lancet Oncology (editorial, 2017) – _Rising costs of cancer medicines_ (Opdivo immunotherapy list price ~\$200,000/year; high prices limit access and benefit from novel therapies)[thelancet.com](<https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Rising%20costs%20of%20cancer%20medicines,is%20%24200%20000%20for>)[thelancet.com](<https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Oncology%20drugs%20can%20cost%20thousands,is%20%24200%20000%20for>).
 
 - 【69】 ASCO (American Society of Clinical Oncology) – _Overcoming Barriers to Clinical Trial Enrollment_ (low participation due to multiple factors: financial, logistical, lack of access to trials near home, etc.)[ascopubs.org](https://ascopubs.org/doi/10.1200/EDBK_243729#:~:text=Overcoming%20Barriers%20to%20Clinical%20Trial,and%20the%20lack%20of)[ascopubs.org](https://ascopubs.org/doi/10.1200/EDBK_243729#:~:text=Publications%20ascopubs,and%20the%20lack%20of).
 
@@ -262,7 +262,7 @@ Citations
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 What Is Cancer? Symptoms, Causes & Types
 
@@ -270,7 +270,7 @@ https://my.clevelandclinic.org/health/diseases/12194-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/12194-cancer#:~:text=Image%3A%20Cancerous%20cells%20multiplying%20and,S)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 What Is Cancer? Symptoms, Causes & Types
 
@@ -278,7 +278,7 @@ https://my.clevelandclinic.org/health/diseases/12194-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/12194-cancer#:~:text=Cancer%20is%20a%20large%20group,but%20cancer%20cells%20ignore%20them)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -316,7 +316,7 @@ https://publications.essex.ac.uk/esj/article/id/224/
 
 ]\(https://publications.essex.ac.uk/esj/article/id/224/#:~:text=While%20cancer%20responds%20to%20attacks,as%20being%20foreign%20due%20to)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -324,7 +324,7 @@ https://www.who.int/news-room/fact-sheets/detail/cancer
 
 ]\(https://www.who.int/news-room/fact-sheets/detail/cancer#:~:text=Causes)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -332,7 +332,7 @@ https://www.who.int/news-room/fact-sheets/detail/cancer
 
 ]\(https://www.who.int/news-room/fact-sheets/detail/cancer#:~:text=,certain%20viruses%2C%20bacteria%2C%20or%20parasites)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -340,7 +340,7 @@ https://www.who.int/news-room/fact-sheets/detail/cancer
 
 ]\(https://www.who.int/news-room/fact-sheets/detail/cancer#:~:text=,certain%20viruses%2C%20bacteria%2C%20or%20parasites)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -348,7 +348,7 @@ https://www.who.int/news-room/fact-sheets/detail/cancer
 
 ]\(https://www.who.int/news-room/fact-sheets/detail/cancer#:~:text=The%20incidence%20of%20cancer%20rises,as%20a%20person%20grows%20older)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 Cancer
 
@@ -368,7 +368,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC11490091/
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC11490091/#:~:text=Traditional%20clinical%20approaches%20for%20cancer,7)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -376,7 +376,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=Traditional%20cancer%20treatments%20are%20currently,Collectively)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -384,7 +384,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,that%20slows%20or%20stops%20the)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 What Is Cancer? Symptoms, Causes & Types
 
@@ -392,7 +392,7 @@ https://my.clevelandclinic.org/health/diseases/12194-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/12194-cancer#:~:text=Cancer%20is%20the%20second%20most,people%20with%20cancer%20live%20longer)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Lung Cancer: Types, Stages, Symptoms, Diagnosis & Treatment
 
@@ -400,7 +400,7 @@ https://my.clevelandclinic.org/health/diseases/4375-lung-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/4375-lung-cancer#:~:text=Lung%20cancer%20is%20the%20name,that%E2%80%99s%20metastatic%20to%20your%20lungs)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Lung Cancer—Patient Version - NCI
 
@@ -412,7 +412,7 @@ https://cdn.pfizer.com/pfizercom/news/asco/Merck-PfizerAlliance\_LungFactSheet\_
 
 ]\(https://cdn.pfizer.com/pfizercom/news/asco/Merck-PfizerAlliance\_LungFactSheet\_6May2015US.pdf#:~:text=What%20is%20lung%20cancer%3F%20Lung,307K)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Lung Cancer: Types, Stages, Symptoms, Diagnosis & Treatment
 
@@ -420,7 +420,7 @@ https://my.clevelandclinic.org/health/diseases/4375-lung-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/4375-lung-cancer#:~:text=match%20at%20L280%20diagnosis%20would,the%20best%20kind%20of%20treatment)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Lung Cancer: Types, Stages, Symptoms, Diagnosis & Treatment
 
@@ -428,7 +428,7 @@ https://my.clevelandclinic.org/health/diseases/4375-lung-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/4375-lung-cancer#:~:text=There%20are%20many%20cancers%20that,and%20small%20cell%20lung%20cancer)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Lung Cancer: Types, Stages, Symptoms, Diagnosis & Treatment
 
@@ -436,7 +436,7 @@ https://my.clevelandclinic.org/health/diseases/4375-lung-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/4375-lung-cancer#:~:text=,SCLC)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 Breast Cancer - StatPearls - NCBI Bookshelf
 
@@ -444,7 +444,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK482286/
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK482286/#:~:text=Breast%20cancer%20most%20commonly%20arises,hormonal%20therapy%2C%20and%2C%20more%20recently)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 Breast Cancer - StatPearls - NCBI Bookshelf
 
@@ -452,7 +452,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK482286/
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK482286/#:~:text=through%20screening%20rather%20than%20due,17)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -460,7 +460,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=Prostate%20Cancer)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -468,7 +468,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=Prostate%20cancer%20is%20cancer%20that,healthy%20for%20conception%20and%20pregnancy)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -476,7 +476,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=Cancer%20staging%20allows%20your%20provider,brain%2C%20lungs%20and%20other%20organs)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -484,7 +484,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=,Imaging)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -492,7 +492,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=cancer.%20%2A%20Prostate,healthcare%20provider%20removes%20a%20tissue)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -500,7 +500,7 @@ https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/8634-prostate-cancer#:~:text=Prostate%20cancer%20is%20a%20serious,from%20prostate%20cancer%20each%20year)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Prostate Cancer: Symptoms, Causes & Treatment
 
@@ -514,7 +514,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC6878826/
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC6878826/#:~:text=Colorectal%20cancer%20begins%20as%20a,cancer%20risk%20include%20average%20risk)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -522,7 +522,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=mutate%20or%20change%2C%20they%20may,create%20a%20colon%20polyp)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -530,7 +530,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=Colon%20cancer%20develops%20from%20certain,are%20dying%20from%20colon%20cancer)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -538,7 +538,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=,after%20going%20to%20the%20bathroom)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -546,7 +546,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=,and%2For%20diarrhea%2C%20or%20if%20you)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Pancreatic Ductal Adenocarcinoma Study - NCI
 
@@ -554,7 +554,7 @@ https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers/pancr
 
 ]\(https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers/pancreatic-ductal-adenocarcinoma-study#:~:text=Pancreatic%20ductal%20adenocarcinoma%20is%20the,2)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Pancreatic Ductal Adenocarcinoma Study - NCI
 
@@ -562,7 +562,7 @@ https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers/pancr
 
 ]\(https://www.cancer.gov/ccg/research/genome-sequencing/tcga/studied-cancers/pancreatic-ductal-adenocarcinoma-study#:~:text=Pancreatic%20cancer%20is%20the%20fourth,19)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 Pancreatic Cancer - StatPearls - NCBI Bookshelf
 
@@ -570,7 +570,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK518996/
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK518996/#:~:text=Pancreatic%20Cancer%C2%A0Risk%20Factors)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 Pancreatic Cancer - StatPearls - NCBI Bookshelf
 
@@ -578,7 +578,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK518996/
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK518996/#:~:text=%2A%20Smoking%20%2820,cancers%20are%20caused%20by%20smoking)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 Pancreatic Cancer - StatPearls - NCBI Bookshelf
 
@@ -586,7 +586,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK518996/
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK518996/#:~:text=Pancreatic%20cancer%20refers%20to%20the,interprofessional%20team%20in%20its%20management)\[
 
-![](https://www.google.com/s2/favicons?domain=https://stemcell.ucla.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://stemcell.ucla.edu&sz=32)
 
 Cellular protein plays important role in aggressive childhood cancer
 
@@ -594,7 +594,7 @@ https://stemcell.ucla.edu/news/cellular-protein-plays-important-role-aggressive-
 
 ]\(https://stemcell.ucla.edu/news/cellular-protein-plays-important-role-aggressive-childhood-cancer#:~:text=Leukemia%20is%20a%20cancer%20of,its%20ability%20to%20fight%20infection)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Leukemia: Symptoms, Signs, Causes, Types & Treatment
 
@@ -602,7 +602,7 @@ https://my.clevelandclinic.org/health/diseases/4365-leukemia
 
 ]\(https://my.clevelandclinic.org/health/diseases/4365-leukemia#:~:text=By%20speed%20of%20disease%20progression)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Leukemia: Symptoms, Signs, Causes, Types & Treatment
 
@@ -610,7 +610,7 @@ https://my.clevelandclinic.org/health/diseases/4365-leukemia
 
 ]\(https://my.clevelandclinic.org/health/diseases/4365-leukemia#:~:text=There%20are%20four%20main%20types,of%20leukemia)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Leukemia: Symptoms, Signs, Causes, Types & Treatment
 
@@ -618,7 +618,7 @@ https://my.clevelandclinic.org/health/diseases/4365-leukemia
 
 ]\(https://my.clevelandclinic.org/health/diseases/4365-leukemia#:~:text=How%20is%20leukemia%20diagnosed%3F)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Leukemia: Symptoms, Signs, Causes, Types & Treatment
 
@@ -626,7 +626,7 @@ https://my.clevelandclinic.org/health/diseases/4365-leukemia
 
 ]\(https://my.clevelandclinic.org/health/diseases/4365-leukemia#:~:text=specific%20type%20of%20leukemia,marrow%2C%20confirming%20a%20leukemia%20diagnosis)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -634,7 +634,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,them%20grow%2C%20divide%2C%20and%20spread)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -642,7 +642,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=Roughly%20half%20of%20all%20cancer,This)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -650,7 +650,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=Roughly%20half%20of%20all%20cancer,to%20be%20potent%20while%20preventing)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -658,7 +658,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,cell%20transplants%20are%20procedures%20that)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -666,7 +666,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,treatment%20in%20which%20body%20tissue)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -674,7 +674,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,uses%20a%20drug%20activated%20by)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -682,7 +682,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=incomplete%20eradication%20of%20the%20cancer,to%20the%20patient%20and%20an)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -690,7 +690,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=sites%2C%20whereas%20they%20are%20large,modality%20treatment%2C%20and%20theranostics)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -698,7 +698,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=Nanotechnology,platforms%20make%20use%20of%20nanoparticles)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -706,7 +706,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=nanoparticles%2C%20driven%20by%20the%20inherent,sensitizing%20cancer%20cells%20to%20radiotherapy)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -714,7 +714,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=surface%20area%20can%20be%20functionalized,modality%20treatment%2C%20and%20theranostics)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -722,7 +722,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=in%20vivo,modality%20treatment%2C%20and)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Nanotechnology Cancer Therapy and Treatment - NCI
 
@@ -730,7 +730,7 @@ https://www.cancer.gov/nano/cancer-nanotechnology/treatment
 
 ]\(https://www.cancer.gov/nano/cancer-nanotechnology/treatment#:~:text=Research%20on%20nanotechnology%20cancer%20therapy,can%20actively%20direct%20their%20destination)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.technologynetworks.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.technologynetworks.com&sz=32)
 
 CRISPR Cancer Treatment Shows Promise in New Trial | Technology Networks
 
@@ -750,7 +750,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC9846804/
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC9846804/#:~:text=treatment%20pmc,diagnosis%2C%20treatment%20and%20prognosis%20prediction)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com&sz=32)
 
 AI Tools for Accurate Cancer Diagnosis and Tailored Treatment
 
@@ -758,7 +758,7 @@ https://www.targetedonc.com/view/ai-tools-for-accurate-cancer-diagnosis-and-tail
 
 ]\(https://www.targetedonc.com/view/ai-tools-for-accurate-cancer-diagnosis-and-tailored-treatment#:~:text=Parwani%20explains%20that%20AI%20tools,from%20personalized%20to%20precision%20medicine)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com&sz=32)
 
 AI Tools for Accurate Cancer Diagnosis and Tailored Treatment
 
@@ -772,7 +772,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC9010213/
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC9010213/#:~:text=,These%20methods)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.org&sz=32)
 
 Precision or Personalized Medicine | Precision Medicine for Cancer | American Cancer Society
 
@@ -780,7 +780,7 @@ https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine
 
 ]\(https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine.html#:~:text=Precision%20medicine%20is%20a%20way,personalized%20medicine%20or%20personalized%20care)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.org&sz=32)
 
 Precision or Personalized Medicine | Precision Medicine for Cancer | American Cancer Society
 
@@ -788,7 +788,7 @@ https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine
 
 ]\(https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine.html#:~:text=With%20regard%20to%20cancer%2C%20precision,have%20other%20uses%20as%20well)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.org&sz=32)
 
 Precision or Personalized Medicine | Precision Medicine for Cancer | American Cancer Society
 
@@ -796,7 +796,7 @@ https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine
 
 ]\(https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine.html#:~:text=With%20regard%20to%20cancer%2C%20precision,have%20other%20uses%20as%20well)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -804,7 +804,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=Oncolytic%20viruses%20are%20a%20form,infect%20and%20destroy%20cancer%20cells)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -812,7 +812,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=1,anywhere%20else%20in%20the%20body)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -820,7 +820,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=3,anywhere%20else%20in%20the%20body)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -828,7 +828,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=In%202015%2C%20the%20U,CSF%20protein)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -836,7 +836,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=cancer%20for%20several%20reasons%3A)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -844,7 +844,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=2,anywhere%20else%20in%20the%20body)\[
 
-![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov&sz=32)
 
 Oncolytic Viruses and Cancer Immunotherapy - PubMed
 
@@ -852,7 +852,7 @@ https://pubmed.ncbi.nlm.nih.gov/36441447/
 
 ]\(https://pubmed.ncbi.nlm.nih.gov/36441447/#:~:text=PubMed%20pubmed,tumor%20immunity)\[
 
-![](https://www.google.com/s2/favicons?domain=https://eqtgroup.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://eqtgroup.com&sz=32)
 
 The Breakthrough Era for Cancer Vaccines - EQT Group
 
@@ -860,7 +860,7 @@ https://eqtgroup.com/thinq/healthcare/cancer-vaccines-breakthrough-era-joachim-r
 
 ]\(https://eqtgroup.com/thinq/healthcare/cancer-vaccines-breakthrough-era-joachim-rothe#:~:text=In%20the%20final%20weeks%20of,quest%20for%20a%20cancer%20vaccine)\[
 
-![](https://www.google.com/s2/favicons?domain=https://investors.modernatx.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://investors.modernatx.com&sz=32)
 
 Moderna & Merck Announce 3-Year Data For mRNA-4157 (V940) in ...
 
@@ -868,7 +868,7 @@ https://investors.modernatx.com/news/news-details/2024/Moderna--Merck-Announce-3
 
 ]\(https://investors.modernatx.com/news/news-details/2024/Moderna--Merck-Announce-3-Year-Data-For-mRNA-4157-V940-in-Combination-With-KEYTRUDAR-pembrolizumab-Demonstrated-Sustained-Improvement-in-Recurrence-Free-Survival--Distant-Metastasis-Free-Survival-Versus-KEYTRUDA-in-Patients-With-High-Risk-Stage-IIIIV/default.aspx#:~:text=Moderna%20%26%20Merck%20Announce%203,for%20KEYTRUDA%20alone)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.nature.com&sz=32)
 
 Personalized anti-cancer vaccine combining mRNA and ... - Nature
 
@@ -876,7 +876,7 @@ https://www.nature.com/articles/d41591-023-00072-0
 
 ]\(https://www.nature.com/articles/d41591-023-00072-0#:~:text=Nature%20www,4157%20%28also%20known)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.nature.com&sz=32)
 
 Personalized anti-cancer vaccine combining mRNA and ... - Nature
 
@@ -884,7 +884,7 @@ https://www.nature.com/articles/d41591-023-00072-0
 
 ]\(https://www.nature.com/articles/d41591-023-00072-0#:~:text=On%2026%20July%202023%2C%20Moderna,4157%20%28also%20known)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 Oncolytic Virus Therapy - Cancer Research Institute
 
@@ -892,7 +892,7 @@ https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=surrounding%20uninfected%20cells,related%20cancers)\[
 
-![](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://academic.oup.com&sz=32)
 
 Looking to the Future of Early Detection in Cancer: Liquid Biopsies ...
 
@@ -900,7 +900,7 @@ https://academic.oup.com/clinchem/article/70/1/27/7505418
 
 ]\(https://academic.oup.com/clinchem/article/70/1/27/7505418#:~:text=Liquid%20biopsy%20tests%20can%20identify,promoting%20early%20detection%20and)\[
 
-![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov&sz=32)
 
 Liquid biopsy for early cancer detection: technological revolutions ...
 
@@ -920,7 +920,7 @@ https://pmc.ncbi.nlm.nih.gov/articles/PMC11130638/
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC11130638/#:~:text=Still%2C%20a%20liquid%20biopsy%20can,detection%20rate%20of%20early%E2%80%90stage%20cancers)\[
 
-![](https://www.google.com/s2/favicons?domain=https://translational-medicine.biomedcentral.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://translational-medicine.biomedcentral.com&sz=32)
 
 Liquid biopsies: the future of cancer early detection
 
@@ -928,7 +928,7 @@ https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-039
 
 ]\(https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-03960-8#:~:text=Liquid%20biopsies%3A%20the%20future%20of,in%20achieving%20early%20cancer%20detection)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net&sz=32)
 
 Study shows growing cancer treatment inequities between high and ...
 
@@ -936,7 +936,7 @@ https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-
 
 ]\(https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-inequities-between-high-and-low-income-countries.aspx#:~:text=Study%20shows%20growing%20cancer%20treatment,income)\[
 
-![](https://www.google.com/s2/favicons?domain=https://journals.plos.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://journals.plos.org&sz=32)
 
 Addressing the affordability gap of novel cancer treatments in ...
 
@@ -944,7 +944,7 @@ https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000488
 
 ]\(https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000488#:~:text=,Based%20on%20epidemiological)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net&sz=32)
 
 Study shows growing cancer treatment inequities between high and ...
 
@@ -964,7 +964,7 @@ https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fullt
 
 ]\(https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Oncology%20drugs%20can%20cost%20thousands,is%20%24200%20000%20for)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org&sz=32)
 
 Barriers to Clinical Trial Participation - LUNGevity Foundation
 
@@ -972,7 +972,7 @@ https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/
 
 ]\(https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/barriers-to-optimal-care/barriers-to-clinical#:~:text=Barriers%20to%20Clinical%20Trial%20Participation,clinical%20trials%20close%20to)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org&sz=32)
 
 Barriers to Clinical Trial Participation - LUNGevity Foundation
 
@@ -980,7 +980,7 @@ https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/
 
 ]\(https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/barriers-to-optimal-care/barriers-to-clinical#:~:text=In%20addition%2C%20structural%20barriers%20such,clinical%20trials%20close%20to)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -988,7 +988,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,them%20grow%2C%20divide%2C%20and%20spread)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -996,7 +996,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=Over%20time%2C%20colon%20polyps%20may,parts%20of%20your%20body%20via)\[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 Colon Cancer: Symptoms, Stages & Treatment
 
@@ -1004,7 +1004,7 @@ https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer
 
 ]\(https://my.clevelandclinic.org/health/diseases/14501-colorectal-colon-cancer#:~:text=Colorectal%20)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -1012,7 +1012,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,treatment%20in%20which%20body%20tissue)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -1020,7 +1020,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,the%20changes%20in%20cancer%20cells)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 Types of Cancer Treatment - NCI
 
@@ -1028,7 +1028,7 @@ https://www.cancer.gov/about-cancer/treatment/types
 
 ]\(https://www.cancer.gov/about-cancer/treatment/types#:~:text=,them%20grow%2C%20divide%2C%20and%20spread)\[
 
-![](https://www.google.com/s2/favicons?domain=https://ascopubs.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://ascopubs.org&sz=32)
 
 Overcoming Barriers to Clinical Trial Enrollment - ASCO Publications
 
@@ -1036,7 +1036,7 @@ https://ascopubs.org/doi/10.1200/EDBK\_243729
 
 ]\(https://ascopubs.org/doi/10.1200/EDBK\_243729#:~:text=Overcoming%20Barriers%20to%20Clinical%20Trial,and%20the%20lack%20of)\[
 
-![](https://www.google.com/s2/favicons?domain=https://ascopubs.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://ascopubs.org&sz=32)
 
 Overcoming Barriers to Clinical Trial Enrollment - ASCO Publications
 
@@ -1048,13 +1048,13 @@ All Sources
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://my.clevelandclinic.org&sz=32)
 
 my.clevelandclinic
 
 ]\(https://my.clevelandclinic.org/health/diseases/12194-cancer#:~:text=Image%3A%20Cancerous%20cells%20multiplying%20and,S)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.who.int\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.who.int&sz=32)
 
 who
 
@@ -1068,7 +1068,7 @@ pmc.ncbi.nlm.nih
 
 ]\(https://pmc.ncbi.nlm.nih.gov/articles/PMC11490091/#:~:text=Traditional%20clinical%20approaches%20for%20cancer,7)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.gov&sz=32)
 
 cancer
 
@@ -1078,85 +1078,85 @@ cdn.pfizer
 
 ]\(https://cdn.pfizer.com/pfizercom/news/asco/Merck-PfizerAlliance\_LungFactSheet\_6May2015US.pdf#:~:text=What%20is%20lung%20cancer%3F%20Lung,307K)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ncbi.nlm.nih.gov&sz=32)
 
 ncbi.nlm.nih
 
 ]\(https://www.ncbi.nlm.nih.gov/books/NBK482286/#:~:text=Breast%20cancer%20most%20commonly%20arises,hormonal%20therapy%2C%20and%2C%20more%20recently)\[
 
-![](https://www.google.com/s2/favicons?domain=https://stemcell.ucla.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://stemcell.ucla.edu&sz=32)
 
 stemcell.ucla
 
 ]\(https://stemcell.ucla.edu/news/cellular-protein-plays-important-role-aggressive-childhood-cancer#:~:text=Leukemia%20is%20a%20cancer%20of,its%20ability%20to%20fight%20infection)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.technologynetworks.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.technologynetworks.com&sz=32)
 
 technologynetworks
 
 ]\(https://www.technologynetworks.com/drug-discovery/news/clinical-trial-shows-promise-for-crisprcas9-gi-gastrointestinal-cancer-therapy-399294#:~:text=In%20the%20study%2C%20researchers%20used,recognize%20and%20attack%20cancer%20cells)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.targetedonc.com&sz=32)
 
 targetedonc
 
 ]\(https://www.targetedonc.com/view/ai-tools-for-accurate-cancer-diagnosis-and-tailored-treatment#:~:text=Parwani%20explains%20that%20AI%20tools,from%20personalized%20to%20precision%20medicine)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancer.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancer.org&sz=32)
 
 cancer
 
 ]\(https://www.cancer.org/cancer/managing-cancer/treatment-types/precision-medicine.html#:~:text=Precision%20medicine%20is%20a%20way,personalized%20medicine%20or%20personalized%20care)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cancerresearch.org&sz=32)
 
 cancerresearch
 
 ]\(https://www.cancerresearch.org/immunotherapy-by-treatment-types/oncolytic-virus-therapy#:~:text=Oncolytic%20viruses%20are%20a%20form,infect%20and%20destroy%20cancer%20cells)\[
 
-![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://pubmed.ncbi.nlm.nih.gov&sz=32)
 
 pubmed.ncbi.nlm.nih
 
 ]\(https://pubmed.ncbi.nlm.nih.gov/36441447/#:~:text=PubMed%20pubmed,tumor%20immunity)\[
 
-![](https://www.google.com/s2/favicons?domain=https://eqtgroup.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://eqtgroup.com&sz=32)
 
 eqtgroup
 
 ]\(https://eqtgroup.com/thinq/healthcare/cancer-vaccines-breakthrough-era-joachim-rothe#:~:text=In%20the%20final%20weeks%20of,quest%20for%20a%20cancer%20vaccine)\[
 
-![](https://www.google.com/s2/favicons?domain=https://investors.modernatx.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://investors.modernatx.com&sz=32)
 
 investors.modernatx
 
 ]\(https://investors.modernatx.com/news/news-details/2024/Moderna--Merck-Announce-3-Year-Data-For-mRNA-4157-V940-in-Combination-With-KEYTRUDAR-pembrolizumab-Demonstrated-Sustained-Improvement-in-Recurrence-Free-Survival--Distant-Metastasis-Free-Survival-Versus-KEYTRUDA-in-Patients-With-High-Risk-Stage-IIIIV/default.aspx#:~:text=Moderna%20%26%20Merck%20Announce%203,for%20KEYTRUDA%20alone)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.nature.com&sz=32)
 
 nature
 
 ]\(https://www.nature.com/articles/d41591-023-00072-0#:~:text=Nature%20www,4157%20%28also%20known)\[
 
-![](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://academic.oup.com&sz=32)
 
 academic.oup
 
 ]\(https://academic.oup.com/clinchem/article/70/1/27/7505418#:~:text=Liquid%20biopsy%20tests%20can%20identify,promoting%20early%20detection%20and)\[
 
-![](https://www.google.com/s2/favicons?domain=https://translational-medicine.biomedcentral.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://translational-medicine.biomedcentral.com&sz=32)
 
 translat...edcentral
 
 ]\(https://translational-medicine.biomedcentral.com/articles/10.1186/s12967-023-03960-8#:~:text=Liquid%20biopsies%3A%20the%20future%20of,in%20achieving%20early%20cancer%20detection)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.news-medical.net&sz=32)
 
 news-medical
 
 ]\(https://www.news-medical.net/news/20241125/Study-shows-growing-cancer-treatment-inequities-between-high-and-low-income-countries.aspx#:~:text=Study%20shows%20growing%20cancer%20treatment,income)\[
 
-![](https://www.google.com/s2/favicons?domain=https://journals.plos.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://journals.plos.org&sz=32)
 
 journals.plos
 
@@ -1166,13 +1166,13 @@ thelancet
 
 ]\(https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00516-3/fulltext?rss=yes#:~:text=Rising%20costs%20of%20cancer%20medicines,is%20%24200%20000%20for)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.lungevity.org&sz=32)
 
 lungevity
 
 ]\(https://www.lungevity.org/learn-about-lungevity/patient-focused-research-center/barriers-to-optimal-care/barriers-to-clinical#:~:text=Barriers%20to%20Clinical%20Trial%20Participation,clinical%20trials%20close%20to)\[
 
-![](https://www.google.com/s2/favicons?domain=https://ascopubs.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://ascopubs.org&sz=32)
 
 ascopubs
 

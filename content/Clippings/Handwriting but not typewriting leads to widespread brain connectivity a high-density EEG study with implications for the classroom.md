@@ -50,7 +50,7 @@ The experiment comprised a total of 30 trials, where each word appeared in two d
 
 FIGURE 1
 
-[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480\&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g001.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g001.jpg)
+[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g001.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g001.jpg)
 
 **Figure 1**. Task design, behavioral performance, and sequence of the connectivity analyses. Visually presented words were either written by hand with a digital pen or typed on a keyboard while participants were wearing a 256-channel sensor array. EEG recordings were analyzed in terms of their functional connectivity, resulting in detailed network measures.
 
@@ -80,7 +80,7 @@ A time-frequency display is shown for three important brain regions in [Figure 2
 
 FIGURE 2
 
-[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480\&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g002.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g002.jpg)
+[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g002.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g002.jpg)
 
 **Figure 2**. Grand average coherence results. Displayed are only three selected connectivity areas of interest for the two experimental conditions handwriting and typewriting (left panels), together with the difference in coherence between writing and typing and their permutation results (right panels). Connectivity areas of large significant difference between handwriting and typewriting included brain regions CR-PM (central right-parietal midline, top two panels on the left) and CL-PM (central left-parietal midline, middle two panels on the left), as well as CM-CR (central midline-central right, bottom two panels on the left), in frequencies ranging from theta (2 Hz) and up to gamma (60 Hz). The x-axes display the time interval from baseline to 4,500 ms of recordings of the trial. The signal magnitude reflects the estimated neural connectivity strength between the various brain areas during the experimental conditions compared to baseline activity (−250 to 0 ms). Positive connectivity is shown as (shades of) red-colored contours in handwriting/typewriting plots (panels on the left) and difference plots between handwriting and typewriting/permutation results (panels on the right). Positive connectivity is significantly more prominent in lower frequencies (theta 3.5–7.5 Hz and alpha 8–12.5) for handwriting (0 ≤  _p_  < 0.05, see also [Figure 4](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1219945/#fig4)).
 
@@ -92,13 +92,13 @@ Comparisons between the two conditions handwriting and typewriting were computed
 
 FIGURE 3
 
-[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480\&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g003.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g003.jpg)
+[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g003.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g003.jpg)
 
 **Figure 3**. Connectivity results of writing over typing. **(A)** Grand average connectivity matrix results show widespread theta/alpha coherence results (in red) between PL, PM, PR and CL, CM, CR brain regions when writing by hand, but not when typing. The y-axes display frequencies from 2 to 60 Hz. The x-axes display the time interval from baseline to 4,500 ms of recordings of the trial for all involved brain regions. The signal magnitude (coherence) reflects the estimated neural connectivity between the various brain regions during the writing condition compared to baseline activity (−250 to 0 ms). **(B)** Further illustration of connectivity patterns revealing a concentration of 16 significant connections for handwriting compared to typewriting. Connection lines in red indicate connectivity in the theta range whereas lines in blue indicate connectivity in the alpha range. Levels of significance in connectivity strength for handwriting, but not for typewriting are further indicated by solid (<0.0001), dashed (<0.005), and dotted (<0.05) connection lines.
 
 FIGURE 4
 
-[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480\&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g004.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g004.jpg)
+[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g004.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g004.jpg)
 
 **Figure 4**. Symmetric connectivity matrix with _t_ -values **(A)** and significance Table **(B)** with significant data clusters in the various sources of interest when handwriting is compared to typewriting in all participants. Thirty-two significant cluster differences marked in orange in **(A)** and fully described in **(B)** were found in the matrix and came out particularly significant in the parietal left (PL), parietal midline (PM), and parietal right (PR) areas.
 
@@ -116,7 +116,7 @@ As can be seen in [Figure 4](https://www.frontiersin.org/journals/psychology/art
 
 FIGURE 5
 
-[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480\&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g005.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g005.jpg)
+[![www.frontiersin.org](https://images-provider.frontiersin.org/api/ipx/w=480&f=webp/https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g005.jpg)](https://www.frontiersin.org/files/Articles/1219945/fpsyg-14-1219945-HTML-r2/image_m/fpsyg-14-1219945-g005.jpg)
 
 **Figure 5**. The adjacency matrix for handwriting. **(A)** Hub, nodes, and edges of a simplified theoretical network. **(B)** Brain connectivity network of handwriting compared to typewriting in this experiment. **(C)** Hubs (in red, ≥ 4 departures/arrivals) and nodes (in black, ≤ 3 departures/arrivals) interacting between brain regions PL, PM, PR and CL, CM, CR show widespread theta/alpha connectivity patterns when writing by hand, but not when typing.
 
@@ -192,11 +192,11 @@ Berens, S. C., and Horner, A. J. (2017). Theta rhythm: temporal glue for episodi
 
 Berg, P., and Scherg, M. (1994). A multiple source approach to the correction of eye artifacts. _Electroencephalogr. Clin. Neurophysiol._ 90, 229–241. doi: 10.1016/0013-4694(94)90094-9
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/7511504) | [CrossRef Full Text](https://doi.org/10.1016/0013-4694\(94\)90094-9) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/7511504) | [CrossRef Full Text](<https://doi.org/10.1016/0013-4694(94)90094-9>) |
 
 Bland, B. H., and Oddie, S. D. (2001). Theta band oscillations and synchrony in the hippocampal formation and associated structures: the case for its role in sensorimotor integration. _Behav. Brain Res._ 127, 119–136. doi: 10.1016/S0166-4328(01)00358-8
 
-[CrossRef Full Text](https://doi.org/10.1016/S0166-4328\(01\)00358-8) |
+[CrossRef Full Text](<https://doi.org/10.1016/S0166-4328(01)00358-8>) |
 
 Brownsett, S. L., and Wise, R. J. (2010). The contribution of the parietal lobes to speaking and writing. _Cereb. Cortex_ 20, 517–523. doi: 10.1093/cercor/bhp120
 
@@ -264,19 +264,19 @@ Kiefer, M., Schuler, S., Mayer, C., Trumpp, N. M., Hille, K., and Sachse, S. (20
 
 Klimesch, W. (1999). EEG alpha and theta oscillations reflect cognitive and memory performance: a review and analysis. _Brain Res. Rev._ 29, 169–195. doi: 10.1016/S0165-0173(98)00056-3
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/10209231) | [CrossRef Full Text](https://doi.org/10.1016/S0165-0173\(98\)00056-3) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/10209231) | [CrossRef Full Text](<https://doi.org/10.1016/S0165-0173(98)00056-3>) |
 
 Klimesch, W., Doppelmayr, M., Yonelinas, A., Kroll, N. E., Lazzara, M., Röhm, D., et al. (2001). Theta synchronization during episodic retrieval: neural correlates of conscious awareness. _Cogn. Brain Res._ 12, 33–38. doi: 10.1016/S0926-6410(01)00024-6
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/11489606) | [CrossRef Full Text](https://doi.org/10.1016/S0926-6410\(01\)00024-6) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/11489606) | [CrossRef Full Text](<https://doi.org/10.1016/S0926-6410(01)00024-6>) |
 
 Klimesch, W., Schimke, H., Doppelmayr, M., Ripper, B., Schwaiger, J., and Pfurtscheller, G. (1996). Event-related desynchronization (ERD) and the Dm-effect: does alpha desynchronization during encoding predict later recall performance? _Int. J. Psychophysiol._ 24, 47–60. doi: 10.1016/S0167-8760(96)00054-2
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8978435) | [CrossRef Full Text](https://doi.org/10.1016/S0167-8760\(96\)00054-2) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8978435) | [CrossRef Full Text](<https://doi.org/10.1016/S0167-8760(96)00054-2>) |
 
 Klimesch, W., Schimke, H., and Schwaiger, J. (1994). Episodic and semantic memory: an analysis in the EEG theta and alpha band. _Electroencephalogr. Clin. Neurophysiol._ 91, 428–441. doi: 10.1016/0013-4694(94)90164-3
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/7529682) | [CrossRef Full Text](https://doi.org/10.1016/0013-4694\(94\)90164-3) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/7529682) | [CrossRef Full Text](<https://doi.org/10.1016/0013-4694(94)90164-3>) |
 
 Li, J. X., and James, K. H. (2016). Handwriting generates variable visual output to facilitate symbol learning. _J. Exp. Psychol. Gen._ 145, 298–313. doi: 10.1037/xge0000134
 
@@ -296,7 +296,7 @@ Longcamp, M., Zerbato-Poudou, M. T., and Velay, J. L. (2005). The influence of w
 
 Lopes da Silva, F. H. (1991). Neural mechanisms underlying brain waves: from neural membranes to networks. _Electroencephalogr. Clin. Neurophysiol._ 79, 81–93. doi: 10.1016/0013-4694(91)90044-5
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/1713832) | [CrossRef Full Text](https://doi.org/10.1016/0013-4694\(91\)90044-5) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/1713832) | [CrossRef Full Text](<https://doi.org/10.1016/0013-4694(91)90044-5>) |
 
 Mangen, A., and Balsvik, L. (2016). Pen or keyboard in beginning writing instruction? Some perspectives from embodied cognition. _Trends Neurosci. Educ._ 5, 99–106. doi: 10.1016/j.tine.2016.06.003
 
@@ -308,7 +308,7 @@ Mueller, P. A., and Oppenheimer, D. M. (2014). The pen is mightier than the keyb
 
 Oldfield, R. C. (1971). The assessment and analysis of handedness: the Edinburgh inventory. _Neuropsychologia_ 9, 97–113. doi: 10.1016/0028-3932(71)90067-4
 
-[CrossRef Full Text](https://doi.org/10.1016/0028-3932\(71\)90067-4) |
+[CrossRef Full Text](<https://doi.org/10.1016/0028-3932(71)90067-4>) |
 
 Osugi, K., Ihara, A. S., Nakajima, K., Kake, A., Ishimaru, K., Yokota, Y., et al. (2019). Differences in brain activity after learning with the use of a digital pen vs. an ink pen: an electroencephalography study. _Front. Hum. Neurosci._ 13:275. doi: 10.3389/fnhum.2019.00275
 
@@ -324,19 +324,19 @@ Pei, L., Longcamp, M., Leung, F. K.-S., and Ouyang, G. (2021). Temporally resolv
 
 Perrin, F., Pernier, J., Bertrand, O., and Echallier, J. F. (1989). Spherical splines for scalp potential and current density mapping. _Electroencephalogr. Clin. Neurophysiol._ 72, 184–187. doi: 10.1016/0013-4694(89)90180-6
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/2464490) | [CrossRef Full Text](https://doi.org/10.1016/0013-4694\(89\)90180-6) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/2464490) | [CrossRef Full Text](<https://doi.org/10.1016/0013-4694(89)90180-6>) |
 
 Pfurtscheller, G., and Aranibar, A. (1977). Event-related cortical desynchronization detected by power measurements of scalp EEG. _Electroencephalogr. Clin. Neurophysiol._ 42, 817–826. doi: 10.1016/0013-4694(77)90235-8
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/67933) | [CrossRef Full Text](https://doi.org/10.1016/0013-4694\(77\)90235-8) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/67933) | [CrossRef Full Text](<https://doi.org/10.1016/0013-4694(77)90235-8>) |
 
 Pfurtscheller, G., and Lopes da Silva, F. H. (1999). Event-related EEG/MEG synchronization and desynchronization: basic principles. _Clin. Neurophysiol._ 110, 1842–1857. doi: 10.1016/S1388-2457(99)00141-8
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/10576479) | [CrossRef Full Text](https://doi.org/10.1016/S1388-2457\(99\)00141-8) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/10576479) | [CrossRef Full Text](<https://doi.org/10.1016/S1388-2457(99)00141-8>) |
 
 Pfurtscheller, G., Stancak, A. J., and Neuper, C. (1996). Event-related synchronization (ERS) in the alpha band - an electrophysiological correlate of cortical idling: a review. _Int. J. Psychophysiol._ 24, 39–46. doi: 10.1016/S0167-8760(96)00066-9
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8978434) | [CrossRef Full Text](https://doi.org/10.1016/S0167-8760\(96\)00066-9) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8978434) | [CrossRef Full Text](<https://doi.org/10.1016/S0167-8760(96)00066-9>) |
 
 Picton, T. W., Bentin, S., Berg, P., Donchin, E., Hillyard, S. A., Johnson, R. J., et al. (2000). Guidelines for using human event-related potentials to study cognition: recording standards and publication criteria. _Psychophysiology_ 37, 127–152. doi: 10.1111/1469-8986.3720127
 
@@ -348,11 +348,11 @@ Raghavachari, S., Kahana, M. J., Rizzuto, D. S., Caplan, J. B., Kirschen, M. P.,
 
 Rosenberg, J. R., Amjad, A. M., Breeze, P., Brillinger, D. R., and Halliday, D. M. (1989). The fourier approach to the identification of functional coupling between neuronal spike trains. _Prog. Biophys. Mol. Biol._ 53, 1–31. doi: 10.1016/0079-6107(89)90004-7
 
-[CrossRef Full Text](https://doi.org/10.1016/0079-6107\(89\)90004-7) |
+[CrossRef Full Text](<https://doi.org/10.1016/0079-6107(89)90004-7>) |
 
 Salmelin, R., and Hari, R. (1994). Spatiotemporal characteristics of sensorimotor neuromagnetic rhythms related to thumb movement. _Neuroscience_ 60, 537–550. doi: 10.1016/0306-4522(94)90263-1
 
-[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8072694) | [CrossRef Full Text](https://doi.org/10.1016/0306-4522\(94\)90263-1) |
+[PubMed Abstract](https://pubmed.ncbi.nlm.nih.gov/8072694) | [CrossRef Full Text](<https://doi.org/10.1016/0306-4522(94)90263-1>) |
 
 Scherg, M., and Berg, P. (1991). Use of prior knowledge in brain electromagnetic source analysis. _Brain Topogr._ 4, 143–150. doi: 10.1007/BF01132771
 

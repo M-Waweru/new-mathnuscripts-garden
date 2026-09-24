@@ -9,7 +9,7 @@ modified: 2025-08-14T03:53:56.970+03:00
 > [!summary]
 > Intelligence is becoming accessible and cheap. The arbitrage window is open for those who learn to collaborate with AI.
 
-Reference to interview with Sam Altman by AngelList [Link](https://www.youtube.com/watch?v=DEvbDq6BOVM\&list=WL\&index=24)
+Reference to interview with Sam Altman by AngelList [Link](https://www.youtube.com/watch?v=DEvbDq6BOVM&list=WL&index=24)
 
 I wrote an article called [[AI and Free Information]], and I touched on the idea that AI is an incredible tool that will allow people to boost their productivity by simply editing AI-generated content instead of starting from scratch. This is very helpful for a wide variety of people, such as professionals in any form of content editing and marketing, and entrepreneurs and founders looking to get affordable assets, and so on.
 

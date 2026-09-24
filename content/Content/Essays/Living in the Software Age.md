@@ -22,10 +22,11 @@ AI is just one application of how we are using computers to make our lives bette
 
 These applications tend to operate in the logical realm and require human action to make things happen in the real world. However, we also have robotics, which combines sensors and actuators to act and react based on changes in the physical world and based on instructions. There are other ways that computers can interact with the physical world. In fact, I believe that this is the next step of development after expanding computing to all fields of human life[^1].
 
-[^1]: The next steps for computing are:
-\- Expanding computing to all fields of human life. Medicine, Law, Entertainment, Sex, Drugs .etc
-\- Getting computers to think and act like human beings. This is AI and robotics
-\- Getting computers to interact and mold the physical world and a myriad of ways. I can refer to [[Computers as Molders of the Universe]]
+[^1]:
+    The next steps for computing are:
+    \- Expanding computing to all fields of human life. Medicine, Law, Entertainment, Sex, Drugs .etc
+    \- Getting computers to think and act like human beings. This is AI and robotics
+    \- Getting computers to interact and mold the physical world and a myriad of ways. I can refer to [[Computers as Molders of the Universe]]
 
 The computer is practically complete. For most applications, we don't need a better computer. What we need is better software. That's the discussion for today: How can we build better software that fully utilises the computer architecture we have and also solves our problems?
 

@@ -146,7 +146,7 @@ This full fiat-stablecoin-fiat pipeline is ideal for users who just want fast pa
 
  
 
-**Latency & Fee Minimization:** By choosing efficient networks and automating conversions, this model squeezes out costs at each step. Instead of SWIFT fees ($30-$50) and currency conversion fees (~3-10%), we have: card or mobile money fee (perhaps 1-2% or a flat few cents), blockchain fee (~\$0.001, negligible), and conversion spread (maybe 0.5%). In practice, Thenks could often charge users **~1-3% or a small flat fee** and still be profitable, while dramatically undercutting traditional services. The speed is near real-time; any remaining latency comes from payment method (e.g., a credit card authorization might take 30 seconds, M-Pesa API might take a few seconds to confirm deposit).
+**Latency & Fee Minimization:** By choosing efficient networks and automating conversions, this model squeezes out costs at each step. Instead of SWIFT fees ($30-$50) and currency conversion fees (~~3-10%), we have: card or mobile money fee (perhaps 1-2% or a flat few cents), blockchain fee (~~\$0.001, negligible), and conversion spread (maybe 0.5%). In practice, Thenks could often charge users **~1-3% or a small flat fee** and still be profitable, while dramatically undercutting traditional services. The speed is near real-time; any remaining latency comes from payment method (e.g., a credit card authorization might take 30 seconds, M-Pesa API might take a few seconds to confirm deposit).
 
  
 
@@ -350,22 +350,22 @@ By **outsourcing much of the heavy compliance lifting to experts** (through AP
 
 To concisely organize, here’s a table of example providers and their role:
 
-|**Infrastructure Need**|**Provider Examples**|**Functionality for Thenks**|
-|---|---|---|
-|**Wallet Creation & Custody**|Fireblocks, BitGo, Circle Wallet API, CryptoAPIs|Create secure user wallets; manage keys and sign blockchain txns.|
-|**Non-Custodial Wallet SDK**|Web3Auth, Magic.link, Argent smart wallets|Enable user-controlled wallets with easy login (optional feature).|
-|**Fiat On-Ramp (Card/Bank)**|Stripe Onramp, MoonPay, Transak, Onramper, Wyre|Let users buy stablecoins with cards/bank transfer in-app.|
-|**Mobile Money On/Off-Ramp**|Kotani Pay, BitLipa, Yellow Card API, Chipper Cash API|Convert stablecoin ↔ M-Pesa, Airtel Money, etc. for local payout.|
-|**Cash-Out to Cash**|MoneyGram Access (Stellar), Western Union pilot|Exchange USDC for physical cash pickup in multiple countries.|
-|**FX Liquidity & Stablecoin Swap**|Circle (USDC convert), Zero Hash, Cumberland, Binance OTC|Swap between fiat and stablecoins; get best FX rates for conversions[dynamic.xyz](https://www.dynamic.xyz/blog/the-stablecoin-sandwich#:~:text=1.%20On,custody%2C%20delegated%20access%20and%20operations).|
-|**Decentralized Liquidity**|Uniswap / DEXs, Celo’s Mento, 1inch aggregator|On-chain swaps between stablecoins or to local crypto (for algorithmic routing).|
-|**KYC Verification**|Jumio, Sumsub, Onfido, Veriff|Verify user identities (ID documents, selfies) to onboard users.|
-|**AML Blockchain Monitoring**|Chainalysis KYT, Elliptic, TRM Labs|Flag risky addresses or transactions; comply with anti-crime rules.|
-|**Sanctions/PEP Screening**|ComplyAdvantage, World-Check, LexisNexis Bridger|Check users against sanctions and politically exposed persons lists.|
-|**Travel Rule Compliance**|Notabene, Sygna Bridge, TRISA|Securely transmit sender/receiver info for large crypto transfers.|
-|**License Partnerships**|Zero Hash (US), Local EMI (EU), Banking Circle, Modulr|Operate under partners’ licenses for fiat custody or transmission.|
-|**Payment Processing & Cards**|Railsr (formerly Railsbank), Stripe Issuing, Marqeta|Issue Thenks-branded debit cards linked to stablecoin balance; handle card payments.|
-|**Reporting & Analytics**|Elliptic Lens (case mgmt), Crystal Blockchain, ComplianceWise|Tools to aggregate and report transactions to regulators (e.g., SAR filing).|
+| **Infrastructure Need**            | **Provider Examples**                                         | **Functionality for Thenks**                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Wallet Creation & Custody**      | Fireblocks, BitGo, Circle Wallet API, CryptoAPIs              | Create secure user wallets; manage keys and sign blockchain txns.                                                                                                                                           |
+| **Non-Custodial Wallet SDK**       | Web3Auth, Magic.link, Argent smart wallets                    | Enable user-controlled wallets with easy login (optional feature).                                                                                                                                          |
+| **Fiat On-Ramp (Card/Bank)**       | Stripe Onramp, MoonPay, Transak, Onramper, Wyre               | Let users buy stablecoins with cards/bank transfer in-app.                                                                                                                                                  |
+| **Mobile Money On/Off-Ramp**       | Kotani Pay, BitLipa, Yellow Card API, Chipper Cash API        | Convert stablecoin ↔ M-Pesa, Airtel Money, etc. for local payout.                                                                                                                                           |
+| **Cash-Out to Cash**               | MoneyGram Access (Stellar), Western Union pilot               | Exchange USDC for physical cash pickup in multiple countries.                                                                                                                                               |
+| **FX Liquidity & Stablecoin Swap** | Circle (USDC convert), Zero Hash, Cumberland, Binance OTC     | Swap between fiat and stablecoins; get best FX rates for conversions[dynamic.xyz](https://www.dynamic.xyz/blog/the-stablecoin-sandwich#:~:text=1.%20On,custody%2C%20delegated%20access%20and%20operations). |
+| **Decentralized Liquidity**        | Uniswap / DEXs, Celo’s Mento, 1inch aggregator                | On-chain swaps between stablecoins or to local crypto (for algorithmic routing).                                                                                                                            |
+| **KYC Verification**               | Jumio, Sumsub, Onfido, Veriff                                 | Verify user identities (ID documents, selfies) to onboard users.                                                                                                                                            |
+| **AML Blockchain Monitoring**      | Chainalysis KYT, Elliptic, TRM Labs                           | Flag risky addresses or transactions; comply with anti-crime rules.                                                                                                                                         |
+| **Sanctions/PEP Screening**        | ComplyAdvantage, World-Check, LexisNexis Bridger              | Check users against sanctions and politically exposed persons lists.                                                                                                                                        |
+| **Travel Rule Compliance**         | Notabene, Sygna Bridge, TRISA                                 | Securely transmit sender/receiver info for large crypto transfers.                                                                                                                                          |
+| **License Partnerships**           | Zero Hash (US), Local EMI (EU), Banking Circle, Modulr        | Operate under partners’ licenses for fiat custody or transmission.                                                                                                                                          |
+| **Payment Processing & Cards**     | Railsr (formerly Railsbank), Stripe Issuing, Marqeta          | Issue Thenks-branded debit cards linked to stablecoin balance; handle card payments.                                                                                                                        |
+| **Reporting & Analytics**          | Elliptic Lens (case mgmt), Crystal Blockchain, ComplianceWise | Tools to aggregate and report transactions to regulators (e.g., SAR filing).                                                                                                                                |
 
 _Table: Key white-label and infrastructure providers that Thenks can leverage._ (Note: We will cite relevant sources inline above rather than in the table to comply with formatting rules.)
 
@@ -1152,7 +1152,7 @@ https://blockapps.net/blog/understanding-stable-coins-in-crypto-a-timeline-of-th
 
 ]\(https://blockapps.net/blog/understanding-stable-coins-in-crypto-a-timeline-of-their-evolution/#:~:text=%E2%80%93%20Market%20Cap%3A%20%2441,from%20March%202023%20depegging%20incident)\[
 
-![](https://www.google.com/s2/favicons?domain=https://techcrunch.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://techcrunch.com&sz=32)
 
 Cryptocurrency payments key to lowering cross-border remittance charges and boosting microwork uptake in Africa, study shows | TechCrunch
 
@@ -1160,7 +1160,7 @@ https://techcrunch.com/2022/02/23/cryptocurrency-payments-key-to-lowering-cross-
 
 ]\(https://techcrunch.com/2022/02/23/cryptocurrency-payments-key-to-lowering-cross-border-remittance-charges-and-boosting-microwork-uptake-in-africa-study-shows/#:~:text=However%2C%20the%20MCV%20study%20notes,border%20payments)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.chainalysis.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.chainalysis.com&sz=32)
 
 Sub-Saharan Africa: Nigeria Takes #2, South Africa Grows Crypto-TradFi
 
@@ -1168,7 +1168,7 @@ https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2024/
 
 ]\(https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2024/#:~:text=key%20figures%20shaping%20Africa%E2%80%99s%20crypto,20%20countries%20on%20the%20continent)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz&sz=32)
 
 The Stablecoin Sandwich: Solving for Cross-Border Payments
 
@@ -1176,7 +1176,7 @@ https://www.dynamic.xyz/blog/the-stablecoin-sandwich
 
 ]\(https://www.dynamic.xyz/blog/the-stablecoin-sandwich#:~:text=Now%20let%E2%80%99s%20dig%20into%20the,how%20they%20manage%20their%20funds)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz&sz=32)
 
 The Stablecoin Sandwich: Solving for Cross-Border Payments
 
@@ -1188,7 +1188,7 @@ https://www.sidley.com/en/insights/events/2020/05/-/media/6fd07e9788394b57877b90
 
 ]\(https://www.sidley.com/en/insights/events/2020/05/-/media/6fd07e9788394b57877b90f6254d0416.ashx#:~:text=Treatment%20of%20Stablecoins%20%E2%80%93%20FinCEN,be%20viewed%20the%20same%20way)\[
 
-![](https://www.google.com/s2/favicons?domain=https://forum.scroll.io\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://forum.scroll.io&sz=32)
 
 Regional Evaluation: Kenya Local Node - Regional Evaluations - Scroll Governance Forum
 
@@ -1204,19 +1204,19 @@ blockapps
 
 ]\(https://blockapps.net/blog/understanding-stable-coins-in-crypto-a-timeline-of-their-evolution/#:~:text=%2A%202014,backed)\[
 
-![](https://www.google.com/s2/favicons?domain=https://techcrunch.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://techcrunch.com&sz=32)
 
 techcrunch
 
 ]\(https://techcrunch.com/2022/02/23/cryptocurrency-payments-key-to-lowering-cross-border-remittance-charges-and-boosting-microwork-uptake-in-africa-study-shows/#:~:text=However%2C%20the%20MCV%20study%20notes,border%20payments)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.chainalysis.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.chainalysis.com&sz=32)
 
 chainalysis
 
 ]\(https://www.chainalysis.com/blog/subsaharan-africa-crypto-adoption-2024/#:~:text=key%20figures%20shaping%20Africa%E2%80%99s%20crypto,20%20countries%20on%20the%20continent)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.dynamic.xyz&sz=32)
 
 dynamic
 
@@ -1226,7 +1226,7 @@ sidley
 
 ]\(https://www.sidley.com/en/insights/events/2020/05/-/media/6fd07e9788394b57877b90f6254d0416.ashx#:~:text=Treatment%20of%20Stablecoins%20%E2%80%93%20FinCEN,be%20viewed%20the%20same%20way)\[
 
-![](https://www.google.com/s2/favicons?domain=https://forum.scroll.io\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://forum.scroll.io&sz=32)
 
 forum.scroll
 

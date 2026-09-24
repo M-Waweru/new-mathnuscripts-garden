@@ -7,7 +7,9 @@ function initAskMathnuscripts(): void {
 
   const input = drawer.querySelector("#ask-mathnuscripts-input") as HTMLTextAreaElement | null
   const selection = drawer.querySelector(".ask-mathnuscripts-selection") as HTMLElement | null
-  const contextTitle = drawer.querySelector(".ask-mathnuscripts-context-title") as HTMLElement | null
+  const contextTitle = drawer.querySelector(
+    ".ask-mathnuscripts-context-title",
+  ) as HTMLElement | null
   const status = drawer.querySelector(".ask-mathnuscripts-status") as HTMLElement | null
   const thread = drawer.querySelector(".ask-mathnuscripts-thread") as HTMLElement | null
   const suggestions = drawer.querySelector(".ask-mathnuscripts-suggestions") as HTMLElement | null
@@ -22,7 +24,7 @@ function initAskMathnuscripts(): void {
   let lastFocused: Element | null = null
 
   const focusableSelector =
-    'button:not([disabled]), textarea:not([disabled]), [href], input:not([disabled])'
+    "button:not([disabled]), textarea:not([disabled]), [href], input:not([disabled])"
 
   const trapFocus = (event: KeyboardEvent) => {
     if (drawer.dataset.open !== "true" || event.key !== "Tab" || !panel) return
@@ -193,7 +195,11 @@ function initAskMathnuscripts(): void {
       }
 
       if (typeof data.answer === "string" && data.answer) {
-        appendMessage("assistant", data.answer, (data.sources as Array<Record<string, string>>) ?? [])
+        appendMessage(
+          "assistant",
+          data.answer,
+          (data.sources as Array<Record<string, string>>) ?? [],
+        )
         chatHistory.push({ role: "assistant", content: data.answer })
         setStatus("")
       } else {

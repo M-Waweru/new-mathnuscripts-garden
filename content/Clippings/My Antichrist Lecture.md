@@ -22,7 +22,7 @@ All these people fell victim to [chronocentrism](https://en.wikipedia.org/wiki/C
 
 But -
 
-![](https://substackcdn.com/image/fetch/\$s_!NSIq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6ba47ff-555e-4574-ba00-f45771dc3a13_508x575.png)
+![](https://substackcdn.com/image/fetch/$s_!NSIq!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6ba47ff-555e-4574-ba00-f45771dc3a13_508x575.png)
 
 …if the technological singularity hypothesis is true, then we are genuinely living at the [hinge of history](https://www.bbc.com/future/article/20200923-the-hinge-of-history-long-termism-and-existential-risk) - the cataclysmic climax of humankind - and insofar as Revelation is a prophecy, it will make sense in the context of the AI race of our own era.
 
@@ -32,7 +32,7 @@ This will be our working hypothesis. We will try to match each symbol in Revelat
 
 Revelation contains several beasts - at least two, maybe as many as four. John doesn’t keep track of them very effectively, and they seem to reappear several times after being killed. Most commentators collapse these into one beast - ‘the’ Beast - and I will anxiously follow their lead despite losing some potential subtlety.
 
-![](https://substackcdn.com/image/fetch/\$s_!XlvZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe982757b-a210-4581-bde4-d7fda747ef77_692x514.png)
+![](https://substackcdn.com/image/fetch/$s_!XlvZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe982757b-a210-4581-bde4-d7fda747ef77_692x514.png)
 
 According to Revelation 13:14-15:
 
@@ -57,7 +57,7 @@ What about the second part? What does it mean for the Beast to have ten horns?
 
 This one confused me for a while, but I eventually found [this list](https://www.failory.com/blog/decacorns):
 
-![](https://substackcdn.com/image/fetch/\$s_!NGn3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7aaed5a-8f1b-442c-a449-edc2ebe66872_1067x555.png)
+![](https://substackcdn.com/image/fetch/$s_!NGn3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb7aaed5a-8f1b-442c-a449-edc2ebe66872_1067x555.png)
 
 In Silicon Valley speak, a “unicorn” is a company worth over $1 billion, and a “decacorn” (Latin for “ten-horned”) is a company worth over $10 billion. Under this interpretation, the ten horns of the prophecy have ten crowns because they represent wealth and achievement. The only AI company on the list above is Anthropic, at #9.
 
@@ -79,9 +79,9 @@ Given that Anthropic has seven heads, ten horns, and on each head a name of blas
 
 Many people have tried to decode this verse. Here’s my paltry contribution: in other cases where the New Testament uses the phrase “the number of the X”, it means the number of people in a group. For example:
 
-- [Luke 22:3](https://www.biblegateway.com/passage/?search=Luke%2022%3A3\&version=KJV):“Then entered Satan into Judas surnamed Iscariot, being of _the number of the_ twelve \[apostles].”
-- [Acts 4:4](https://www.biblegateway.com/passage/?search=Acts%204%3A4\&version=KJV): “But many of those who had heard the Word believed, and _the number of the_ men came to about five thousand.”
-- [Revelation 9:16](https://www.biblegateway.com/passage/?search=Revelation%209%3A16\&version=KJV): “And _the number of the_ army of the horsemen were two hundred thousand thousand: and I heard the number of them.”
+- [Luke 22:3](https://www.biblegateway.com/passage/?search=Luke%2022%3A3&version=KJV):“Then entered Satan into Judas surnamed Iscariot, being of _the number of the_ twelve \[apostles].”
+- [Acts 4:4](https://www.biblegateway.com/passage/?search=Acts%204%3A4&version=KJV): “But many of those who had heard the Word believed, and _the number of the_ men came to about five thousand.”
+- [Revelation 9:16](https://www.biblegateway.com/passage/?search=Revelation%209%3A16&version=KJV): “And _the number of the_ army of the horsemen were two hundred thousand thousand: and I heard the number of them.”
 
 These are all the same Greek word, ἀριθμός. None of them mean a secret mysterious number that symbolizes their identity. They all mean something like “headcount”. So to be consistent, you would translate Revelation 13:18 as:
 
@@ -97,7 +97,7 @@ In our alphabet, this word is _anthropou_. It is the genitive form of the stem _
 
 What is the headcount of Anthropic? I can’t find a precise answer, but here’s [their LinkedIn page](https://www.linkedin.com/company/anthropicresearch):
 
-![](https://substackcdn.com/image/fetch/\$s_!dz9y!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F596f66e3-4745-44f8-b868-12e9ca03cc63_789x862.png)
+![](https://substackcdn.com/image/fetch/$s_!dz9y!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F596f66e3-4745-44f8-b868-12e9ca03cc63_789x862.png)
 
 Seems concerning.
 
@@ -113,11 +113,11 @@ In the context of AI, this resembles the idea of [biometric proof of personhood]
 
 Suppose that future AI agents have access to bank accounts and can transact like humans. Some platforms may choose to let AIs access their services unrestricted; others may choose to limit use to humans. How would these work in a world where AIs can break CAPTCHAs? One plan is to assign each human a code based on some immutable feature of their body, like a fingerprint or eye scan, then let the humans use that code as an ironclad ID. The most famous plan along these lines is Sam Altman’s [WorldCoin](https://time.com/7288387/sam-altman-orb-tools-for-humanity/).
 
-![](https://substackcdn.com/image/fetch/\$s_!rYmL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F972fc381-4d38-4e55-88d7-88b1e4f79010_2363x3150.png)
+![](https://substackcdn.com/image/fetch/$s_!rYmL!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F972fc381-4d38-4e55-88d7-88b1e4f79010_2363x3150.png)
 
 The Mark of the Beast cannot be WorldCoin itself, because WorldCoin uses an iris scan, but the Mark uses the hand or forehead. Handprints are a common biometric recognition target, but foreheads?
 
-![](https://substackcdn.com/image/fetch/\$s_!Nj3r!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5324e82d-bc07-4ff2-9fb7-44fb61f61c24_934x473.png)
+![](https://substackcdn.com/image/fetch/$s_!Nj3r!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5324e82d-bc07-4ff2-9fb7-44fb61f61c24_934x473.png)
 
 [Yes!](https://arxiv.org/abs/2408.15693) Just last year, researchers found that forehead creases were actually a cutting-edge biometric target, and suggested them as a superior alternative to fingerprints (contactless) and facial recognition (blocked by masks during a pandemic).
 
@@ -133,19 +133,19 @@ The woman gives birth to a son, who is implied to be the Messiah. Satan tries to
 
 I originally couldn’t figure out who that person was, but a now-deactivated Tumblr poster, [resinsculpture](https://www.tumblr.com/aaronsmithtumbler/671221475051814912), convinced me that it was [Ursula von der Leyen](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen), current president of the European Union.
 
-![](https://substackcdn.com/image/fetch/\$s_!plab!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed45366f-e577-4e7a-9161-27d692d8f031_862x575.avif)
+![](https://substackcdn.com/image/fetch/$s_!plab!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed45366f-e577-4e7a-9161-27d692d8f031_862x575.avif)
 
 Here is a typical official picture of von der Leyen. She is in her trademark yellow suit (“clothed with the sun”), standing with her head centered in the twelve stars of the EU flag (“upon her head a crown of twelve stars”).
 
 In what sense is “the moon under her feet”? In her role as President, von der Leyen stands above, and frequently addresses, the European Parliament, which looks like this:
 
-![](https://substackcdn.com/image/fetch/\$s_!lAgG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5c91f3a-873f-4b73-b68d-bc14a7cfffc9_600x314.jpeg)
+![](https://substackcdn.com/image/fetch/$s_!lAgG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5c91f3a-873f-4b73-b68d-bc14a7cfffc9_600x314.jpeg)
 
 The Parliament, also known as the Hemicycle, takes the shape of a half (or slightly crescent) moon. When von der Leyen stands in her yellow suit, in front of the Parliament, with the flag behind her, she is “clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars”.[^2]
 
 Von der Leyen is one of the leaders behind the EU’s push to become a “regulatory superpower”, which has born fruit in some [surprisingly promising AI regulations](https://blog.ai-futures.org/p/what-the-eus-code-of-practice-means). In particular, Europe has been [especially strict on biometric proof-of-personhood](https://techcrunch.com/2024/03/26/worldcoin-portugal-ban/):
 
-![](https://substackcdn.com/image/fetch/\$s_!Vntf!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcab19e9-c8f0-4996-9fb1-942061463e5d_839x520.png)
+![](https://substackcdn.com/image/fetch/$s_!Vntf!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffcab19e9-c8f0-4996-9fb1-942061463e5d_839x520.png)
 
 If the apocalypse involves a rogue Anthropic model somehow empowered by proof-of-personhood, Europe is one of the best candidates to resist. Von der Leyen, then, stands as a metonymy for the European Union as a bulwark for the forces of Good.
 
@@ -167,11 +167,11 @@ So we are looking for someone or something in Israel, which is being heralded by
 
 The name Elijah is different in different languages, but the Russian version is “ [Ilya](https://www.thebump.com/b/ilya-baby-name) ”. And in fact, famous AI scientist Ilya Sutskever recently founded an Israel-based AI company called “Safe Superintelligence”:
 
-![](https://substackcdn.com/image/fetch/\$s_!pdG7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd81ef77a-d6d6-41dc-9281-3f0d55702f2a_1210x510.png)
+![](https://substackcdn.com/image/fetch/$s_!pdG7!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd81ef77a-d6d6-41dc-9281-3f0d55702f2a_1210x510.png)
 
 Is there some sense in which Ilya Sutskever has “his Father’s name written on \[his] forehead”? As weird as it sounds, I think this one might just be literally true. There is some kind of unusual pattern on his forehead ([image source](https://www.wired.com/story/openais-chief-ai-wizard-ilya-sutskever-is-leaving-the-company/)). I cannot make heads or tails of it right-side-up, but when I flip it over…
 
-![](https://substackcdn.com/image/fetch/\$s_!1eC5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb37f1e4-9cbc-4153-b20a-8e879ad753ce_1711x719.png)
+![](https://substackcdn.com/image/fetch/$s_!1eC5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb37f1e4-9cbc-4153-b20a-8e879ad753ce_1711x719.png)
 
 …it appears to be the [Name of God in Hebrew](https://www.hebrew4christians.com/Names_of_G-d/YHVH/yhvh.html#loaded).
 
@@ -189,7 +189,7 @@ John says (13:2 - 13:4)
 
 We saw above that the Beast is a company. Who gives companies their power, then demands to be worshiped by them? Obviously VCs. And in fact, venture capitalists are often identified with dragons in the popular imagination:
 
-![](https://substackcdn.com/image/fetch/\$s_!W4E8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d2847a-aba1-42a7-b376-9f6e0fd319f0_841x468.png)
+![](https://substackcdn.com/image/fetch/$s_!W4E8!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7d2847a-aba1-42a7-b376-9f6e0fd319f0_841x468.png)
 
 But which venture capitalist?
 
@@ -204,15 +204,15 @@ What is the title of Christ? In the Bible, we find two common titles:
 
 I searched to see if any common names were echoes of these titles:
 
-![](https://substackcdn.com/image/fetch/\$s_!xJ9I!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b45265-8302-4a16-abe5-41aa5df0423d_1171x295.png)
+![](https://substackcdn.com/image/fetch/$s_!xJ9I!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1b45265-8302-4a16-abe5-41aa5df0423d_1171x295.png)
 
 Google says that the most common name meaning “son of man” is “Anderson”, from Greek “Andreas” + son. And Silicon Valley’s most powerful venture capitalist is named [Marc Andreessen](https://en.wikipedia.org/wiki/Marc_Andreessen).
 
-![](https://substackcdn.com/image/fetch/\$s_!XBN2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be21f3b-4a53-4f47-ad78-6cb72e3ad264_965x525.png)
+![](https://substackcdn.com/image/fetch/$s_!XBN2!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5be21f3b-4a53-4f47-ad78-6cb72e3ad264_965x525.png)
 
 Is there any venture capitalist who calls themselves the “Alpha and Omega”?
 
-![](https://substackcdn.com/image/fetch/\$s_!iDdn!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e8b7216-eff2-48cf-bc36-0c5501494137_929x475.png)
+![](https://substackcdn.com/image/fetch/$s_!iDdn!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5e8b7216-eff2-48cf-bc36-0c5501494137_929x475.png)
 
 Alpha is the first letter of the Greek alphabet and omega the last: “Alpha and omega” is an implicit claim to span all things, similar to the English phrase “from A to Z”. Marc Andreessen’s company, Andreessen Horowitz, is more commonly called [A16Z](https://x.com/a16z) - superficially a reference to its first and last letters, but also making the same implicit claim.
 
@@ -222,7 +222,7 @@ During my original lecture, an audience member objected that Andreessen holds st
 
 This might be a reference to his general anti-AI safety lobbying activities. In 16:13, “three unclean spirits like frogs” emanate from the mouth of the Antichrist and his allies, which muster the kings of the world to the side of evil. I think this is a good match for Andreessen packing the Trump administration with lieutenants charged with turning the government against AI safety, and I tentatively identify the three spirits as David Sacks, Sriram Krishnan, and Michael Kratsios. They are “like frogs” in that they act like MAGA populists, who use the frog as their symbol.
 
-![](https://substackcdn.com/image/fetch/\$s_!FhC5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5e8be9-ed2d-4f51-855c-f55deac58c02_976x850.jpeg)
+![](https://substackcdn.com/image/fetch/$s_!FhC5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e5e8be9-ed2d-4f51-855c-f55deac58c02_976x850.jpeg)
 
 Feels bad, man
 
@@ -243,7 +243,7 @@ In what sense is Marc Andreessen a “little horn”? In traditional commentary 
 
 In what sense is Marc Andreessen a “horn with human eyes”? Here, as before, I think it helps to try being as literal as possible:
 
-![](https://substackcdn.com/image/fetch/\$s_!nKi5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a4f3117-9086-427f-8fd5-155669f0a748_250x250.webp)
+![](https://substackcdn.com/image/fetch/$s_!nKi5!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a4f3117-9086-427f-8fd5-155669f0a748_250x250.webp)
 
 ([source](https://www.computer.org/profiles/marc-andreessen))
 
@@ -263,7 +263,7 @@ The Whore of Babylon gives birth to various abominations. If these abominations 
 
 [Yes](https://www.ccn.com/news/technology/tigris-what-is-altman-chip-venture-jony-ive/).
 
-![](https://substackcdn.com/image/fetch/\$s_!ixOF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83d1d2cf-1694-46f1-b761-4c7961651bb6_947x793.png)
+![](https://substackcdn.com/image/fetch/$s_!ixOF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F83d1d2cf-1694-46f1-b761-4c7961651bb6_947x793.png)
 
 Last year, Sam Altman announced plans for a giant \$7 trillion chip fab in the Middle East. It was to be named “Tigris”, after the river that ran by the city of Babylon. Although we haven’t heard much about it lately, John predicts that OpenAI’s increasing cash reserves and hunger for chips will lead them to revive the plan.
 
@@ -271,11 +271,11 @@ But what do we make of John’s claim that the Whore will sit on “seven mounta
 
 Altman hasn’t specified exactly where his chip fab would be located, but the announcement gives clues:
 
-![](https://substackcdn.com/image/fetch/\$s_!MTcW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ae4652a-f5c0-4c4b-b1f4-e3d8705c0e17_642x394.png)
+![](https://substackcdn.com/image/fetch/$s_!MTcW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ae4652a-f5c0-4c4b-b1f4-e3d8705c0e17_642x394.png)
 
 The UAE is a major investor, and also one of the most business-friendly countries in the region. It is probably the most likely location for the fab. And:
 
-![](https://substackcdn.com/image/fetch/\$s_!WCGs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd58b5619-1589-4286-bff9-7bfb4ad58dba_644x434.png)
+![](https://substackcdn.com/image/fetch/$s_!WCGs!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd58b5619-1589-4286-bff9-7bfb4ad58dba_644x434.png)
 
 …the UAE gets its name because it is a union of seven emirates, each with its own emir (king).
 
@@ -295,11 +295,11 @@ As Claude-occupied America readies to mop up the survivors, Safe Superintelligen
 
 But do we get our Dyson Sphere?
 
-![](https://substackcdn.com/image/fetch/\$s_!1fMF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9e5da21-33cc-4f87-b689-84c18fff7198_4000x2667.jpeg)
+![](https://substackcdn.com/image/fetch/$s_!1fMF!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9e5da21-33cc-4f87-b689-84c18fff7198_4000x2667.jpeg)
 
 Depiction of New Jerusalem ( source )
 
-![](https://substackcdn.com/image/fetch/\$s_!3eiH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28f8b5a0-c4a6-4de2-81e6-af8d643d2c3c_501x515.png)
+![](https://substackcdn.com/image/fetch/$s_!3eiH!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F28f8b5a0-c4a6-4de2-81e6-af8d643d2c3c_501x515.png)
 
 Less clear but more artistic depiction ( source )
 

@@ -89,12 +89,7 @@ export function buildAskMessages(question, context, sources, history = []) {
     "You may answer follow-up questions using prior conversation context and fresh sources.",
   ].join(" ")
 
-  const user = [
-    contextLines.join("\n"),
-    `Question: ${question}`,
-    "Garden sources:",
-    sourceLines,
-  ]
+  const user = [contextLines.join("\n"), `Question: ${question}`, "Garden sources:", sourceLines]
     .filter(Boolean)
     .join("\n\n")
 
@@ -132,11 +127,7 @@ export function createAskResponse({ question, sources, answer = null, error = nu
 
 export function formatNvidiaError(payload, status) {
   const detail =
-    payload?.error?.message ||
-    payload?.detail ||
-    payload?.title ||
-    payload?.message ||
-    null
+    payload?.error?.message || payload?.detail || payload?.title || payload?.message || null
 
   if (status === 401) {
     return detail

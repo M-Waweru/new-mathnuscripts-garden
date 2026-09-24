@@ -16,11 +16,10 @@ const READER_PENDING_KEY = "mathnuscripts:reader-pending"
 
 const FAB_ICONS = {
   ask: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2l1.2 3.6L17 7l-3.8 1.4L12 12l-1.2-3.6L7 7l3.8-1.4L12 2zm6 8 1 2.8 2.8 1-2.8 1-1 2.8-1-2.8-2.8-1 2.8-1 1-2.8zm-9 4 1.1 3.2L13 19l-3.4 1.2L9 23l-1.1-3.2L4 19l3.4-1.2L9 14z"/></svg>`,
-  reader: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 4h11a3 3 0 0 1 3 3v13.5a.75.75 0 0 1-1.17.62L14 18.8l-3.83 2.32A.75.75 0 0 1 9 20.5V4.75A.75.75 0 0 0 8.25 4H6a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h1.5V5h-.5V4zm2.5 1.5v14.2l2.58-1.57a.75.75 0 0 1 .84 0L15 19.7V5.5H8.5z"/></svg>`,
-  graph: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6-8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM7.5 16.5 10.5 12l3 2.5 3.5-5 2.5 3.5"/></svg>`,
-  random: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 4.5A1.5 1.5 0 0 1 6.5 3H10v2H7.06l3.47 3.47-1.06 1.06L6 6.06V10H4V5.5zm14 0V10h-2V6.06l-3.47 3.47-1.06-1.06L17.94 5H14V3h3.5A1.5 1.5 0 0 1 19 4.5zM6.5 21A1.5 1.5 0 0 1 5 19.5V15h2v3.94l3.47-3.47 1.06 1.06L6.06 19H10v2H6.5zm11 0H14v-2h3.94l-3.47-3.47 1.06-1.06L19 17.94V14h2v5.5A1.5 1.5 0 0 1 19.5 21z"/></svg>`,
-  menu: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm10 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM7 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm10 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>`,
-  close: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7.05 6.05 12 10.94l4.95-4.89 1.41 1.41L13.41 12l4.95 4.95-1.41 1.41L12 13.41l-4.95 4.95-1.41-1.41L10.59 12 5.64 7.05z"/></svg>`,
+  graph: `<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="19" r="2.2" fill="currentColor"/><circle cx="19" cy="17" r="2.2" fill="currentColor"/><circle cx="12" cy="5" r="2.2" fill="currentColor"/><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M6.8 17.2 10.5 6.8M13.5 6.5 17.2 15.2M7 18.5h10"/></svg>`,
+  random: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="8" cy="8" r="1.35" fill="currentColor"/><circle cx="16" cy="8" r="1.35" fill="currentColor"/><circle cx="12" cy="12" r="1.35" fill="currentColor"/><circle cx="7" cy="16" r="1.35" fill="currentColor"/><circle cx="17" cy="15" r="1.35" fill="currentColor"/></svg>`,
+  expand: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 15.5 6.5 10h11L12 15.5z"/></svg>`,
+  collapse: `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 8.5 17.5 14h-11L12 8.5z"/></svg>`,
 } as const
 
 let cleanupCurrent = () => {}
@@ -148,13 +147,22 @@ function restoreReaderPages(): void {
   readerArticle = null
 }
 
-function updateReaderProgress(progress: HTMLElement, essayIndex: number, totalEssays: number): void {
+function updateReaderProgress(
+  progress: HTMLElement,
+  essayIndex: number,
+  totalEssays: number,
+): void {
   const pageSuffix =
     readerPages.length > 1 ? ` · page ${readerPageIndex + 1}/${readerPages.length}` : ""
   progress.textContent = `Essay ${essayIndex + 1} / ${totalEssays}${pageSuffix}`
 }
 
-function showReaderPage(index: number, progress?: HTMLElement, essayIndex = 0, totalEssays = 1): void {
+function showReaderPage(
+  index: number,
+  progress?: HTMLElement,
+  essayIndex = 0,
+  totalEssays = 1,
+): void {
   if (readerPages.length === 0) return
   readerPageIndex = Math.max(0, Math.min(index, readerPages.length - 1))
   readerPages.forEach((page, pageIndex) => {
@@ -185,7 +193,9 @@ function navigateTo(entry: ReaderEntry | undefined): void {
 
 function openGraphExplorer(): void {
   if (currentSlug() === GRAPH_SLUG) {
-    document.getElementById("graph-explorer-stage")?.scrollIntoView({ behavior: "smooth", block: "start" })
+    document
+      .getElementById("graph-explorer-stage")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" })
     return
   }
   navigateTo({ slug: GRAPH_SLUG, title: "Garden Graph" })
@@ -230,32 +240,57 @@ function renderGardenOverview(): void {
   }
 }
 
+let graphExplorerEmbedAttempts = 0
+
+function findExplorerGraphRoot(): HTMLElement | null {
+  return (
+    (document.querySelector("#graph-explorer-stage .graph") as HTMLElement | null) ??
+    (document.querySelector(".right.sidebar .graph") as HTMLElement | null)
+  )
+}
+
+function requestGraphPluginRender(): void {
+  document.dispatchEvent(new CustomEvent<{}>("render"))
+}
+
+function mountGlobalGraphInStage(stage: HTMLElement, graphRoot: HTMLElement): void {
+  if (!stage.contains(graphRoot)) {
+    stage.append(graphRoot)
+  }
+
+  const localOuter = graphRoot.querySelector(".graph-outer") as HTMLElement | null
+  if (localOuter) localOuter.hidden = true
+
+  const globalOuter = graphRoot.querySelector(".global-graph-outer") as HTMLElement | null
+  if (!globalOuter) return
+
+  globalOuter.classList.add("active")
+  requestGraphPluginRender()
+  window.requestAnimationFrame(requestGraphPluginRender)
+}
+
 function initGraphExplorer(): void {
   if (currentSlug() !== GRAPH_SLUG) {
+    graphExplorerEmbedAttempts = 0
     document.body.classList.remove("graph-explorer-active")
     return
   }
 
   document.body.classList.add("graph-explorer-active")
   const stage = document.getElementById("graph-explorer-stage")
-  const sidebarGraph = document.querySelector(".right.sidebar .graph") as HTMLElement | null
   if (!stage) return
-  if (!sidebarGraph) {
-    window.setTimeout(initGraphExplorer, 300)
+
+  const graphRoot = findExplorerGraphRoot()
+  if (!graphRoot) {
+    graphExplorerEmbedAttempts += 1
+    if (graphExplorerEmbedAttempts < 30) {
+      window.setTimeout(initGraphExplorer, 300)
+    }
     return
   }
-  if (stage.contains(sidebarGraph)) return
 
-  stage.append(sidebarGraph)
-
-  const localOuter = sidebarGraph.querySelector(".graph-outer") as HTMLElement | null
-  if (localOuter) localOuter.hidden = true
-
-  const globalOuter = sidebarGraph.querySelector(".global-graph-outer")
-  const globalIcon = sidebarGraph.querySelector(".global-graph-icon") as HTMLButtonElement | null
-  if (globalOuter && !globalOuter.classList.contains("active")) {
-    globalIcon?.click()
-  }
+  graphExplorerEmbedAttempts = 0
+  mountGlobalGraphInStage(stage, graphRoot)
 }
 
 function createFabButton(
@@ -298,12 +333,6 @@ function initGardenFabStack(): void {
       secondary.hidden = true
       toggleButton.setAttribute("aria-expanded", "false")
     }),
-    createFabButton("garden-fab", "Reader mode", FAB_ICONS.reader, () => {
-      toggleReaderMode()
-      stack.classList.remove("garden-fab-stack-expanded")
-      secondary.hidden = true
-      toggleButton.setAttribute("aria-expanded", "false")
-    }),
     createFabButton("garden-fab", "Garden graph", FAB_ICONS.graph, () => {
       openGraphExplorer()
       stack.classList.remove("garden-fab-stack-expanded")
@@ -312,16 +341,29 @@ function initGardenFabStack(): void {
     }),
   )
 
-  const toggleButton = createFabButton("garden-fab garden-fab-toggle", "More garden actions", FAB_ICONS.menu, () => {
-    const expanded = stack.classList.toggle("garden-fab-stack-expanded")
-    secondary.hidden = !expanded
-    toggleButton.setAttribute("aria-expanded", expanded ? "true" : "false")
-    toggleButton.innerHTML = `<span class="garden-fab-icon">${expanded ? FAB_ICONS.close : FAB_ICONS.menu}</span>`
-    toggleButton.setAttribute("aria-label", expanded ? "Hide garden actions" : "More garden actions")
-  })
+  const toggleButton = createFabButton(
+    "garden-fab garden-fab-toggle",
+    "More garden actions",
+    FAB_ICONS.expand,
+    () => {
+      const expanded = stack.classList.toggle("garden-fab-stack-expanded")
+      secondary.hidden = !expanded
+      toggleButton.setAttribute("aria-expanded", expanded ? "true" : "false")
+      toggleButton.innerHTML = `<span class="garden-fab-icon">${expanded ? FAB_ICONS.collapse : FAB_ICONS.expand}</span>`
+      toggleButton.setAttribute(
+        "aria-label",
+        expanded ? "Hide garden actions" : "More garden actions",
+      )
+    },
+  )
   toggleButton.setAttribute("aria-expanded", "false")
 
-  const askButton = createFabButton("garden-fab garden-fab-primary", "Ask Mathnuscripts", FAB_ICONS.ask, openAskDrawer)
+  const askButton = createFabButton(
+    "garden-fab garden-fab-primary",
+    "Ask Mathnuscripts",
+    FAB_ICONS.ask,
+    openAskDrawer,
+  )
 
   stack.append(secondary, toggleButton, askButton)
   document.body.append(stack)
@@ -412,7 +454,8 @@ function mountReaderChrome(entries: ReaderIndex, essayIndex: number): void {
 
     if (event.key === "ArrowLeft" && (readerPageIndex > 0 || previous)) {
       event.preventDefault()
-      if (readerPageIndex > 0) showReaderPage(readerPageIndex - 1, progress, essayIndex, entries.length)
+      if (readerPageIndex > 0)
+        showReaderPage(readerPageIndex - 1, progress, essayIndex, entries.length)
       else navigateTo(previous)
       syncReaderControls()
     } else if (event.key === "ArrowRight" && (readerPageIndex < readerPages.length - 1 || next)) {

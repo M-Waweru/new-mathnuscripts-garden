@@ -4,7 +4,11 @@ export function formatAskClientError(error: unknown): string {
   const message = error.message.trim()
   if (!message) return "Ask is unavailable right now."
 
-  if (/unsuccessful|load failed|failed to fetch|networkerror|network error|aborted|timed out/i.test(message)) {
+  if (
+    /unsuccessful|load failed|failed to fetch|networkerror|network error|aborted|timed out/i.test(
+      message,
+    )
+  ) {
     return [
       "Could not reach the Ask API (network error).",
       'Local: run "npm run dev" (Netlify dev) — quartz preview alone does not serve /api/ask.',

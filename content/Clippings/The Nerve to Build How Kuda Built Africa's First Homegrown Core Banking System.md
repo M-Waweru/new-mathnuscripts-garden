@@ -40,7 +40,7 @@ If you plan to attempt this:
 - Set measurable staging targets (mirror production) and load benchmarks before cutover.
 - Trade documentation for concrete tests and runbooks that make failover routine.
 
-In 2020, during a global pandemic that sent most companies scrambling to maintain the status quo, a small team at [Kuda](https://kuda.com/joinKuda/?gad_campaignid=23268674391\&gbraid=0AAAAA9ZcCQkbvAslYWKkYi_0Ltc5Gbxcc) did something audacious: they decided to rebuild the beating heart of their bank from scratch.
+In 2020, during a global pandemic that sent most companies scrambling to maintain the status quo, a small team at [Kuda](https://kuda.com/joinKuda/?gad_campaignid=23268674391&gbraid=0AAAAA9ZcCQkbvAslYWKkYi_0Ltc5Gbxcc) did something audacious: they decided to rebuild the beating heart of their bank from scratch.
 
 This wasn't a hackathon project or a technical vanity exercise. This was existential. Every weekend, customers complained. Every Monday morning, the system went down. The third-party [core banking](https://en.wikipedia.org/wiki/Core_banking) solution that powered Kuda's operations was buckling under growth, and the clock was ticking. With barely 100,000 customers—and ambitions to reach millions—the team faced a choice: watch their dreams collapse under technical debt, or take control of their destiny.
 
@@ -278,7 +278,7 @@ Nerve runs across multiple availability zones with automatic failover. [Azure Fr
 
 The database strategy is similarly redundant: primary database, secondary replica, and transactional data streaming to BigQuery for analytics and additional backup. Daily snapshots provide point-in-time recovery.
 
-"We have primary database, then we have the secondary database. The primary replicates into the secondary and also pushes data to [BigQuery](https://cloud.google.com/bigquery?\&gad_campaignid=21054825557)," Kayode details. "That way we have a replica of all transactions at near real time."
+"We have primary database, then we have the secondary database. The primary replicates into the secondary and also pushes data to [BigQuery](https://cloud.google.com/bigquery?&gad_campaignid=21054825557)," Kayode details. "That way we have a replica of all transactions at near real time."
 
 But resilience isn't just about infrastructure—it's about visibility. The team deployed an extensive observability stack: Datadog for tracing, logging, and metrics; OpenTelemetry for distributed tracing; Grafana and [Loki](https://grafana.com/oss/loki/) for open-source monitoring; custom dashboards for specific scenarios.
 
