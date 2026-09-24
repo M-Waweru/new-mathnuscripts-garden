@@ -54,23 +54,23 @@ Tipping customs vary **widely across countries and cultures**, in terms of whet
 
 Showing gratitude is universal, but the words used differ across languages. For an international tourism context, it’s helpful to know how to say _“thank you”_ or express appreciation in various languages. The table below lists some common expressions of thanks and gratitude in major languages (including those often encountered in East/Southern African tourism). These terms could resonate with international tourists, as they will recognize their own word for being thanked:
 
-|Language|“Thank You” Expression (with transliteration)|Meaning/Note|
-|---|---|---|
-|**English**|Thank you _(informal: Thanks)_|(Standard expression of gratitude)|
-|**Swahili**|Asante _(Asante sana = thank you very much)_|Used in East Africa (Kenya, Tanzania) – tourists often learn this.|
-|**French**|Merci|Common across France, francophone Africa, etc.|
-|**Spanish**|Gracias||
-|**German**|Danke _(Danke schön = thanks a lot)_||
-|**Italian**|Grazie||
-|**Portuguese**|Obrigado/Obrigada _(m/f)_|Male speakers say “Obrigado,” females “Obrigada” – used in Portugal, Brazil, Angola, etc.|
-|**Arabic**|شكراً _(shukran)_|Used across Arab-speaking countries; also understood in Swahili as _shukrani_.|
-|**Hindi/Urdu**|धन्यवाद _(dhanyavaad)_ / शुक्रिया _(shukriya)_|“Dhanyavaad” in Hindi, or “Shukriya” (common in spoken Urdu/Hindi).|
-|**Chinese (Mandarin)**|谢谢 _(xiè xiè)_|Pronounced “sheh-sheh.” No tipping culture in China, but thanking is important.|
-|**Japanese**|ありがとう _(arigatō)_|Pronounced “ah-ree-gah-toh.” Often followed by _gozaimasu_ for formality.|
-|**Russian**|Спасибо _(spasibo)_|Pronounced “spa-see-bo.”|
-|**Dutch**|Dankjewel _(informal: Bedankt)_||
-|**Swedish**|Tack||
-|**Kiswahili**|Asante (repeated for emphasis: _Asante sana_)|Included above as Swahili; widely used in East Africa.|
+| Language               | “Thank You” Expression (with transliteration)  | Meaning/Note                                                                              |
+| ---------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **English**            | Thank you _(informal: Thanks)_                 | (Standard expression of gratitude)                                                        |
+| **Swahili**            | Asante _(Asante sana = thank you very much)_   | Used in East Africa (Kenya, Tanzania) – tourists often learn this.                        |
+| **French**             | Merci                                          | Common across France, francophone Africa, etc.                                            |
+| **Spanish**            | Gracias                                        |                                                                                           |
+| **German**             | Danke _(Danke schön = thanks a lot)_           |                                                                                           |
+| **Italian**            | Grazie                                         |                                                                                           |
+| **Portuguese**         | Obrigado/Obrigada _(m/f)_                      | Male speakers say “Obrigado,” females “Obrigada” – used in Portugal, Brazil, Angola, etc. |
+| **Arabic**             | شكراً _(shukran)_                              | Used across Arab-speaking countries; also understood in Swahili as _shukrani_.            |
+| **Hindi/Urdu**         | धन्यवाद _(dhanyavaad)_ / शुक्रिया _(shukriya)_ | “Dhanyavaad” in Hindi, or “Shukriya” (common in spoken Urdu/Hindi).                       |
+| **Chinese (Mandarin)** | 谢谢 _(xiè xiè)_                               | Pronounced “sheh-sheh.” No tipping culture in China, but thanking is important.           |
+| **Japanese**           | ありがとう _(arigatō)_                         | Pronounced “ah-ree-gah-toh.” Often followed by _gozaimasu_ for formality.                 |
+| **Russian**            | Спасибо _(spasibo)_                            | Pronounced “spa-see-bo.”                                                                  |
+| **Dutch**              | Dankjewel _(informal: Bedankt)_                |                                                                                           |
+| **Swedish**            | Tack                                           |                                                                                           |
+| **Kiswahili**          | Asante (repeated for emphasis: _Asante sana_)  | Included above as Swahili; widely used in East Africa.                                    |
 
 _(Table: Common “thank you” expressions in various languages. These words could be used in messaging to thank users or as part of a culturally inclusive branding.)_
 
@@ -486,7 +486,7 @@ Citations
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -494,7 +494,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=The%20practice%20of%20tipping%20began,14)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -502,7 +502,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=According%20to%20the%20Oxford%20English,from%20the%20%20183%20Low)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -510,7 +510,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=word%20,12)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -518,7 +518,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=The%20etymology%20for%20the%20synonym,for%20the%20guests%20to%20show)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -526,7 +526,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=from%20Medieval%20Latin%20gratuitas%2C%20,13)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -534,7 +534,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=The%20practice%20was%20imported%20from,The%20earliest%20of)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -542,7 +542,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=Americans%20who%20wanted%20to%20seem,employers%20were%20newly%20freed%20slaves)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -550,7 +550,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=illegal.%20Enforcement%20of%20anti,tipping%20in%20most%20European%20countries)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -558,7 +558,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=these%20laws%20was%20passed%20in,tipping%20in%20most%20European%20countries)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -566,7 +566,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=Also%2C%20proprietors%20regarded%20tips%20as,21)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 Tipping Culture in America - Public Sees a Changed Landscape | Pew Research Center
 
@@ -574,7 +574,7 @@ https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=structures%20and%20business%20models%20of,set%20of%20rules%20or%20expectations)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Tipflation - Wikipedia
 
@@ -582,7 +582,7 @@ https://en.wikipedia.org/wiki/Tipflation
 
 ]\(https://en.wikipedia.org/wiki/Tipflation#:~:text=widespread%20expansion%20of%20gratuity%20,generally%20feel%20from%20tipping%20culture)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -590,7 +590,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Most%20Americans%20feel%20like%20they%E2%80%99re,ever%20and%20many%20aren%E2%80%99t%20pleased)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -598,7 +598,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Moran%20traced%20the%20change%20back,not%20go%20away%2C%20she%20said)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 Tipping Culture in America - Public Sees a Changed Landscape | Pew Research Center
 
@@ -606,7 +606,7 @@ https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=A%20broad%20majority%20of%20Americans,%E2%80%9D)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -614,7 +614,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Most%20Americans%20feel%20like%20they%E2%80%99re,ever%20and%20many%20aren%E2%80%99t%20pleased)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -622,7 +622,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Technology%20around%20how%20consumers%20pay,guilt%20when%20asked%2C%20Moran%20said)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -630,7 +630,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Coupled%20with%20inflation%20and%20stagnant,tip%20more%20often%20than%20before)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 Tipping Culture Has Evolved Since the Pandemic and Many Consumers Have ‘Fatigue’, CSUN Prof says - CSUN Newsroom
 
@@ -638,7 +638,7 @@ https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pande
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=%E2%80%9CThere%20could%20be%20a%20misperception,%E2%80%9D)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 Tipping Culture in America - Public Sees a Changed Landscape | Pew Research Center
 
@@ -646,7 +646,7 @@ https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=Nor%20is%20there%20consensus%20on,set%20of%20rules%20or%20expectations)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 Tipping Culture in America - Public Sees a Changed Landscape | Pew Research Center
 
@@ -654,7 +654,7 @@ https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=,favor%20such%20charges)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org&sz=32)
 
 Tipping – Travel guide at Wikivoyage
 
@@ -662,7 +662,7 @@ https://en.wikivoyage.org/wiki/Tipping
 
 ]\(https://en.wikivoyage.org/wiki/Tipping#:~:text=In%20most%20countries%2C%20service%20personnel,they%27ll%20leave%20a%20tip%20regardless)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -670,7 +670,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=countries%20in%20East%20Asia%2C%20Japanese,citation%20needed)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 Tipping Culture in America - Public Sees a Changed Landscape | Pew Research Center
 
@@ -678,7 +678,7 @@ https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=neither%20favor%20nor%20oppose%20the,favor%20such%20charges)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -686,7 +686,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=match%20at%20L902%20into%20the,In%20larger%20urban%20areas)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org&sz=32)
 
 Tipping – Travel guide at Wikivoyage
 
@@ -694,7 +694,7 @@ https://en.wikivoyage.org/wiki/Tipping
 
 ]\(https://en.wikivoyage.org/wiki/Tipping#:~:text=Australia%20%2C%20while%20tipping%20is,is%20generally%20required%20to%20pay)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Gratuity - Wikipedia
 
@@ -702,7 +702,7 @@ https://en.wikipedia.org/wiki/Gratuity
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=restaurants%2C%20tipping%20is%20generally%20not,Like%20many%20other)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org&sz=32)
 
 Tipping – Travel guide at Wikivoyage
 
@@ -710,7 +710,7 @@ https://en.wikivoyage.org/wiki/Tipping
 
 ]\(https://en.wikivoyage.org/wiki/Tipping#:~:text=In%20countries%20where%20tipping%20is,encounter%20hostility%20if%20they%20fail)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.reddit.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.reddit.com&sz=32)
 
 South Africa Safari Tipping Questions : r/FATTravel - Reddit
 
@@ -736,7 +736,7 @@ https://www.africanmeccasafaris.com/travel-guide/tipping-guide
 
 ]\(https://www.africanmeccasafaris.com/travel-guide/tipping-guide#:~:text=,2%20per%20person%20per%20day)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com&sz=32)
 
 Ultimate Guide to Tipping in Kenya
 
@@ -744,7 +744,7 @@ https://africasafaritrips.com/tipping-in-kenya/
 
 ]\(https://africasafaritrips.com/tipping-in-kenya/#:~:text=Usually%2C%20smaller%20tips%20are%20used,are%20very%20reasonable%20for%20that)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com&sz=32)
 
 Ultimate Guide to Tipping in Kenya
 
@@ -752,7 +752,7 @@ https://africasafaritrips.com/tipping-in-kenya/
 
 ]\(https://africasafaritrips.com/tipping-in-kenya/#:~:text=arrival%2C%20or%20that%20really%20cool,are%20very%20reasonable%20for%20that)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com&sz=32)
 
 Ultimate Guide to Tipping in Kenya
 
@@ -772,7 +772,7 @@ https://www.africanmeccasafaris.com/travel-guide/tipping-guide
 
 ]\(https://www.africanmeccasafaris.com/travel-guide/tipping-guide#:~:text=people%20of%20Africa%20and%20boosting,can%20use%20the%20guidelines%20below)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.tripadvisor.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.tripadvisor.com&sz=32)
 
 Kenya safari - how much to tip - Kenya Forum - Tripadvisor
 
@@ -786,7 +786,7 @@ https://www.africanbudgetsafaris.com/blog/tips-for-tipping-the-definitive-guide-
 
 ]\(https://www.africanbudgetsafaris.com/blog/tips-for-tipping-the-definitive-guide-on-safari/#:~:text=Safaris%20www,Group%20safari)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com&sz=32)
 
 Ultimate Guide to Tipping in Kenya
 
@@ -794,7 +794,7 @@ https://africasafaritrips.com/tipping-in-kenya/
 
 ]\(https://africasafaritrips.com/tipping-in-kenya/#:~:text=TIPPING%20YOUR%20GUIDE%2F%20DRIVER)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.go2africa.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.go2africa.com&sz=32)
 
 Tips for Tipping on African Safaris | Go2Africa
 
@@ -826,7 +826,7 @@ https://www.africanmeccasafaris.com/travel-guide/tipping-guide
 
 ]\(https://www.africanmeccasafaris.com/travel-guide/tipping-guide#:~:text=Gorilla%2C%20Golden%20Monkey%20and%20Chimpanzee,Primate%20Safari%20Treks%20Tipping%20Guide)\[
 
-![](https://www.google.com/s2/favicons?domain=https://wise.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://wise.com&sz=32)
 
 Tipping in Kenya Etiquette: Who & Where to Tip - Wise
 
@@ -834,7 +834,7 @@ https://wise.com/us/travel-money/tip-calculator/kenya
 
 ]\(https://wise.com/us/travel-money/tip-calculator/kenya#:~:text=Tipping%20in%20Kenya%20Etiquette%3A%20Who,20)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.findevgateway.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.findevgateway.org&sz=32)
 
 Financial Inclusion in Sub-Saharan Africa | FinDev Gateway
 
@@ -842,7 +842,7 @@ https://www.findevgateway.org/region/financial-inclusion-sub-saharan-africa
 
 ]\(https://www.findevgateway.org/region/financial-inclusion-sub-saharan-africa#:~:text=Financial%20Inclusion%20in%20Sub,to%20just%2010%20percent%20globally)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africacheck.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africacheck.org&sz=32)
 
 ANALYSIS: Unverifiable? M-Pesa, Kenya's famous mobile money ...
 
@@ -862,7 +862,7 @@ https://www.worldbank.org/en/news/press-release/2024/06/26/remittances-slowed-in
 
 ]\(https://www.worldbank.org/en/news/press-release/2024/06/26/remittances-slowed-in-2023-expected-to-grow-faster-in-2024#:~:text=Sending%20remittances%20remains%20too%20costly,the%20financial%20burden%20on%20migrants)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.arise.tv\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.arise.tv&sz=32)
 
 Nigeria's Diaspora Remittance Hits \$19.5bn in 2023, 35% of Sub ...
 
@@ -870,7 +870,7 @@ https://www.arise.tv/nigerias-diaspora-remittance-hits-19-5bn-in-2023-35-of-sub-
 
 ]\(https://www.arise.tv/nigerias-diaspora-remittance-hits-19-5bn-in-2023-35-of-sub-saharan-africas-total-world-bank-says/#:~:text=,year)\[
 
-![](https://www.google.com/s2/favicons?domain=https://ferdi.fr\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://ferdi.fr&sz=32)
 
 \[PDF] The Global Database 2021 - Financial Inclusion, Digital ... - Ferdi
 
@@ -884,7 +884,7 @@ https://www.africanmeccasafaris.com/travel-guide/tipping-guide
 
 ]\(https://www.africanmeccasafaris.com/travel-guide/tipping-guide#:~:text=Safari%20Game%20Viewing%20Tipping%20Guide,Shared%20%26%20Private%20Game%20Drives)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cgap.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cgap.org&sz=32)
 
 Findex 2021 Insights: Boosting Financial inclusion in Africa - CGAP
 
@@ -896,31 +896,31 @@ All Sources
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 en.wikipedia
 
 ]\(https://en.wikipedia.org/wiki/Gratuity#:~:text=The%20practice%20of%20tipping%20began,14)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.pewresearch.org&sz=32)
 
 pewresearch
 
 ]\(https://www.pewresearch.org/2023/11/09/tipping-culture-in-america-public-sees-a-changed-landscape/#:~:text=structures%20and%20business%20models%20of,set%20of%20rules%20or%20expectations)\[
 
-![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://newsroom.csun.edu&sz=32)
 
 newsroom.csun
 
 ]\(https://newsroom.csun.edu/2024/12/09/tipping-culture-has-evolved-since-the-pandemic-and-many-consumers-have-fatigue-csun-prof-says/#:~:text=Most%20Americans%20feel%20like%20they%E2%80%99re,ever%20and%20many%20aren%E2%80%99t%20pleased)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikivoyage.org&sz=32)
 
 en.wikivoyage
 
 ]\(https://en.wikivoyage.org/wiki/Tipping#:~:text=In%20most%20countries%2C%20service%20personnel,they%27ll%20leave%20a%20tip%20regardless)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.reddit.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.reddit.com&sz=32)
 
 reddit
 
@@ -934,37 +934,37 @@ africanmeccasafaris
 
 ]\(https://www.africanmeccasafaris.com/travel-guide/tipping-guide#:~:text=,2%20per%20person%20per%20day)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africasafaritrips.com&sz=32)
 
 africasafaritrips
 
 ]\(https://africasafaritrips.com/tipping-in-kenya/#:~:text=Usually%2C%20smaller%20tips%20are%20used,are%20very%20reasonable%20for%20that)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.tripadvisor.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.tripadvisor.com&sz=32)
 
 tripadvisor
 
 ]\(https://www.tripadvisor.com/ShowTopic-g294206-i9216-k14407628-Kenya\_safari\_how\_much\_to\_tip-Kenya.html#:~:text=Tripadvisor%20www,US%20dollars%20is%20perfectly%20acceptable)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.go2africa.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.go2africa.com&sz=32)
 
 go2africa
 
 ]\(https://www.go2africa.com/african-travel-blog/how-to-tip-on-safari#:~:text=How%20much%20to%20tip%20on,15%20per%20person%20per%20day)\[
 
-![](https://www.google.com/s2/favicons?domain=https://wise.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://wise.com&sz=32)
 
 wise
 
 ]\(https://wise.com/us/travel-money/tip-calculator/kenya#:~:text=Tipping%20in%20Kenya%20Etiquette%3A%20Who,20)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.findevgateway.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.findevgateway.org&sz=32)
 
 findevgateway
 
 ]\(https://www.findevgateway.org/region/financial-inclusion-sub-saharan-africa#:~:text=Financial%20Inclusion%20in%20Sub,to%20just%2010%20percent%20globally)\[
 
-![](https://www.google.com/s2/favicons?domain=https://africacheck.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://africacheck.org&sz=32)
 
 africacheck
 
@@ -974,19 +974,19 @@ worldbank
 
 ]\(https://www.worldbank.org/en/news/press-release/2024/06/26/remittances-slowed-in-2023-expected-to-grow-faster-in-2024#:~:text=Remittance%20flows%20to%20Sub,unchanged%20from%20a%20year%20before)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.arise.tv\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.arise.tv&sz=32)
 
 arise
 
 ]\(https://www.arise.tv/nigerias-diaspora-remittance-hits-19-5bn-in-2023-35-of-sub-saharan-africas-total-world-bank-says/#:~:text=,year)\[
 
-![](https://www.google.com/s2/favicons?domain=https://ferdi.fr\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://ferdi.fr&sz=32)
 
 ferdi
 
 ]\(https://ferdi.fr/dl/df-qvdZBdMUktm9x6Qb11UmgtNX/presentation-the-global-findex-database-highlights-digitization-as-a-tool.pdf#:~:text=Ferdi%20ferdi,2021)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.cgap.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.cgap.org&sz=32)
 
 cgap
 

@@ -251,7 +251,7 @@ Citations
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug&sz=32)
 
 Locals turn to village savings groups as banks lose appeal | Monitor
 
@@ -259,7 +259,7 @@ https://www.monitor.co.ug/uganda/news/national/locals-turn-to-village-savings-gr
 
 ]\(https://www.monitor.co.ug/uganda/news/national/locals-turn-to-village-savings-groups-as-banks-lose-appeal-4921942#:~:text=often%20run%20by%20and%20for,a%20vital%20financial%20support%20system)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Stokvel - Wikipedia
 
@@ -267,7 +267,7 @@ https://en.wikipedia.org/wiki/Stokvel
 
 ]\(https://en.wikipedia.org/wiki/Stokvel#:~:text=Informal%20savings%20syndicate)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Stokvel - Wikipedia
 
@@ -275,7 +275,7 @@ https://en.wikipedia.org/wiki/Stokvel
 
 ]\(https://en.wikipedia.org/wiki/Stokvel#:~:text=people%20serving%20as%20a%20rotating,3)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Stokvel - Wikipedia
 
@@ -283,7 +283,7 @@ https://en.wikipedia.org/wiki/Stokvel
 
 ]\(https://en.wikipedia.org/wiki/Stokvel#:~:text=their%20own%20use%2C%20for%20payment,or%20investment%20purposes)\[
 
-![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu&sz=32)
 
 MIT Solve
 
@@ -291,7 +291,7 @@ https://solve.mit.edu/challenges/2024-global-economic-prosperity-challenge/solut
 
 ]\(https://solve.mit.edu/challenges/2024-global-economic-prosperity-challenge/solutions/89255#:~:text=Relevant%20statistics%3A)\[
 
-![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org&sz=32)
 
 Benefits and Risks of Bank and Savings Group Partnerships in Tanzania | Carnegie Endowment for International Peace
 
@@ -299,7 +299,7 @@ https://carnegieendowment.org/research/2024/01/benefits-and-risks-of-bank-and-sa
 
 ]\(https://carnegieendowment.org/research/2024/01/benefits-and-risks-of-bank-and-savings-group-partnerships-in-tanzania?lang=en#:~:text=According%20to%20the%20World%20Bank%E2%80%99s,4)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Stokvel - Wikipedia
 
@@ -313,7 +313,7 @@ https://geo.coop/articles/how-chamas-and-mutual-credit-are-changing-africa
 
 ]\(https://geo.coop/articles/how-chamas-and-mutual-credit-are-changing-africa#:~:text=They%E2%80%99re%20groups%20that%20started%20in,round%E2%80%99)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug&sz=32)
 
 Locals turn to village savings groups as banks lose appeal | Monitor
 
@@ -321,7 +321,7 @@ https://www.monitor.co.ug/uganda/news/national/locals-turn-to-village-savings-gr
 
 ]\(https://www.monitor.co.ug/uganda/news/national/locals-turn-to-village-savings-groups-as-banks-lose-appeal-4921942#:~:text=Mr%20John%20Mugisa%2C%20chairperson%20of,rely%20on%20trust%2C%E2%80%9D%20he%20said)\[
 
-![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu&sz=32)
 
 MIT Solve
 
@@ -347,7 +347,7 @@ http://africalawcentre.blogspot.com/2014/03/tax-law-notes-prt-1.html
 
 ]\(https://africalawcentre.blogspot.com/2014/03/tax-law-notes-prt-1.html#:~:text=that%20a%20gift%20by%20an,there%20maybe%20because%20we%20are)\[
 
-![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org&sz=32)
 
 Benefits and Risks of Bank and Savings Group Partnerships in Tanzania | Carnegie Endowment for International Peace
 
@@ -355,7 +355,7 @@ https://carnegieendowment.org/research/2024/01/benefits-and-risks-of-bank-and-sa
 
 ]\(https://carnegieendowment.org/research/2024/01/benefits-and-risks-of-bank-and-savings-group-partnerships-in-tanzania?lang=en#:~:text=The%20innovative%20linkage%20between%20banks,access%20barrier%20in%20the%20bank)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.rsm.global\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.rsm.global&sz=32)
 
 Taxation Treatment of Tips | RSM South Africa
 
@@ -363,7 +363,7 @@ https://www.rsm.global/southafrica/news/taxation-treatment-tips
 
 ]\(https://www.rsm.global/southafrica/news/taxation-treatment-tips#:~:text=calculations)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ipsos.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ipsos.com&sz=32)
 
 Stokvels remain the untapped 'human banks' of South Africa | Ipsos
 
@@ -371,7 +371,7 @@ https://www.ipsos.com/en-za/stokvels-remain-untapped-human-banks-south-africa
 
 ]\(https://www.ipsos.com/en-za/stokvels-remain-untapped-human-banks-south-africa#:~:text=A%20new%20online%20and%20video,in%20the%20South%20African%20economy)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 Stokvel - Wikipedia
 
@@ -379,7 +379,7 @@ https://en.wikipedia.org/wiki/Stokvel
 
 ]\(https://en.wikipedia.org/wiki/Stokvel#:~:text=year)\[
 
-![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za&sz=32)
 
 Yes, Tips Are Taxable In South Africa | Q LINK Transact
 
@@ -387,7 +387,7 @@ https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-afr
 
 ]\(https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-africa#:~:text=Contrary%20to%20what%20some%20people,SARS)\[
 
-![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za&sz=32)
 
 Yes, Tips Are Taxable In South Africa | Q LINK Transact
 
@@ -395,7 +395,7 @@ https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-afr
 
 ]\(https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-africa#:~:text=According%20to%20the%20SARS%20notification%2C,%E2%80%9D)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.rsm.global\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.rsm.global&sz=32)
 
 Taxation Treatment of Tips | RSM South Africa
 
@@ -403,7 +403,7 @@ https://www.rsm.global/southafrica/news/taxation-treatment-tips
 
 ]\(https://www.rsm.global/southafrica/news/taxation-treatment-tips#:~:text=The%20ruling%20given%20by%20SARS,be%20subject%20to%20employee%E2%80%99s%20tax)\[
 
-![](https://www.google.com/s2/favicons?domain=https://dailyinvestor.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://dailyinvestor.com&sz=32)
 
 One South African bank sees R13.3 billion in stokvel inflows
 
@@ -411,7 +411,7 @@ https://dailyinvestor.com/finance/86859/one-south-african-bank-sees-r13-3-billio
 
 ]\(https://dailyinvestor.com/finance/86859/one-south-african-bank-sees-r13-3-billion-in-stokvel-inflows/#:~:text=One%20South%20African%20bank%20sees,3%20billion%20by%20December%202024)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.linkedin.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.linkedin.com&sz=32)
 
 Stokvels in South Africa: A R50 Billion Informal Financial Powerhouse
 
@@ -419,7 +419,7 @@ https://www.linkedin.com/pulse/stokvels-south-africa-r50-billion-informal-financ
 
 ]\(https://www.linkedin.com/pulse/stokvels-south-africa-r50-billion-informal-financial-marketing-group-rkywf#:~:text=Approximately%2011,nationwide%20%3B%20Collectively%2C%20these)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.fourth.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.fourth.com&sz=32)
 
 No-Tax on Tips: What It Could Mean for Your Restaurant - Fourth
 
@@ -427,7 +427,7 @@ https://www.fourth.com/article/no-tax-on-tips
 
 ]\(https://www.fourth.com/article/no-tax-on-tips#:~:text=No,excluding%20tips%20from%20taxable%20income)\[
 
-![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za&sz=32)
 
 Yes, Tips Are Taxable In South Africa | Q LINK Transact
 
@@ -435,7 +435,7 @@ https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-afr
 
 ]\(https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-africa#:~:text=Schroenn%20cites%20one%20example%2C%20sourced,Gross%20Income%20and%20therefore%20taxable)\[
 
-![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co&sz=32)
 
 Changing Lives of Kenyan Service Workers through Digital Tipping | Shukran Blog
 
@@ -443,7 +443,7 @@ https://blog.shukran.co/changing-lives-of-kenyan-service-workers/
 
 ]\(https://blog.shukran.co/changing-lives-of-kenyan-service-workers/#:~:text=2)\[
 
-![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co&sz=32)
 
 Changing Lives of Kenyan Service Workers through Digital Tipping | Shukran Blog
 
@@ -455,25 +455,25 @@ All Sources
 
 \[
 
-![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.monitor.co.ug&sz=32)
 
 monitor.co
 
 ]\(https://www.monitor.co.ug/uganda/news/national/locals-turn-to-village-savings-groups-as-banks-lose-appeal-4921942#:~:text=often%20run%20by%20and%20for,a%20vital%20financial%20support%20system)\[
 
-![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://en.wikipedia.org&sz=32)
 
 en.wikipedia
 
 ]\(https://en.wikipedia.org/wiki/Stokvel#:~:text=Informal%20savings%20syndicate)\[
 
-![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://solve.mit.edu&sz=32)
 
 solve.mit
 
 ]\(https://solve.mit.edu/challenges/2024-global-economic-prosperity-challenge/solutions/89255#:~:text=Relevant%20statistics%3A)\[
 
-![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://carnegieendowment.org&sz=32)
 
 carnegieendowment
 
@@ -487,43 +487,43 @@ africala....blogspot
 
 ]\(https://africalawcentre.blogspot.com/2014/03/tax-law-notes-prt-1.html#:~:text=Where%20a%20person%20who%20is,110%20million%20is%20not%20taxable)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.rsm.global\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.rsm.global&sz=32)
 
 rsm
 
 ]\(https://www.rsm.global/southafrica/news/taxation-treatment-tips#:~:text=calculations)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.ipsos.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.ipsos.com&sz=32)
 
 ipsos
 
 ]\(https://www.ipsos.com/en-za/stokvels-remain-untapped-human-banks-south-africa#:~:text=A%20new%20online%20and%20video,in%20the%20South%20African%20economy)\[
 
-![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://peopleware.qlink.co.za&sz=32)
 
 peopleware.qlink.co
 
 ]\(https://peopleware.qlink.co.za/news/industry-news/yes-tips-are-taxable-south-africa#:~:text=Contrary%20to%20what%20some%20people,SARS)\[
 
-![](https://www.google.com/s2/favicons?domain=https://dailyinvestor.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://dailyinvestor.com&sz=32)
 
 dailyinvestor
 
 ]\(https://dailyinvestor.com/finance/86859/one-south-african-bank-sees-r13-3-billion-in-stokvel-inflows/#:~:text=One%20South%20African%20bank%20sees,3%20billion%20by%20December%202024)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.linkedin.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.linkedin.com&sz=32)
 
 linkedin
 
 ]\(https://www.linkedin.com/pulse/stokvels-south-africa-r50-billion-informal-financial-marketing-group-rkywf#:~:text=Approximately%2011,nationwide%20%3B%20Collectively%2C%20these)\[
 
-![](https://www.google.com/s2/favicons?domain=https://www.fourth.com\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://www.fourth.com&sz=32)
 
 fourth
 
 ]\(https://www.fourth.com/article/no-tax-on-tips#:~:text=No,excluding%20tips%20from%20taxable%20income)\[
 
-![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co\&sz=32)
+![](https://www.google.com/s2/favicons?domain=https://blog.shukran.co&sz=32)
 
 blog.shukran
 

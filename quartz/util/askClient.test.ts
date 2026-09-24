@@ -10,7 +10,10 @@ test("formatAskClientError maps WebKit network failures to setup guidance", () =
 
 test("extractApiError prefers server error strings and HTTP status", () => {
   assert.equal(
-    extractApiError({ error: "NVIDIA API unauthorized (401)" }, new Response(null, { status: 502 })),
+    extractApiError(
+      { error: "NVIDIA API unauthorized (401)" },
+      new Response(null, { status: 502 }),
+    ),
     "NVIDIA API unauthorized (401)",
   )
   assert.match(

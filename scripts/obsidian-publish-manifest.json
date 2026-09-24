@@ -1,12 +1,7 @@
 {
   "sourceRepository": "M-Waweru/obsidian-knowledge-base",
-  "sourcePaths": [
-    "Content/Essays",
-    "Content/Mathnuscripts"
-  ],
-  "excludeSourcePaths": [
-    "Content/Mathnuscripts/Index.md"
-  ],
+  "sourcePaths": ["Content/Essays", "Content/Mathnuscripts"],
+  "excludeSourcePaths": ["Content/Mathnuscripts/Index.md"],
   "targetRoot": "content",
   "metadata": {
     "sourcePublishKey": "dg-publish",

@@ -15,7 +15,7 @@ The framework is in bullet points as it is a rough draft of how I think about th
 3. Come up with a plan of what needs to get done to solve the problem. Explain the problem, outline the solution at a high-level, list out the steps and deliverables, set a timeline for each of these.
 4. Come up with a JD based on the problem, solution and deliverables set. Come up with commission structure where applicable and add to the JD.
 5. Craft a challenge for them to do if they are a promising candidate. This is to confirm if they have the skills they claim.
-6. Craft questions based on the JD, which will challenge and probe the knowledge of the candidate on their stated skills in their CV  and what you are looking for in the JD. (Do this before the call with your 1st candidate - don't wing this)
+6. Craft questions based on the JD, which will challenge and probe the knowledge of the candidate on their stated skills in their CV and what you are looking for in the JD. (Do this before the call with your 1st candidate - don't wing this)
 7. Identify people who can do what is on the JD. Use LinkedIn, referrals and so on.
 8. Craft a message and reach out to your prospective list of people about the opportunity
 9. For positive responses, send them an video call invite for a preliminary call to learn more about them. Don't forget to ask them for their CV and LinkedIn. Additionally ask for their Behance or GitHub for a designer or developer respectively.

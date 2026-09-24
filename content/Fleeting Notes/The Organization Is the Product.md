@@ -66,16 +66,16 @@ Below is a clean, mid-case model that’s easy to grasp (assumptions are stated;
 
 **Assumptions (mid-case):** 150 trees/acre; price **100 KES/kg** (from your 20–40 KES per fruit ≈ 80–160 KES/kg; midpoint used); initial setup **250,000 KES/acre**; annual opex **60,000 KES/acre**; yield ramp aligned to common extension guidance (first fruit year 3–4; economic gain year 6; mature yields ~**2.8–5.5 t/acre**). [Wikifarmer](https://wikifarmer.com/library/en/article/avocado-harvest-yield-per-hectare-and-storage?utm_source=chatgpt.com)
 
-|Year|Yield (t/acre)|Revenue per Acre (KES)|Revenue per Tree (KES)|Cumulative Balance (per Acre)|
-|---|---|---|---|---|
-|0|0.0|0|0|**–250,000** _(setup)_|
-|3|0.5|50,000|~330|–380,000|
-|4|1.5|150,000|1,000|–290,000|
-|5|3.2|320,000|2,130|–30,000|
-|6|3.6|360,000|2,400|+270,000|
-|8|4.5|450,000|3,000|+1,000,000|
-|10|5.5|550,000|3,670|+1,930,000|
-|12|5.5|550,000|3,670|+3,010,000|
+| Year | Yield (t/acre) | Revenue per Acre (KES) | Revenue per Tree (KES) | Cumulative Balance (per Acre) |
+| ---- | -------------- | ---------------------- | ---------------------- | ----------------------------- |
+| 0    | 0.0            | 0                      | 0                      | **–250,000** _(setup)_        |
+| 3    | 0.5            | 50,000                 | ~330                   | –380,000                      |
+| 4    | 1.5            | 150,000                | 1,000                  | –290,000                      |
+| 5    | 3.2            | 320,000                | 2,130                  | –30,000                       |
+| 6    | 3.6            | 360,000                | 2,400                  | +270,000                      |
+| 8    | 4.5            | 450,000                | 3,000                  | +1,000,000                    |
+| 10   | 5.5            | 550,000                | 3,670                  | +1,930,000                    |
+| 12   | 5.5            | 550,000                | 3,670                  | +3,010,000                    |
 
 **What this means:**
 

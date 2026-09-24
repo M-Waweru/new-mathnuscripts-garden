@@ -6,7 +6,7 @@ modified: 2024-03-13T19:48:15.754+03:00
 
 # [[Kierkegaard]] on the Present (Passionless) Age
 
-Link to [podcast]([https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9henkzM0c4Xw/episode/OWVkYjY5NjktOWE1Zi00MjVlLWEzOTktNjE5OGM1ZjFiMjAy?ep=14]\(https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9henkzM0c4Xw/episode/OWVkYjY5NjktOWE1Zi00MjVlLWEzOTktNjE5OGM1ZjFiMjAy?ep=14\))
+Link to [podcast](<[https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9henkzM0c4Xw/episode/OWVkYjY5NjktOWE1Zi00MjVlLWEzOTktNjE5OGM1ZjFiMjAy?ep=14](https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9henkzM0c4Xw/episode/OWVkYjY5NjktOWE1Zi00MjVlLWEzOTktNjE5OGM1ZjFiMjAy?ep=14)>)
 
 When a society looks to safety and conformity, it is considered a reflective society. A reflective society is usually not passionate. It focuses on processes, traditions and safety. A reflective age speaks of what it could or should do instead of doing it.
 

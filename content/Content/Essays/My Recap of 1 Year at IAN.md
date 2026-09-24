@@ -45,7 +45,7 @@ modified: 2023-12-08T21:14:13.871+03:00
 	- Other people have an outsider's perspective of who you are
 	- Listen to both the good and the harsh
 	- Get someone close to interpret the message slowly
-	- Don't let them get to your head. You are not a problem to be solved, you are a solution to your problems. 
+	- Don't let them get to your head. You are not a problem to be solved, you are a solution to your problems.
 6. Build up your team
 	- Find great people
 	- Empower them
